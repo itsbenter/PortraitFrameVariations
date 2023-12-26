@@ -28,7 +28,7 @@ Details of each config is given when hovered over in [Generic Mod Config Menu](h
 
 ## Portrait Frames
 
-At release (1.0.0), there are 19 seasonal frames, 10 festival frames, 9 map specific frames, and 3 event specific frames. The edits is overlayed on top of existing UI, allowing minimal compatibility for UI recolor mod.
+At release (1.0.0), there are 21 seasonal frames, 10 festival frames, 9 map specific frames, and 1 event specific frames. The edits is overlayed on top of existing UI, allowing minimal compatibility for UI recolor mod.
 
 ### Seasonal
 
@@ -58,6 +58,12 @@ At release (1.0.0), there are 19 seasonal frames, 10 festival frames, 9 map spec
 ![Crocuses](Documentation/PortraitFrames/Crocuses.png)
 ![WinterFoliages](Documentation/PortraitFrames/WinterFoliages.png)
 ![WinterWallOrnaments](Documentation/PortraitFrames/WinterWallOrnaments.png)
+
+<b>Salmonberry Season</b><br>
+![SalmonberryBush](Documentation/PortraitFrames/SalmonberryBush.png)
+
+<b>Blackberry Season</b><br>
+![BlackberryBush](Documentation/PortraitFrames/BlackberryBush.png)
 
 ### Map
 
@@ -119,15 +125,10 @@ At release (1.0.0), there are 19 seasonal frames, 10 festival frames, 9 map spec
 <b>Wedding</b><br>
 ![WhiteWedding](Documentation/PortraitFrames/WhiteWedding.png)
 
-<b>Salmonberry Season</b><br>
-![SalmonberryBush](Documentation/PortraitFrames/SalmonberryBush.png)
-
-<b>Blackberry Season</b><br>
-![BlackberryBush](Documentation/PortraitFrames/BlackberryBush.png)
-
 ### Unused
 
 ![StarryNight](Documentation/PortraitFrames/StarryNight.png)
+<br>
 This frame is meant to show on Sebastion and Maru events that include night time sky. However, it's not possible to specifically patch when player is in temporary on an event.
 
 ## Compatibility
