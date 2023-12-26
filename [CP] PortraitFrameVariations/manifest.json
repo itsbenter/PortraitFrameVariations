@@ -18,7 +18,27 @@
          "IsRequired": true
       },
       {
-         "UniqueID": "aedenthorn.FarmerPortraits",
+         "UniqueID": "Maraluna.OvergrownFloweryInterface",
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "DaisyNiko.EarthyInterface",
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "snowypines.StarrySkyInterfaceReworked",
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "VinillaBean.LavenderDreams",
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "notbelovely.VAccent",
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "ManaKirel.VintageInterface2",
          "IsRequired": false
       }
    ]
