@@ -3,100 +3,104 @@
   //Basic Configuration
   "config.section.BasicConfig.name": "Basic Configuration",
   "config.DefaultFrame.name": "Default Frame",
-  "config.DefaultFrame.description": "Select default portrait frame to display.",
-  "config.DisableConditionalVariation.name": "Disable Conditional Variation",
-  "config.DisableConditionalVariation.description": "Display selected 'Default Frame' without any other variation.",
+  "config.DefaultFrame.description": "Select default portrait frame to display. This will turn this mod into a portrait frame replacement.",
+  "config.DisableConditional.name": "Disable Conditional",
+  "config.DisableConditional.description": "Display selected 'Default Frame' without any other variation.",
   "config.HideHeartIndicator.name": "Hide Heart Indicator",
-  "config.HideHeartIndicator.description": "This will hide heart level indicator that located on bottom right side of character portrait. Heart level will still show when hovered over.",
+  "config.HideHeartIndicator.description": "This will hide heart level indicator that located on bottom right side of character portrait. Heart level will still appear when hovered over.",
 
   //Mod Compatibility
   "config.section.ModCompatibility.name": "Mod Compatibility",
-  "config.SyncFarmerPortraits.name": "Farmer Portraits - Overlay Frame",
-  "config.SyncFarmerPortraits.description": "Set farmer portrait frame as the same one as the character portrait frame when 'Farmer Portraits' mod is installed.",
-  "config.BaseBackgroundFarmerPortraits.name": "Farmer Portraits - Set Background",
-  "config.BaseBackgroundFarmerPortraits.description": "Set base game portrait frame as base to overlay on. If recolor or other base is desired you need to edit 'Farmer Portraits' mod to configure.",
-  "config.DisableWhenGaldoranThemeActive.name": "Galdoran Theme - Compat",
-  "config.DisableWhenGaldoranThemeActive.description": "Set farmer portrait frame as the same one as the character portrait frame when 'Farmer Portraits' mod is installed.",
+  "config.SyncFarmerPortraits.name": "Farmer Portraits: Sync Overlay",
+  "config.SyncFarmerPortraits.description": "When 'Farmer Portraits' mod is installed. Apply overlay to farmer portrait frame and character portrait frame.",
+  "config.BaseBackgroundFarmerPortraits.name": "Farmer Portraits: Background",
+  "config.BaseBackgroundFarmerPortraits.description": "When 'Farmer Portraits' mod is installed. Use base game portrait frame as a background to overlay on. If recolor or other base is desired, then you need to edit 'Farmer Portraits' mod yourself to configure.",
+  "config.DisableWhenGaldoranThemeActive.name": "SVE: Disable on Galdora",
+  "config.DisableWhenGaldoranThemeActive.description": "Disable this mod overlay on map that covered by Stardew Valley Expanded's Galdoran Theme.",
 
   //Visual Option
-  "config.section.VisualOption.name": "Visual Option",
+  ////Seasonal
+  "config.section.VisualOptionSeasonal.name": "Visual Option: Seasonal",
   "config.EnableSpring.name": "Spring",
-  "config.EnableSpring.description": "Show selected 'Spring - List' portrait frames when it's Spring.",
-  "config.SpringOption.name": "Spring - List",
+  "config.EnableSpring.description": "Show selected 'Spring Options' portrait frames when it's Spring.",
+  "config.SpringOption.name": "Spring Options",
 
   "config.EnableSummer.name": "Summer",
-  "config.EnableSummer.description": "Show selected 'Summer - List' portrait frames when it's Summer.",
-  "config.SummerOption.name": "Summer - List",
+  "config.EnableSummer.description": "Show selected 'Summer Options' portrait frames when it's Summer.",
+  "config.SummerOption.name": "Summer Options",
 
   "config.EnableFall.name": "Fall",
-  "config.EnableFall.description": "Show selected 'Fall - List' portrait frames when it's Fall.",
-  "config.FallOption.name": "Fall - List",
+  "config.EnableFall.description": "Show selected 'Fall Options' portrait frames when it's Fall.",
+  "config.FallOption.name": "Fall Options",
 
   "config.EnableWinter.name": "Winter",
-  "config.EnableWinter.description": "Show selected 'Winter - List' portrait frames when it's Winter.",
-  "config.WinterOption.name": "Winter - List",
-
-  "config.EnableEggFestival.name": "Egg Festival",
-  "config.EnableEggFestival.description": "Show selected 'Egg Festival - List' portrait frames when on Egg Festival.",
-  "config.EggFestivalOption.name": "Egg Festival - List",
-
-  "config.EnableFlowerDance.name": "Flower Dance",
-  "config.EnableFlowerDance.description": "Show selected 'Flower Dance - List' portrait frames when on Flower Dance.",
-  "config.FlowerDanceOption.name": "Flower Dance - List",
-
-  "config.EnableLuau.name": "Luau",
-  "config.EnableLuau.description": "Show selected 'Luau - List' portrait frames when on Luau.",
-  "config.LuauOption.name": "Luau - List",
-
-  "config.EnableDanceOfMoonlightJellies.name": "Moonlight Jellies",
-  "config.EnableDanceOfMoonlightJellies.description": "Show selected 'Moonlight Jellies - List' portrait frames when on Dance of the Moonlight Jellies.",
-  "config.DanceOfMoonlightJelliesOption.name": "Moonlight Jellies - List",
-
-  "config.EnableStardewValleyFair.name": "Stardew Valley Fair",
-  "config.EnableStardewValleyFair.description": "Show selected 'Stardew Valley Fair - List' portrait frames when on Stardew Valley Fair.",
-  "config.StardewValleyFairOption.name": "Stardew Valley Fair - List",
-
-  "config.EnableSpiritsEve.name": "Spirit's Eve",
-  "config.EnableSpiritsEve.description": "Show selected 'Spirit's Eve - List' portrait frames when on Spirit's Eve.",
-  "config.SpiritsEveOption.name": "Spirit's Eve - List",
-
-  "config.EnableFestivalOfIce.name": "Festival of Ice",
-  "config.EnableFestivalOfIce.description": "Show selected 'Festival of Ice - List' portrait frames when on Festival of Ice.",
-  "config.FestivalOfIceOption.name": "Festival of Ice - List",
-
-  "config.EnableNightMarket.name": "Night Market",
-  "config.EnableNightMarket.description": "Show selected 'Night Market - List' portrait frames when on Night Market.",
-  "config.NightMarketOption.name": "Festival of Ice - List",
-
-  "config.EnableFeastOfWinterStar.name": "Feast of Winter Star",
-  "config.EnableFeastOfWinterStar.description": "Show selected 'Feast of Winter Star - List' portrait frames when on Feast of Winter Star.",
-  "config.FeastOfWinterStarOption.name": "Feast of Winter Star - List",
-
-  "config.EnableGingerIsland.name": "Ginger Island",
-  "config.EnableGingerIsland.description": "Show selected 'Ginger Island - List' portrait frames when on Ginger Island.",
-  "config.GingerIslandOption.name": "Ginger Island - List",
-
-  "config.EnableSewer.name": "Sewer",
-  "config.EnableSewer.description": "Show selected 'Sewer - List' portrait frames when on Sewer.",
-  "config.SewerOption.name": "Sewer - List",
-
-  "config.EnableBeach.name": "Beach",
-  "config.EnableBeach.description": "Show selected 'Beach <Season> - List' portrait frames when on Pelican Town's Beach.",
-  "config.SpringBeachOption.name": "Beach Spring - List",
-  "config.SummerBeachOption.name": "Beach Summer - List",
-  "config.FallBeachOption.name": "Beach Fall - List",
-  "config.WinterBeachOption.name": "Beach Winter - List",
-
-  "config.EnableMineEntrance.name": "Mine Entrance",
-  "config.EnableMineEntrance.description": "Show selected 'Mine Entrance - List' portrait frames when on Mine Entrance.",
-  "config.MineEntranceOption.name": "Mine Entrance - List",
-
-  "config.EnableWedding.name": "Wedding",
-  "config.EnableWedding.description": "Show selected 'Wedding - List' portrait frames when on Mine Entrance.",
-  "config.WeddingOption.name": "Mine Entrance - List",
+  "config.EnableWinter.description": "Show selected 'Winter Options' portrait frames when it's Winter.",
+  "config.WinterOption.name": "Winter Options",
 
   "config.EnableBerrySeason.name": "Berry Season",
-  "config.EnableBerrySeason.description": "Show selected '<Berry season> - List' portrait frames when berry bearing season is on.",
-  "config.SalmonberrySeasonOption.name": "Salmonberry Season - List",
-  "config.BlackberrySeasonOption.name": "Blackberry Season - List",
+  "config.EnableBerrySeason.description": "Show selected 'Berry Season Options' portrait frames when berry bearing season is on.",
+  "config.SalmonberrySeasonOption.name": "Salmonberry Season Options",
+  "config.BlackberrySeasonOption.name": "Blackberry Season Options",
+  ////Festival
+  "config.section.VisualOptionFestival.name": "Visual Option: Festival",
+  "config.EnableEggFestival.name": "Egg Festival",
+  "config.EnableEggFestival.description": "Show selected 'Egg Festival Options' portrait frames when on Egg Festival.",
+  "config.EggFestivalOption.name": "Egg Festival Options",
+
+  "config.EnableFlowerDance.name": "Flower Dance",
+  "config.EnableFlowerDance.description": "Show selected 'Flower Dance Options' portrait frames when on Flower Dance.",
+  "config.FlowerDanceOption.name": "Flower Dance Options",
+
+  "config.EnableLuau.name": "Luau",
+  "config.EnableLuau.description": "Show selected 'Luau Options' portrait frames when on Luau.",
+  "config.LuauOption.name": "Luau Options",
+
+  "config.EnableDanceOfMoonlightJellies.name": "Moonlight Jellies",
+  "config.EnableDanceOfMoonlightJellies.description": "Show selected 'Moonlight Jellies Options' portrait frames when on Dance of the Moonlight Jellies.",
+  "config.DanceOfMoonlightJelliesOption.name": "Moonlight Jellies Options",
+
+  "config.EnableStardewValleyFair.name": "Stardew Valley Fair",
+  "config.EnableStardewValleyFair.description": "Show selected 'Stardew Valley Fair Options' portrait frames when on Stardew Valley Fair.",
+  "config.StardewValleyFairOption.name": "Stardew Valley Fair Options",
+
+  "config.EnableSpiritsEve.name": "Spirit's Eve",
+  "config.EnableSpiritsEve.description": "Show selected 'Spirit's Eve Options' portrait frames when on Spirit's Eve.",
+  "config.SpiritsEveOption.name": "Spirit's Eve Options",
+
+  "config.EnableFestivalOfIce.name": "Festival of Ice",
+  "config.EnableFestivalOfIce.description": "Show selected 'Festival of Ice Options' portrait frames when on Festival of Ice.",
+  "config.FestivalOfIceOption.name": "Festival of Ice Options",
+
+  "config.EnableNightMarket.name": "Night Market",
+  "config.EnableNightMarket.description": "Show selected 'Night Market Options' portrait frames when on Night Market.",
+  "config.NightMarketOption.name": "Festival of Ice Options",
+
+  "config.EnableFeastOfWinterStar.name": "Feast of Winter Star",
+  "config.EnableFeastOfWinterStar.description": "Show selected 'Feast of Winter Star Options' portrait frames when on Feast of Winter Star.",
+  "config.FeastOfWinterStarOption.name": "Feast of Winter Star Options",
+  ////Map
+  "config.section.VisualOptionMap.name": "Visual Option: Map",
+  "config.EnableGingerIsland.name": "Ginger Island",
+  "config.EnableGingerIsland.description": "Show selected 'Ginger Island Options' portrait frames when on Ginger Island.",
+  "config.GingerIslandOption.name": "Ginger Island Options",
+
+  "config.EnableSewer.name": "Sewer",
+  "config.EnableSewer.description": "Show selected 'Sewer Options' portrait frames when on Sewer.",
+  "config.SewerOption.name": "Sewer Options",
+
+  "config.EnableBeach.name": "Beach",
+  "config.EnableBeach.description": "Show selected 'Beach Season Options' portrait frames when on Pelican Town's Beach.",
+  "config.SpringBeachOption.name": "Beach Spring Options",
+  "config.SummerBeachOption.name": "Beach Summer Options",
+  "config.FallBeachOption.name": "Beach Fall Options",
+  "config.WinterBeachOption.name": "Beach Winter Options",
+
+  "config.EnableMineEntrance.name": "Mine Entrance",
+  "config.EnableMineEntrance.description": "Show selected 'Mine Entrance Options' portrait frames when on Mine Entrance.",
+  "config.MineEntranceOption.name": "Mine Entrance Options",
+  ////Event
+  "config.section.VisualOptionEvent.name": "Visual Option: Event",
+  "config.EnableWedding.name": "Wedding",
+  "config.EnableWedding.description": "Show selected 'Wedding Options' portrait frames when on Mine Entrance.",
+  "config.WeddingOption.name": "Mine Entrance Options",
 }

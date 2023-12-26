@@ -48,7 +48,7 @@ At release (1.0.0), there are 21 seasonal frames, 10 festival frames, 9 map spec
 | --- | --- |
 | ![ScatteredLeaves](Documentation/PortraitFrames/ScatteredLeaves.png) <br> ScatteredLeaves | ![WildMushrooms](Documentation/PortraitFrames/WildMushrooms.png) <br> WildMushrooms |
 | ![FallFoliages](Documentation/PortraitFrames/FallFoliages.png) <br> FallFoliages | ![Eggplants](Documentation/PortraitFrames/Eggplants.png) <br> Eggplants |
-| ![Corns](Documentation/PortraitFrames/Corns.png) <br> Corns | |
+| ![Corns](Documentation/PortraitFrames/Corns.png) <br> CornCobs | |
 
 | Winter | |
 | --- | --- |
@@ -73,71 +73,71 @@ At release (1.0.0), there are 21 seasonal frames, 10 festival frames, 9 map spec
 
 | Sewer |
 | --- |
-| ![GoodOldSewer](Documentation/PortraitFrames/GoodOldSewer.png) <br> GoodOldSewer | |
+| ![GoodOldSewer](Documentation/PortraitFrames/GoodOldSewer.png) <br> GoodOldSewer |
 
 | Spring Beach |
 | --- |
-| ![LonelyClam](Documentation/PortraitFrames/LonelyClam.png) <br> LonelyClam | |
+| ![LonelyClam](Documentation/PortraitFrames/LonelyClam.png) <br> LonelyClam |
 
 | Summer Beach |
 | --- |
-| ![ChildhoodMemories](Documentation/PortraitFrames/ChildhoodMemories.png) <br> ChildhoodMemories | |
+| ![ChildhoodMemories](Documentation/PortraitFrames/ChildhoodMemories.png) <br> ChildhoodMemories |
 
 | Fall Beach |
 | --- |
-| ![SimpleFallBeach](Documentation/PortraitFrames/SimpleFallBeach.png) <br> SimpleFallBeach | |
+| ![SimpleFallBeach](Documentation/PortraitFrames/SimpleFallBeach.png) <br> SimpleFallBeach |
 
 | Winter Beach |
 | --- |
-| ![NautilusShell](Documentation/PortraitFrames/NautilusShell.png) <br> NautilusShell | |
+| ![NautilusShell](Documentation/PortraitFrames/NautilusShell.png) <br> NautilusShell |
 
 | Mine Entrance |
 | --- |
-| ![LevelZero](Documentation/PortraitFrames/LevelZero.png) <br> LevelZero | |
+| ![LevelZero](Documentation/PortraitFrames/LevelZero.png) <br> LevelZero |
 
 ### Festival
 
 | Egg Festival |
 | --- |
-| ![FestiveEggs](Documentation/PortraitFrames/FestiveEggs.png) <br> FestiveEggs | |
+| ![FestiveEggs](Documentation/PortraitFrames/FestiveEggs.png) <br> FestiveEggs |
 
 | Flower Dance |
 | --- |
-| ![MerryFlowers](Documentation/PortraitFrames/MerryFlowers.png) <br> MerryFlowers | |
+| ![MerryFlowers](Documentation/PortraitFrames/MerryFlowers.png) <br> MerryFlowers |
 
 | Luau |
 | --- |
-| ![LeavesAndTorch](Documentation/PortraitFrames/LeavesAndTorch.png) <br> Luau | |
+| ![LeavesAndTorch](Documentation/PortraitFrames/LeavesAndTorch.png) <br> LeavesAndTorch |
 
 | Dance of the Moonlight Jellies |
 | --- |
-| ![CandlesOnSea](Documentation/PortraitFrames/CandlesOnSea.png) <br> CandlesOnSea | |
+| ![CandlesOnSea](Documentation/PortraitFrames/CandlesOnSea.png) <br> CandlesOnSea |
 
 | Stardew Valley Fair |
 | --- |
-| ![BalloonAndFair](Documentation/PortraitFrames/BalloonAndFair.png) <br> BalloonAndFair | |
+| ![FairBalloons](Documentation/PortraitFrames/FairBalloons.png) <br> FairBalloons |
 
-| Spirit's Eve |
-| --- |
+| Spirit's Eve | |
+| --- | --- |
 | ![PumpkinsAndSpiders](Documentation/PortraitFrames/PumpkinsAndSpiders.png) <br> PumpkinsAndSpiders | ![Spooky](Documentation/PortraitFrames/Spooky.png) <br> Spooky |
 
 | Festival of Ice |
 | --- |
-| ![IceCastles](Documentation/PortraitFrames/IceCastles.png) <br> IceCastles | |
+| ![IceCastles](Documentation/PortraitFrames/IceCastles.png) <br> IceCastles |
 
 | Night Market |
 | --- |
-| ![ColorfulMarket](Documentation/PortraitFrames/ColorfulMarket.png) <br> ColorfulMarket | |
+| ![ColorfulMarket](Documentation/PortraitFrames/ColorfulMarket.png) <br> ColorfulMarket |
 
 | Feast of the Winter Star |
 | --- |
-| ![HolidayPresents](Documentation/PortraitFrames/HolidayPresents.png) <br> HolidayPresents | |
+| ![HolidayPresents](Documentation/PortraitFrames/HolidayPresents.png) <br> HolidayPresents |
 
 ### Event
 
 | Wedding |
 | --- |
-| ![WhiteWedding](Documentation/PortraitFrames/WhiteWedding.png) <br> WhiteWedding | |
+| ![WhiteWedding](Documentation/PortraitFrames/WhiteWedding.png) <br> WhiteWedding |
 
 ### Unused
 
@@ -156,8 +156,8 @@ This is a retexture mod. It should be pretty safe to add and or remove from any 
 2. Can I use this mod in multiplayer? <br>
 Yes you can! Even if it's only you that installed this mod, it would still work (Only you would see the mod in action though)
 3. Is this mod compatible with that mod? <br>
-Most definitely compatible if other mod does not touch the portrait frame.
+Most definitely compatible if the other mod doesn't touch dialogue's portrait frame.
 
 ## Notes
 - The few first assets for this mod is made as part of Winter 2023 event in Stardew Valley Discord. Go Igloo!
-- The idea of this mod is inspired by Galdoran Theme in [Stardew Valley Expanded](https://www.nexusmods.com/stardewvalley/mods/3753)
+- This mod is inspired by Galdoran Theme in [Stardew Valley Expanded](https://www.nexusmods.com/stardewvalley/mods/3753)
