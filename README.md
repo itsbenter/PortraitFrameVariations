@@ -45,7 +45,7 @@ Set 'Hide Hear Indicator' to true, indicated by having X mark
 
 ## Portrait Frames
 
-At release (1.0.0), there are 21 seasonal frames, 10 festival frames, 9 map specific frames, and 1 event specific frames. The edits is overlayed on top of existing UI, allowing minimal compatibility for UI recolor mod. Below is the default portrait frames setting. You can adjust the list through the config to add or remove portraits frame.
+At release (1.0.0), there are 21 seasonal frames, 10 festival frames, 9 map specific frames, and 1 event specific frames. The edits is overlayed on top of existing UI, allowing minimal compatibility for UI recolor mod. Below is the default portrait frames setting.
 
 ### Seasonal
 
@@ -174,7 +174,13 @@ Yes you can! Even if it's only you that installed this mod, it would still work 
 3. Is this mod compatible with that mod? <br>
 Most definitely compatible if the other mod doesn't touch dialogue's portrait frame.
 4. Is this mod compatible with UI Recolor like ? <br>
-On most case, this mod will overlay (draw on top) the UI mods. This mean you can use this mod and UI Recolor mod. However, how the two visual will blend in is a different subject and should be judged by yourself.
+On most case, this mod will overlay (draw on top) the UI mods. This mean you can use this mod and UI Recolor mod. However, how the two visual will blend in is a different subject and should be judged by yourself. Below is some portrait frames that I manually overlay. In general, UI Recolor that keep the base shape of the portrait frame fits better.
+
+| UI Recolor | |
+| --- | --- |
+| ![](Documentation/PortraitFrames/UIRecolor_OvergrownFloweryInterface.png) <br> [Overgrown Flowery Interface](https://www.nexusmods.com/stardewvalley/mods/6166) | ![](Documentation/PortraitFrames/UIRecolor_VintageInterfaceV2.png) <br> [Vintage Interface v2](https://www.nexusmods.com/stardewvalley/mods/4697) |
+| ![](Documentation/PortraitFrames/UIRecolor_DaisyNikosEarthyInterface.png) <br> [DaisyNiko's Earthly Interfact](https://www.nexusmods.com/stardewvalley/mods/13658) | ![](Documentation/PortraitFrames/UIRecolor_StarrySkyInterfaceReworked.png) <br> [Starry Sky Interface Reworked](https://www.nexusmods.com/stardewvalley/mods/15124) |
+| ![](Documentation/PortraitFrames/UIRecolor_LavenderDreamsUIRecolor.png) <br> [Lavender Dreams UI Recolor](https://www.nexusmods.com/stardewvalley/mods/17323) | ![](Documentation/PortraitFrames/UIRecolor_VanillaAccentInterface.png) <br> [Vanilla Accent Interface](https://www.nexusmods.com/stardewvalley/mods/16970) |
 
 ## Notes
 - The few first assets for this mod is made as part of Winter 2023 event in Stardew Valley Discord. Go Igloo!
