@@ -14,7 +14,7 @@
 
 ## Configuration
 > [!IMPORTANT]
-> This mod requires [Generic Mod Config Menu](https://www.nexusmods.com/stardewvalley/mods/5098).
+> Requires [Generic Mod Config Menu](https://www.nexusmods.com/stardewvalley/mods/5098).
 
 The mod config supports:
 
@@ -25,110 +25,125 @@ The mod config supports:
 
 Details of the config options is available when hovered over in [Generic Mod Config Menu](https://www.nexusmods.com/stardewvalley/mods/5098) menu.
 
+You can disable or enable certain frame
+
 ## Portrait Frames
 
 At release (1.0.0), there are 21 seasonal frames, 10 festival frames, 9 map specific frames, and 1 event specific frames. The edits is overlayed on top of existing UI, allowing minimal compatibility for UI recolor mod.
 
 ### Seasonal
 
-<b>Spring</b><br>
-![PinkPetals](Documentation/PortraitFrames/PinkPetals.png)
-![Tulips](Documentation/PortraitFrames/Tulips.png)
-![SimpleDandelions](Documentation/PortraitFrames/SimpleDandelions.png)
-![Daffodils](Documentation/PortraitFrames/Daffodils.png)
+| Spring | |
+| --- | --- |
+| ![PinkPetals](Documentation/PortraitFrames/PinkPetals.png) <br> PinkPetals | ![Tulips](Documentation/PortraitFrames/Tulips.png) <br> Tulips |
+| ![SimpleDandelions](Documentation/PortraitFrames/SimpleDandelions.png) <br> SimpleDandelions | ![Daffodils](Documentation/PortraitFrames/Daffodils.png) <br> Daffodils |
 
-<b>Summer</b><br>
-![Sunflowers](Documentation/PortraitFrames/Sunflowers.png)
-![VinesAndFerns](Documentation/PortraitFrames/VinesAndFerns.png)
-![Blueberries](Documentation/PortraitFrames/Blueberries.png)
-![RowOfHops](Documentation/PortraitFrames/RowOfHops.png)
-![Starfruits](Documentation/PortraitFrames/Starfruits.png)
+| Summer | |
+| --- | --- |
+| ![Sunflowers](Documentation/PortraitFrames/Sunflowers.png) <br> SunFlowers | ![VinesAndFerns](Documentation/PortraitFrames/VinesAndFerns.png) <br> VinesAndFerns |
+| ![Blueberries](Documentation/PortraitFrames/Blueberries.png) <br> Blueberries | ![RowOfHops](Documentation/PortraitFrames/RowOfHops.png) <br> RowOfHops |
+| ![Starfruits](Documentation/PortraitFrames/Starfruits.png) <br> Starfruits | |
 
-<b>Fall</b><br>
-![Scattered Leaves](Documentation/PortraitFrames/ScatteredLeaves.png)
-![WildMushrooms](Documentation/PortraitFrames/WildMushrooms.png)
-![FallFoliages](Documentation/PortraitFrames/FallFoliages.png)
-![Eggplants](Documentation/PortraitFrames/Eggplants.png)
-![Corns](Documentation/PortraitFrames/Corns.png)
+| Fall | |
+| --- | --- |
+| ![ScatteredLeaves](Documentation/PortraitFrames/ScatteredLeaves.png) <br> ScatteredLeaves | ![WildMushrooms](Documentation/PortraitFrames/WildMushrooms.png) <br> WildMushrooms |
+| ![FallFoliages](Documentation/PortraitFrames/FallFoliages.png) <br> FallFoliages | ![Eggplants](Documentation/PortraitFrames/Eggplants.png) <br> Eggplants |
+| ![Corns](Documentation/PortraitFrames/Corns.png) <br> Corns | |
 
-<b>Winter</b><br>
-![SnowPiles](Documentation/PortraitFrames/SnowPiles.png)
-![FrostedPines](Documentation/PortraitFrames/FrostedPines.png)
-![Crocuses](Documentation/PortraitFrames/Crocuses.png)
-![WinterFoliages](Documentation/PortraitFrames/WinterFoliages.png)
-![WinterWallOrnaments](Documentation/PortraitFrames/WinterWallOrnaments.png)
+| Winter | |
+| --- | --- |
+| ![SnowPiles](Documentation/PortraitFrames/SnowPiles.png) <br> SnowPiles | ![FrostedPines](Documentation/PortraitFrames/FrostedPines.png) <br> FrostedPines |
+| ![Crocuses](Documentation/PortraitFrames/Crocuses.png) <br> Crocuses | ![WinterFoliages](Documentation/PortraitFrames/WinterFoliages.png) <br> WinterFoliages |
+| ![WinterWallOrnaments](Documentation/PortraitFrames/WinterWallOrnaments.png) <br> WinterWallOrnaments | |
 
-<b>Salmonberry Season</b><br>
-![SalmonberryBush](Documentation/PortraitFrames/SalmonberryBush.png)
+| Salmonberry Season |
+| --- |
+| ![SalmonberryBush](Documentation/PortraitFrames/SalmonberryBush.png) <br> SalmonberryBush | |
 
-<b>Blackberry Season</b><br>
-![BlackberryBush](Documentation/PortraitFrames/BlackberryBush.png)
+| Blackberry Season |
+| --- |
+| ![BlackberryBush](Documentation/PortraitFrames/BlackberryBush.png) <br> BlackberryBush | |
 
 ### Map
 
-<b>Ginger Island</b><br>
-![IslandPalms](Documentation/PortraitFrames/IslandPalms.png)
-![TropicalVines](Documentation/PortraitFrames/TropicalVines.png)
-![IslandHut](Documentation/PortraitFrames/IslandHut.png)
+| Ginger Island | |
+| --- | --- |
+| ![IslandPalms](Documentation/PortraitFrames/IslandPalms.png) <br> IslandPalms | ![TropicalVines](Documentation/PortraitFrames/TropicalVines.png) <br> TropicalVines |
+| ![IslandHut](Documentation/PortraitFrames/IslandHut.png) <br> IslandHut | |
 
-<b>Sewer</b><br>
-![GoodOldSewer](Documentation/PortraitFrames/GoodOldSewer.png)
+| Sewer |
+| --- |
+| ![GoodOldSewer](Documentation/PortraitFrames/GoodOldSewer.png) <br> GoodOldSewer | |
 
-<b>Spring Beach</b><br>
-![LonelyClam](Documentation/PortraitFrames/LonelyClam.png)
+| Spring Beach |
+| --- |
+| ![LonelyClam](Documentation/PortraitFrames/LonelyClam.png) <br> LonelyClam | |
 
-<b>Summer Beach</b><br>
-![ChildhoodMemories](Documentation/PortraitFrames/ChildhoodMemories.png)
+| Summer Beach |
+| --- |
+| ![ChildhoodMemories](Documentation/PortraitFrames/ChildhoodMemories.png) <br> ChildhoodMemories | |
 
-<b>Fall Beach</b><br>
-![SimpleFallBeach](Documentation/PortraitFrames/SimpleFallBeach.png)
+| Fall Beach |
+| --- |
+| ![SimpleFallBeach](Documentation/PortraitFrames/SimpleFallBeach.png) <br> SimpleFallBeach | |
 
-<b>Winter Beach</b><br>
-![NautilusShell](Documentation/PortraitFrames/NautilusShell.png)
+| Winter Beach |
+| --- |
+| ![NautilusShell](Documentation/PortraitFrames/NautilusShell.png) <br> NautilusShell | |
 
-<b>Mine Entrance</b><br>
-![LevelZero](Documentation/PortraitFrames/LevelZero.png)
+| Mine Entrance |
+| --- |
+| ![LevelZero](Documentation/PortraitFrames/LevelZero.png) <br> LevelZero | |
 
 ### Festival
 
-<b>Egg Festival</b><br>
-![FestiveEggs](Documentation/PortraitFrames/FestiveEggs.png)
+| Egg Festival |
+| --- |
+| ![FestiveEggs](Documentation/PortraitFrames/FestiveEggs.png) <br> FestiveEggs | |
 
-<b>Flower Dance</b><br>
-![MerryFlowers](Documentation/PortraitFrames/MerryFlowers.png)
+| Flower Dance |
+| --- |
+| ![MerryFlowers](Documentation/PortraitFrames/MerryFlowers.png) <br> MerryFlowers | |
 
-<b>Luau</b><br>
-![LeavesAndTorch](Documentation/PortraitFrames/LeavesAndTorch.png)
+| Luau |
+| --- |
+| ![LeavesAndTorch](Documentation/PortraitFrames/LeavesAndTorch.png) <br> Luau | |
 
-<b>Dance of the Moonlight Jellies</b><br>
-![CandlesOnSea](Documentation/PortraitFrames/CandlesOnSea.png)
+| Dance of the Moonlight Jellies |
+| --- |
+| ![CandlesOnSea](Documentation/PortraitFrames/CandlesOnSea.png) <br> CandlesOnSea | |
 
-<b>Stardew Valley Fair</b><br>
-![BalloonAndFair](Documentation/PortraitFrames/BalloonAndFair.png)
+| Stardew Valley Fair |
+| --- |
+| ![BalloonAndFair](Documentation/PortraitFrames/BalloonAndFair.png) <br> BalloonAndFair | |
 
-<b>Spirit's Eve</b> <br>
-![PumpkinsAndSpiders](Documentation/PortraitFrames/PumpkinsAndSpiders.png)
-![Spooky](Documentation/PortraitFrames/Spooky.png)
+| Spirit's Eve |
+| --- |
+| ![PumpkinsAndSpiders](Documentation/PortraitFrames/PumpkinsAndSpiders.png) <br> PumpkinsAndSpiders | ![Spooky](Documentation/PortraitFrames/Spooky.png) <br> Spooky |
 
-<b>Festival of Ice</b> <br>
-![IceCastles](Documentation/PortraitFrames/IceCastles.png)
+| Festival of Ice |
+| --- |
+| ![IceCastles](Documentation/PortraitFrames/IceCastles.png) <br> IceCastles | |
 
-<b>Night Market</b> <br>
-![ColorfulMarket](Documentation/PortraitFrames/ColorfulMarket.png)
+| Night Market |
+| --- |
+| ![ColorfulMarket](Documentation/PortraitFrames/ColorfulMarket.png) <br> ColorfulMarket | |
 
-<b>Feast of the Winter Star</b> <br>
-![HolidayPresents](Documentation/PortraitFrames/HolidayPresents.png)
+| Feast of the Winter Star |
+| --- |
+| ![HolidayPresents](Documentation/PortraitFrames/HolidayPresents.png) <br> HolidayPresents | |
 
 ### Event
 
-<b>Wedding</b><br>
-![WhiteWedding](Documentation/PortraitFrames/WhiteWedding.png)
+| Wedding |
+| --- |
+| ![WhiteWedding](Documentation/PortraitFrames/WhiteWedding.png) <br> WhiteWedding | |
 
 ### Unused
 
-![StarryNight](Documentation/PortraitFrames/StarryNight.png)
-<br>
-This frame is meant to show on Sebastian and Maru events that shows night time sky. However, it's not possible to specifically patch when player is in temporary map during an event.
+| Unused | |
+| --- | --- |
+| ![StarryNight](Documentation/PortraitFrames/StarryNight.png) <br> StarryNight | This frame is meant to show on Sebastian and Maru events that shows night time sky. However, it's not possible to specifically patch when player is in temporary map during an event. |
 
 ## Compatibility
 - [Farmer Portraits](https://www.nexusmods.com/stardewvalley/mods/11398). If you set 'UseCustomPortrait' to true in that mod, then you can configure [Portrait Frame Variations](https://www.nexusmods.com/stardewvalley/mods/6899) to set farmer portrait frame and character portrait frame to be in-sync.
