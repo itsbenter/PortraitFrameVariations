@@ -1,0 +1,25 @@
+{
+   "$schema": "https://smapi.io/schemas/manifest.json",
+   "Name": "Portrait Frame Variations",
+   "Author": "ItsBenter",
+   "Version": "1.0.0",
+   "Description": "Adds context-aware dialogue's portrait frames.",
+   "UniqueID": "ItsBenter.PortraitFrameVariations.CP",
+   "MinimumApiVersion": "3.18.6",
+   "UpdateKeys": [
+      "Nexus:6899"
+   ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+      {
+         "UniqueID": "spacechase0.GenericModConfigMenu",
+         "IsRequired": true
+      },
+      {
+         "UniqueID": "aedenthorn.FarmerPortraits",
+         "IsRequired": false
+      }
+   ]
+}

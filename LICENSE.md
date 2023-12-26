@@ -1,0 +1,2 @@
+Images in this project are modification of Stardew Valley assets. All the rights belong to Eric Barone (ConcernedApe)<br>
+Code used to format and display that images is licensed under the [MIT license](https://mit-license.org/).

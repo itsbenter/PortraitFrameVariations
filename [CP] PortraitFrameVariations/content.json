@@ -1,0 +1,567 @@
+{
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Format": "1.30.0",
+  "ConfigSchema": {
+    //Basic Config
+    "DefaultFrame": {
+      "Default": "Default",
+      "AllowValues": "Default, PinkPetals, Tulips, SimpleDandelions, Daffodils, Sunflowers, VinesAndFerns, Blueberries, RowOfHops, Starfruits, ScatteredLeaves, WildMushrooms, FallFoliages, Eggplants, Corns, SnowPiles, FrostedPines, Crocuses, WinterFoliages, IslandPalms, TropicalVines, IslandHut, LonelyClam, ChildhoodMemories, SimpleFallBeach, NautilusShell, LevelZero, GoodOldSewer, WhiteWedding, SalmonberryBush, BlackberryBush, FestiveEggs, MerryFlowers, LeavesAndTorch, CandlesOnSea, BalloonAndFair, PumpkinsAndSpiders, Spooky, IceCastles, ColorfulMarket, HolidayPresents, StarryNight",
+      "Section": "BasicConfig"
+    },
+    "DisableConditionalVariation": {
+      "Default": "false",
+      "AllowValues": "true, false",
+      "Section": "BasicConfig"
+    },
+    "HideHeartIndicator": {
+      "Default": "false",
+      "AllowValues": "true, false",
+      "Section": "BasicConfig"
+    },
+    //Mod Compatibility
+    "SyncFarmerPortraits": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "ModCompatibility"
+    },
+    "DisableWhenGaldoranThemeActive": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "ModCompatibility"
+    },
+    //Visual Option
+    "EnableSpring": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption"
+    },
+    "SpringOption": {
+      "Default": "PinkPetals, Tulips, SimpleDandelions, Daffodils",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableSummer": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "SummerOption": {
+      "Default": "Sunflowers, VinesAndFerns, Blueberries, RowOfHops, Starfruits",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableFall": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "FallOption": {
+      "Default": "ScatteredLeaves, WildMushrooms, FallFoliages, Eggplants, Corns",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableWinter": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "WinterOption": {
+      "Default": "SnowPiles, FrostedPines, Crocuses, WinterFoliages, WinterWallOrnaments",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableEggFestival": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "EggFestivalOption": {
+      "Default": "FestiveEggs",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableFlowerDance": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "FlowerDanceOption": {
+      "Default": "MerryFlowers",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableLuau": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "LuauOption": {
+      "Default": "LeavesAndTorch",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableDanceOfMoonlightJellies": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "DanceOfMoonlightJelliesOption": {
+      "Default": "CandlesOnSea",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableStardewValleyFair": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "StardewValleyFairOption": {
+      "Default": "BalloonAndFair",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableSpiritsEve": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "SpiritsEveOption": {
+      "Default": "PumpkinsAndSpiders, Spooky",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableFestivalOfIce": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "FestivalOfIceOption": {
+      "Default": "IceCastles",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableNightMarket": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "NightMarketOption": {
+      "Default": "ColorfulMarket",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableFeastOfWinterStar": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "FeastOfWinterStarOption": {
+      "Default": "HolidayPresents",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableGingerIsland": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "GingerIslandOption": {
+      "Default": "IslandPalms, TropicalVines, IslandHut",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableSewer": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "SewerOption": {
+      "Default": "GoodOldSewer",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableBeach": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "SpringBeachOption": {
+      "Default": "LonelyClam",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "SummerBeachOption": {
+      "Default": "ChildhoodMemories",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "FallBeachOption": {
+      "Default": "SimpleFallBeach",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "WinterBeachOption": {
+      "Default": "NautilusShell",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableMineEntrance": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "MineEntranceOption": {
+      "Default": "LevelZero",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableWedding": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "WeddingOption": {
+      "Default": "WhiteWedding",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "EnableBerrySeason": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOption",
+    },
+    "SalmonberrySeasonOption": {
+      "Default": "SalmonberryBush",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    "BlackberrySeasonOption": {
+      "Default": "BlackberryBush",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOption",
+    },
+    //"EnableNightSkyEvent": {
+    //  "Default": "true",
+    //  "AllowValues": "true, false",
+    //  "Section": "VisualOption",
+    //},
+    //"NightSkyEventOption": {
+    //  "Default": "StarryNight",
+    //  "AllowBlank": false,
+    //  "AllowMultiple": true,
+    //  "Section": "VisualOption",
+    //},
+  },
+  "DynamicTokens": [
+    //Series of conditional to select frame
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{DefaultFrame}}",
+    },
+    ////Seasonal
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SpringOption}}}}",
+      "When": {
+        "EnableSpring": true,
+        "Season": "spring"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SummerOption}}}}",
+      "When": {
+        "EnableSummer": true,
+        "Season": "summer"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{FallOption}}}}",
+      "When": {
+        "EnableSummer": true,
+        "Season": "fall"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{WinterOption}}}}",
+      "When": {
+        "EnableSummer": true,
+        "Season": "winter"
+      }
+    },
+    ////Berry Season
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SalmonberrySeasonOption}}}}",
+      "When": {
+        "EnableBerrySeason": true,
+        "Season": "spring",
+        "Day": "15, 16, 17, 18"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{BlackberrySeasonOption}}}}",
+      "When": {
+        "EnableBerrySeason": true,
+        "Season": "fall",
+        "Day": "8, 9, 10, 11"
+      }
+    },
+    ////Map based
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{GingerIslandOption}}}}",
+      "When": {
+        "EnableGingerIsland": true,
+        "LocationContext": "Island"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SpringBeachOption}}}}",
+      "When": {
+        "EnableBeach": true,
+        "Season": "spring",
+        "LocationName": "Beach"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SummerBeachOption}}}}",
+      "When": {
+        "EnableBeach": true,
+        "Season": "summer",
+        "LocationName": "Beach"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{FallBeachOption}}}}",
+      "When": {
+        "EnableBeach": true,
+        "Season": "fall",
+        "LocationName": "Beach"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{WinterBeachOption}}}}",
+      "When": {
+        "EnableBeach": true,
+        "Season": "winter",
+        "LocationName": "Beach"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{MineEntranceOption}}}}",
+      "When": {
+        "EnableMineEntrance": true,
+        "LocationName": "Mine"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SewerOption}}}}",
+      "When": {
+        "EnableSewer": true,
+        "LocationName": "Sewer"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{EggFestivalOption}}}}",
+      "When": {
+        "EnableEggFestival": true,
+        "DayEvent": "egg festival",
+        "LocationName": "Temp"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{FlowerDanceOption}}}}",
+      "When": {
+        "EnableFlowerDance": true,
+        "DayEvent": "flower dance",
+        "LocationName": "Temp"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{LuauOption}}}}",
+      "When": {
+        "EnableLuau": true,
+        "DayEvent": "luau",
+        "LocationName": "Temp"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{DanceOfMoonlightJelliesOption}}}}",
+      "When": {
+        "EnableDanceOfMoonlightJellies": true,
+        "DayEvent": "dance of the moonlight jellies",
+        "LocationName": "Temp"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{StardewValleyFairOption}}}}",
+      "When": {
+        "EnableStardewValleyFair": true,
+        "DayEvent": "stardew valley fair",
+        "LocationName": "Temp"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SpiritsEveOption}}}}",
+      "When": {
+        "EnableSpiritsEve": true,
+        "DayEvent": "spirit's eve",
+        "LocationName": "Temp"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{FestivalOfIceOption}}}}",
+      "When": {
+        "EnableFestivalOfIce": true,
+        "DayEvent": "festival of ice",
+        "LocationName": "Temp"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{NightMarketOption}}}}",
+      "When": {
+        "EnableNightMarket": true,
+        "Season": "winter",
+        "Day": "15, 16, 17",
+        "LocationName": "Beach"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{FeastOfWinterStarOption}}}}",
+      "When": {
+        "EnableFeastOfWinterStar": true,
+        "DayEvent": "feast of the winter star",
+        "LocationName": "Temp"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{WeddingOption}}}}",
+      "When": {
+        "EnableWedding": true,
+        "DayEvent": "wedding",
+        "LocationName": "Temp"
+      }
+    },
+    //{
+    //  "Name": "DisplayFrame",
+    //  "Value": "{{Random:{{NightSkyEventOption}}}}",
+    //  "When": {
+    //    "EnableNightSkyEvent": true,
+    //    "LocationName": "Temp"
+    //    //SebastianMountain, NightSceneMaruMap, NightSceneMaruMap2
+    //  }
+    //}
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{DefaultFrame}}",
+      "When": {
+        "DisableConditionalVariation": true,
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "Default",
+      "When": {
+        "HasMod |contains=aedenthorn.FarmerPortraits": true,
+        "DisableWhenGaldoranThemeActive": true,
+        "LocationName": "Custom_CrimsonBadlands, Custom_CastleVillageOutpost, Custom_DesertRailway, Custom_IridiumQuarry, Custom_TreasureCave, Custom_GaldoranVoid"
+      }
+    },
+  ],
+  "Changes": [
+    {
+      "LogName": "Overlay portrait frame",
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "PortraitFrames/{{DisplayFrame}}.png",
+      "ToArea": {
+        "X": 583,
+        "Y": 411,
+        "Width": 115,
+        "Height": 97
+      },
+      "PatchMode": "Overlay",
+      "Update": "OnLocationChange"
+    },
+    {
+      "LogName": "Hide heart indicator",
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "BlankHeartIndicator.png",
+      "ToArea": {
+        "X": 140,
+        "Y": 532,
+        "Width": 44,
+        "Height": 55
+      },
+      "When": {
+        "HideHeartIndicator": true
+      }
+    },
+    {
+      "LogName": "Load portrait frame - Farmer Portraits (Background)",
+      "Action": "Load",
+      "Target": "aedenthorn.FarmerPortraits/background",
+      "FromFile": "Background.png",
+      "When": {
+        "HasMod |contains=aedenthorn.FarmerPortraits": true,
+        "SyncFarmerPortraits": true
+      }
+    },
+    {
+      "LogName": "Overlay portrait frame - Farmer Portraits (Background)",
+      "Action": "EditImage",
+      "Target": "aedenthorn.FarmerPortraits/background",
+      "FromFile": "PortraitFrames/{{DisplayFrame}}.png",
+      "PatchMode": "Overlay",
+      "Update": "OnLocationChange",
+      "When": {
+        "HasMod |contains=aedenthorn.FarmerPortraits": true,
+        "SyncFarmerPortraits": true
+      }
+    }
+  ]
+}
