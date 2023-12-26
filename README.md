@@ -29,19 +29,19 @@ Details of the config options is available when hovered over in [Generic Mod Con
 You can disable or enable certain frame by editing the Option field. 
 
 For example, let's say you want to make it so that in Spring it would always show portrait frame that by default was set to only be used during Flower Festival.
-1. Locate and clear out config option. Because it's Spring we're clearing up SpringOption.
-![Config_EditVisualOption_ClearField](Documentation/PortraitFrames/Config_EditVisualOption_ClearField.png)
-2. Type the name of the frame you want to use. You can check [Portrait Frames](#portrait_frames) for that. In this case the default frame name used in Flower Festival is 'MerryFlowers'.
-![Config_EditVisualOption_InputFrameName](Documentation/PortraitFrames/Config_EditVisualOption_InputFrameName.png)
+1. Locate and clear out config option. Because it's Spring we're clearing up SpringOption.<br>
+![Config_EditVisualOption_ClearField](Documentation/Config_EditVisualOption_ClearField.png)
+2. Type the name of the frame you want to use. You can check [Portrait Frames](#portrait_frames) for that. In this case the default frame name used in Flower Festival is 'MerryFlowers'.<br>
+![Config_EditVisualOption_InputFrameName](Documentation/Config_EditVisualOption_InputFrameName.png)
 3. Save & Close, on regular Spring day it will only show 'MerryFlowers'.
 
 ### Hide NPC Heart Level Indicator
 Set 'Hide Hear Indicator' to true, indicated by having X mark
-![Config_HideHeartIndicator](Documentation/PortraitFrames/Config_HideHeartIndicator.png)
+![Config_HideHeartIndicator](Documentation/Config_HideHeartIndicator.png)
 
 | When set to false | When set to true |
 | --- | --- |
-| ![Config_HideHeartIndicator_False](Documentation/PortraitFrames/Config_HideHeartIndicator_False.png) | ![Config_HideHeartIndicator_True](Documentation/PortraitFrames/Config_HideHeartIndicator_True.png) |
+| ![Config_HideHeartIndicator_False](Documentation/Config_HideHeartIndicator_False.png) | ![Config_HideHeartIndicator_True](Documentation/Config_HideHeartIndicator_True.png) |
 
 ## Portrait Frames
 
