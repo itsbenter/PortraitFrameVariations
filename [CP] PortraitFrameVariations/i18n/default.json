@@ -11,10 +11,6 @@
 
   //Mod Compatibility
   "config.section.ModCompatibility.name": "Mod Compatibility",
-  "config.SyncFarmerPortraits.name": "Farmer Portraits: Sync Overlay",
-  "config.SyncFarmerPortraits.description": "When 'Farmer Portraits' mod is installed. Apply overlay to farmer portrait frame and character portrait frame.",
-  "config.BaseBackgroundFarmerPortraits.name": "Farmer Portraits: Background",
-  "config.BaseBackgroundFarmerPortraits.description": "When 'Farmer Portraits' mod is installed. Use base game portrait frame as a background to overlay on. If recolor or other base is desired, then you need to edit 'Farmer Portraits' mod yourself to configure.",
   "config.DisableWhenGaldoranThemeActive.name": "SVE: Disable on Galdora",
   "config.DisableWhenGaldoranThemeActive.description": "Disable this mod overlay on map that covered by Stardew Valley Expanded's Galdoran Theme.",
 

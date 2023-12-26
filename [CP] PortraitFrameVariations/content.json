@@ -19,16 +19,6 @@
       "Section": "BasicConfig"
     },
     //Mod Compatibility
-    "SyncFarmerPortraits": {
-      "Default": "true",
-      "AllowValues": "true, false",
-      "Section": "ModCompatibility"
-    },
-    "BaseBackgroundFarmerPortraits": {
-      "Default": "true",
-      "AllowValues": "true, false",
-      "Section": "ModCompatibility"
-    },
     "DisableWhenGaldoranThemeActive": {
       "Default": "true",
       "AllowValues": "true, false",
@@ -472,7 +462,7 @@
         "EnableNightMarket": true,
         "Season": "winter",
         "Day": "15, 16, 17",
-        "LocationName": "Beach"
+        "LocationName": "BeachNightMarket"
       }
     },
     {
@@ -546,29 +536,6 @@
       },
       "When": {
         "HideHeartIndicator": true
-      }
-    },
-    {
-      "LogName": "Load portrait frame - Farmer Portraits (Background)",
-      "Action": "Load",
-      "Target": "aedenthorn.FarmerPortraits/background",
-      "FromFile": "Background.png",
-      "When": {
-        "HasMod |contains=aedenthorn.FarmerPortraits": true,
-        "BaseBackgroundFarmerPortraits": true,
-        "SyncFarmerPortraits": true
-      }
-    },
-    {
-      "LogName": "Overlay portrait frame - Farmer Portraits (Background)",
-      "Action": "EditImage",
-      "Target": "aedenthorn.FarmerPortraits/background",
-      "FromFile": "PortraitFrames/{{DisplayFrame}}.png",
-      "PatchMode": "Overlay",
-      "Update": "OnLocationChange",
-      "When": {
-        "HasMod |contains=aedenthorn.FarmerPortraits": true,
-        "SyncFarmerPortraits": true
       }
     }
   ]
