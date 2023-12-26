@@ -1,4 +1,4 @@
-[PortraitFrameVariations](https://www.nexusmods.com/stardewvalley/mods/6899) adds variations to dialogue's portrait frame. The changes are based on season and current happenings around the valley. Mod visual style is meant to blend in with the base game style.
+[Portrait Frame Variations](https://www.nexusmods.com/stardewvalley/mods/6899) adds variations to dialogue's portrait frame. The changes are based on season and current happenings around the valley. Mod visual style is meant to blend in with the base game style.
 
 ## Contents
 
@@ -15,7 +15,6 @@
 ## Configuration
 > [!IMPORTANT]
 > This mod requires [Generic Mod Config Menu](https://www.nexusmods.com/stardewvalley/mods/5098).
-<br>
 
 The mod config supports:
 
@@ -24,7 +23,7 @@ The mod config supports:
 - Enable or disable condition when a frame is applied.
 - Setting frames that should be used in specific condition. In case more than one is specified, random frame would be chosen.
 
-Details of each config is given when hovered over in [Generic Mod Config Menu](https://www.nexusmods.com/stardewvalley/mods/5098) menu.
+Details of the config options is available when hovered over in [Generic Mod Config Menu](https://www.nexusmods.com/stardewvalley/mods/5098) menu.
 
 ## Portrait Frames
 
@@ -129,10 +128,10 @@ At release (1.0.0), there are 21 seasonal frames, 10 festival frames, 9 map spec
 
 ![StarryNight](Documentation/PortraitFrames/StarryNight.png)
 <br>
-This frame is meant to show on Sebastion and Maru events that include night time sky. However, it's not possible to specifically patch when player is in temporary on an event.
+This frame is meant to show on Sebastian and Maru events that shows night time sky. However, it's not possible to specifically patch when player is in temporary map during an event.
 
 ## Compatibility
-- [Farmer Portraits](https://www.nexusmods.com/stardewvalley/mods/11398). If you set 'UseCustomPortrait' on that mod to true, then you can configure this mod to have farmer portrait and character portrait frame in sync.
+- [Farmer Portraits](https://www.nexusmods.com/stardewvalley/mods/11398). If you set 'UseCustomPortrait' to true in that mod, then you can configure [Portrait Frame Variations](https://www.nexusmods.com/stardewvalley/mods/6899) to set farmer portrait frame and character portrait frame to be in-sync.
 - [Stardew Valley Expanded](https://www.nexusmods.com/stardewvalley/mods/3753). There is config to not overwrite "Galdoran Theme" which is set to true by default.
 
 ## FAQ
