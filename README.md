@@ -47,7 +47,7 @@ Set 'Hide Heart Indicator' to true, indicated by having X marks.
 
 ## Portrait Frames
 
-At release (1.0.0), there are 21 seasonal frames, 10 festival frames, 9 map specific frames, and 1 event specific frames. The assets are overlayed on top of existing UI, allowing minimal compatibility for UI recolor mod. Below is the default portrait frames configuration.
+In version 1.0.2, there are 21 seasonal frames, 10 festival frames, 9 map specific frames, and 1 event specific frames. The assets are overlayed on top of existing UI, allowing minimal compatibility for UI recolor mod. Below is the default portrait frames configuration. Edited assets made for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is available [here](Documentation/ChangingSkies.md).
 
 ### Seasonal
 
@@ -165,6 +165,7 @@ At release (1.0.0), there are 21 seasonal frames, 10 festival frames, 9 map spec
 
 ## Compatibility
 - [Farmer Portraits](https://www.nexusmods.com/stardewvalley/mods/11398). To use same dialogue's portrait frame for farmer and character, set 'Use Custom Background' to false in that mod.
+- [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513). Built-in edit will be used automatically, thanks to [Airyn](https://www.nexusmods.com/stardewvalley/users/70148453).
 - [Stardew Valley Expanded](https://www.nexusmods.com/stardewvalley/mods/3753). Option to not overlay 'Galdoran Theme' is set to true by default.
 
 ## FAQ
