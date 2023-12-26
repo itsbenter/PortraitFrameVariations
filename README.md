@@ -1,4 +1,4 @@
-[Portrait Frame Variations](https://www.nexusmods.com/stardewvalley/mods/6899) adds selection of dialogue's portrait frame. The portrait frames are displayed based on season and current happenings around the valley. Mod visual style is meant to blend in with the base game style.
+[Portrait Frame Variations](https://www.nexusmods.com/stardewvalley/mods/6899) adds selection of dialogue's portrait frame. They are displayed based on season and current happenings around the valley. Mod visual style is meant to blend in with the base game style.
 
 ## Contents
 
@@ -26,26 +26,28 @@ The mod config supports:
 Details of the config options is available when hovered over in [Generic Mod Config Menu](https://www.nexusmods.com/stardewvalley/mods/5098) menu.
 
 ### Adding or Removing Frame
-You can disable or enable certain frame by editing the Option field. 
+You can disable or enable certain frame by editing the Options field. 
 
-For example, let's say you want to make it so that in Spring it would always show portrait frame that by default was set to only be used during Flower Festival.
+For example, let's say you want to have only Flower Festival portrait frame in regular Spring day without all the other usual portrait frame roster.
 1. Locate and clear out config option. Because it's Spring we're clearing up SpringOption.<br>
 ![Config_EditVisualOption_ClearField](Documentation/Config_EditVisualOption_ClearField.png)
-2. Type the name of the frame you want to use. You can check [Portrait Frames](#portrait_frames) for that. In this case the default frame name used in Flower Festival is 'MerryFlowers'.<br>
+2. Type the name of the frame you want to use. You can check [Portrait Frames](#portrait_frames) for that. The default frame name used in Flower Festival is 'MerryFlowers'.<br>
 ![Config_EditVisualOption_InputFrameName](Documentation/Config_EditVisualOption_InputFrameName.png)
 3. Save & Close, on regular Spring day it will only show 'MerryFlowers'.
 
+Be careful when typing as it requires the exact name. Don't worry too much because you can always set everything back to default.
+
 ### Hide NPC Heart Level Indicator
-Set 'Hide Hear Indicator' to true, indicated by having X mark
+Set 'Hide Heart Indicator' to true, indicated by having X marks.
 ![Config_HideHeartIndicator](Documentation/Config_HideHeartIndicator.png)
 
-| When set to false ( ) | When set to true (X) |
+| False ( ) | True (X) |
 | --- | --- |
 | ![Config_HideHeartIndicator_False](Documentation/Config_HideHeartIndicator_False.png) | ![Config_HideHeartIndicator_True](Documentation/Config_HideHeartIndicator_True.png) |
 
 ## Portrait Frames
 
-At release (1.0.0), there are 21 seasonal frames, 10 festival frames, 9 map specific frames, and 1 event specific frames. The edits is overlayed on top of existing UI, allowing minimal compatibility for UI recolor mod. Below is the default portrait frames setting.
+At release (1.0.0), there are 21 seasonal frames, 10 festival frames, 9 map specific frames, and 1 event specific frames. The assets are overlayed on top of existing UI, allowing minimal compatibility for UI recolor mod. Below is the default portrait frames configuration.
 
 ### Seasonal
 
@@ -173,10 +175,10 @@ This is a retexture mod. It should be pretty safe to add and or remove from any 
 Yes you can! Even if it's only you that installed this mod, it would still work (Only you would see the mod in action though)
 3. Is this mod compatible with that mod? <br>
 Most definitely compatible if the other mod doesn't touch dialogue's portrait frame.
-4. Is this mod compatible with UI Recolor like ? <br>
+4. Is this mod compatible with UI Recolor? <br>
 On most case, this mod will overlay (draw on top) the UI mods. This mean you can use this mod and UI Recolor mod. However, how the two visual will blend in is a different subject and should be judged by yourself. 
 
-Below is some portrait frames from UI Recolor mods that I manually overlay. In general, UI Recolor that keep the base shape of the portrait frame fits better.
+Below is some portrait frames from UI Recolor mods that I manually overlay. In general, UI Recolor that keep the base shape of the portrait frame fits better. I also added false dependency for those mods, just in case they used 'EditImage'.
 
 | UI Recolor | |
 | --- | --- |
