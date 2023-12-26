@@ -11,8 +11,10 @@
 
   //Mod Compatibility
   "config.section.ModCompatibility.name": "Mod Compatibility",
-  "config.SyncFarmerPortraits.name": "Farmer Portraits - Sync Frame",
-  "config.SyncFarmerPortraits.description": "Set farmer portrait frame as the same one as the character portrait frame when 'Farmer Portraits' mod is installed. This will use base game frame as base to overlay on.",
+  "config.SyncFarmerPortraits.name": "Farmer Portraits - Overlay Frame",
+  "config.SyncFarmerPortraits.description": "Set farmer portrait frame as the same one as the character portrait frame when 'Farmer Portraits' mod is installed.",
+  "config.BaseBackgroundFarmerPortraits.name": "Farmer Portraits - Set Background",
+  "config.BaseBackgroundFarmerPortraits.description": "Set base game portrait frame as base to overlay on. If recolor or other base is desired you need to edit 'Farmer Portraits' mod to configure.",
   "config.DisableWhenGaldoranThemeActive.name": "Galdoran Theme - Compat",
   "config.DisableWhenGaldoranThemeActive.description": "Set farmer portrait frame as the same one as the character portrait frame when 'Farmer Portraits' mod is installed.",
 

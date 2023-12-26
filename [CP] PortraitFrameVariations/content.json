@@ -24,6 +24,11 @@
       "AllowValues": "true, false",
       "Section": "ModCompatibility"
     },
+    "BaseBackgroundFarmerPortraits": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "ModCompatibility"
+    },
     "DisableWhenGaldoranThemeActive": {
       "Default": "true",
       "AllowValues": "true, false",
@@ -548,6 +553,7 @@
       "FromFile": "Background.png",
       "When": {
         "HasMod |contains=aedenthorn.FarmerPortraits": true,
+        "BaseBackgroundFarmerPortraits": true,
         "SyncFarmerPortraits": true
       }
     },
