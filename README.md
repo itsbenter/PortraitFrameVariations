@@ -178,9 +178,9 @@ On most case, this mod will overlay (draw on top) the UI mods. This mean you can
 
 | UI Recolor | |
 | --- | --- |
-| ![](Documentation/PortraitFrames/UIRecolor_OvergrownFloweryInterface.png) <br> [Overgrown Flowery Interface](https://www.nexusmods.com/stardewvalley/mods/6166) | ![](Documentation/PortraitFrames/UIRecolor_VintageInterfaceV2.png) <br> [Vintage Interface v2](https://www.nexusmods.com/stardewvalley/mods/4697) |
-| ![](Documentation/PortraitFrames/UIRecolor_DaisyNikosEarthyInterface.png) <br> [DaisyNiko's Earthly Interfact](https://www.nexusmods.com/stardewvalley/mods/13658) | ![](Documentation/PortraitFrames/UIRecolor_StarrySkyInterfaceReworked.png) <br> [Starry Sky Interface Reworked](https://www.nexusmods.com/stardewvalley/mods/15124) |
-| ![](Documentation/PortraitFrames/UIRecolor_LavenderDreamsUIRecolor.png) <br> [Lavender Dreams UI Recolor](https://www.nexusmods.com/stardewvalley/mods/17323) | ![](Documentation/PortraitFrames/UIRecolor_VanillaAccentInterface.png) <br> [Vanilla Accent Interface](https://www.nexusmods.com/stardewvalley/mods/16970) |
+| ![](Documentation/UIRecolor_OvergrownFloweryInterface.png) <br> [Overgrown Flowery Interface](https://www.nexusmods.com/stardewvalley/mods/6166) | ![](Documentation/UIRecolor_VintageInterfaceV2.png) <br> [Vintage Interface v2](https://www.nexusmods.com/stardewvalley/mods/4697) |
+| ![](Documentation/UIRecolor_DaisyNikosEarthyInterface.png) <br> [DaisyNiko's Earthly Interfact](https://www.nexusmods.com/stardewvalley/mods/13658) | ![](Documentation/UIRecolor_StarrySkyInterfaceReworked.png) <br> [Starry Sky Interface Reworked](https://www.nexusmods.com/stardewvalley/mods/15124) |
+| ![](Documentation/UIRecolor_LavenderDreamsUIRecolor.png) <br> [Lavender Dreams UI Recolor](https://www.nexusmods.com/stardewvalley/mods/17323) | ![](Documentation/UIRecolor_VanillaAccentInterface.png) <br> [Vanilla Accent Interface](https://www.nexusmods.com/stardewvalley/mods/16970) |
 
 ## Notes
 - The few first assets for this mod is made as part of Winter 2023 event in Stardew Valley Discord. Go Igloo!
