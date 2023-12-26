@@ -39,7 +39,7 @@ For example, let's say you want to make it so that in Spring it would always sho
 Set 'Hide Hear Indicator' to true, indicated by having X mark
 ![Config_HideHeartIndicator](Documentation/Config_HideHeartIndicator.png)
 
-| When set to false | When set to true |
+| When set to false ( ) | When set to true (X) |
 | --- | --- |
 | ![Config_HideHeartIndicator_False](Documentation/Config_HideHeartIndicator_False.png) | ![Config_HideHeartIndicator_True](Documentation/Config_HideHeartIndicator_True.png) |
 
@@ -174,12 +174,14 @@ Yes you can! Even if it's only you that installed this mod, it would still work 
 3. Is this mod compatible with that mod? <br>
 Most definitely compatible if the other mod doesn't touch dialogue's portrait frame.
 4. Is this mod compatible with UI Recolor like ? <br>
-On most case, this mod will overlay (draw on top) the UI mods. This mean you can use this mod and UI Recolor mod. However, how the two visual will blend in is a different subject and should be judged by yourself. Below is some portrait frames that I manually overlay. In general, UI Recolor that keep the base shape of the portrait frame fits better.
+On most case, this mod will overlay (draw on top) the UI mods. This mean you can use this mod and UI Recolor mod. However, how the two visual will blend in is a different subject and should be judged by yourself. 
+
+Below is some portrait frames from UI Recolor mods that I manually overlay. In general, UI Recolor that keep the base shape of the portrait frame fits better.
 
 | UI Recolor | |
 | --- | --- |
 | ![](Documentation/UIRecolor_OvergrownFloweryInterface.png) <br> [Overgrown Flowery Interface](https://www.nexusmods.com/stardewvalley/mods/6166) | ![](Documentation/UIRecolor_VintageInterfaceV2.png) <br> [Vintage Interface v2](https://www.nexusmods.com/stardewvalley/mods/4697) |
-| ![](Documentation/UIRecolor_DaisyNikosEarthyInterface.png) <br> [DaisyNiko's Earthly Interfact](https://www.nexusmods.com/stardewvalley/mods/13658) | ![](Documentation/UIRecolor_StarrySkyInterfaceReworked.png) <br> [Starry Sky Interface Reworked](https://www.nexusmods.com/stardewvalley/mods/15124) |
+| ![](Documentation/UIRecolor_DaisyNikosEarthyInterface.png) <br> [DaisyNiko's Earthy Interface](https://www.nexusmods.com/stardewvalley/mods/13658) | ![](Documentation/UIRecolor_StarrySkyInterfaceReworked.png) <br> [Starry Sky Interface Reworked](https://www.nexusmods.com/stardewvalley/mods/15124) |
 | ![](Documentation/UIRecolor_LavenderDreamsUIRecolor.png) <br> [Lavender Dreams UI Recolor](https://www.nexusmods.com/stardewvalley/mods/17323) | ![](Documentation/UIRecolor_VanillaAccentInterface.png) <br> [Vanilla Accent Interface](https://www.nexusmods.com/stardewvalley/mods/16970) |
 
 ## Notes
