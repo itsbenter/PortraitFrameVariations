@@ -1,4 +1,4 @@
-[Portrait Frame Variations](https://www.nexusmods.com/stardewvalley/mods/6899) adds selection of dialogue's portrait frame. They are displayed based on season and current happenings around the valley. Mod visual style is meant to blend in with the base game style.
+[Portrait Frame Variations](https://www.nexusmods.com/stardewvalley/mods/6899) adds selection of portrait frames. They are displayed based on season and current happenings around the valley. Mod visual style is meant to blend in with the base game style.
 
 ## Contents
 
@@ -165,7 +165,7 @@ At release (1.0.0), there are 21 seasonal frames, 10 festival frames, 9 map spec
 
 ## Compatibility
 - [Farmer Portraits](https://www.nexusmods.com/stardewvalley/mods/11398). To use same dialogue's portrait frame for farmer and character, set 'Use Custom Background' to false in that mod.
-- [Stardew Valley Expanded](https://www.nexusmods.com/stardewvalley/mods/3753). Option to not overlay "Galdoran Theme" is set to true by default.
+- [Stardew Valley Expanded](https://www.nexusmods.com/stardewvalley/mods/3753). Option to not overlay 'Galdoran Theme' is set to true by default.
 
 ## FAQ
 
@@ -176,8 +176,7 @@ Yes you can! Even if it's only you that installed this mod, it would still work 
 3. Is this mod compatible with that mod? <br>
 Most definitely compatible if the other mod doesn't touch dialogue's portrait frame.
 4. Is this mod compatible with UI Recolor? <br>
-On most case, this mod will overlay (draw on top) the UI mods. This mean you can use this mod and UI Recolor mod. However, how the two visual will blend in is a different subject and should be judged by yourself. 
-
+On most case, this mod will overlay (draw on top) the UI mods. This mean you can use this mod and UI Recolor mod. However, how the two visual will blend in is a different subject and should be judged by yourself.
 Below is some portrait frames from UI Recolor mods that I manually overlay. In general, UI Recolor that keep the base shape of the portrait frame fits better. I also added false dependency for those mods, just in case they used 'EditImage'.
 
 | UI Recolor | |

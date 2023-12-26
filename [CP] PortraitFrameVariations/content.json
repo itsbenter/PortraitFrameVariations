@@ -480,7 +480,7 @@
       "When": {
         "EnableWedding": true,
         "DayEvent": "wedding",
-        "LocationName": "Temp"
+        "LocationName": "Town"
       }
     },
     //{
