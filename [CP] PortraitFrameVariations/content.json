@@ -507,13 +507,25 @@
         "LocationName": "Custom_CrimsonBadlands, Custom_CastleVillageOutpost, Custom_DesertRailway, Custom_IridiumQuarry, Custom_TreasureCave, Custom_GaldoranVoid"
       }
     },
+    //For compatibility purposes with other UI edits
+    {
+      "Name": "FolderToken",
+      "Value": "PortraitFrames",
+    },
+    {
+      "Name": "FolderToken",
+      "Value": "PortraitFrames_ChangingSkies",
+      "When": {
+        "HasMod |contains= Dora.ChangingSkies": true
+      }
+    },
   ],
   "Changes": [
     {
       "LogName": "Overlay portrait frame",
       "Action": "EditImage",
       "Target": "LooseSprites/Cursors",
-      "FromFile": "PortraitFrames/{{DisplayFrame}}.png",
+      "FromFile": "{{FolderToken}}/{{DisplayFrame}}.png",
       "ToArea": {
         "X": 583,
         "Y": 411,
