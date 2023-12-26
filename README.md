@@ -29,7 +29,7 @@ You can disable or enable certain frame
 
 ## Portrait Frames
 
-At release (1.0.0), there are 21 seasonal frames, 10 festival frames, 9 map specific frames, and 1 event specific frames. The edits is overlayed on top of existing UI, allowing minimal compatibility for UI recolor mod.
+At release (1.0.0), there are 21 seasonal frames, 10 festival frames, 9 map specific frames, and 1 event specific frames. The edits is overlayed on top of existing UI, allowing minimal compatibility for UI recolor mod. Below is the default portrait frames setting. You can adjust the list through the config to add or remove portraits frame.
 
 ### Seasonal
 
