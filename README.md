@@ -165,26 +165,27 @@ In version 1.0.2, there are 21 seasonal frames, 10 festival frames, 9 map specif
 
 ## Compatibility
 - [Farmer Portraits](https://www.nexusmods.com/stardewvalley/mods/11398). To use same dialogue's portrait frame for farmer and character, set 'Use Custom Background' to false in that mod.
-- [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513). Built-in edit will be used automatically, thanks to [Airyn](https://www.nexusmods.com/stardewvalley/users/70148453).
 - [Stardew Valley Expanded](https://www.nexusmods.com/stardewvalley/mods/3753). Option to not overlay 'Galdoran Theme' is set to true by default.
+- [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513). Built-in edit will be used automatically, thanks to [Airyn](https://www.nexusmods.com/stardewvalley/users/70148453).
+- UI recolor mod. If overlay from this mod do not appear when used with UI recolor you can try making a personal edit to [add false dependency](https://stardewmodding.wiki.gg/wiki/Tutorial:_How_to_Add_a_False_Dependency_for_Load_Orders).
 
 ## FAQ
 
 1. Is it safe to add this mod mid-save? <br>
 This is a retexture mod. It should be pretty safe to add and or remove from any save.
 2. Can I use this mod in multiplayer? <br>
-Yes you can! Even if it's only you that installed this mod, it would still work (Only you would see the mod in action though)
+Yes, you can! Even if it's only you that installed this mod, it would still work (Only you would see the mod in action though)
 3. Is this mod compatible with that mod? <br>
 Most definitely compatible if the other mod doesn't touch dialogue's portrait frame.
-4. Is this mod compatible with UI Recolor? <br>
-On most case, this mod will overlay (draw on top) the UI mods. This mean you can use this mod and UI Recolor mod. However, how the two visual will blend in is a different subject and should be judged by yourself.
-Below is some portrait frames from UI Recolor mods that I manually overlay. In general, UI Recolor that keep the base shape of the portrait frame fits better. I also added false dependency for those mods, just in case they used 'EditImage'.
+4. Is this mod compatible with UI recolor? <br>
+On most case, this mod will overlay (draw on top) the UI mods. This mean you can use this mod and UI recolor mod. However, how the two visual will blend in is a different subject and should be judged by yourself.
+Below is some portrait frames from UI recolor mods that I manually overlay. In general, UI recolor that keep the base shape of the portrait frame fits better. I also added false dependency for those mods, just in case they used 'EditImage'. In case a this mod doesn't appear at all when used UI recolor mod, you can [add false dependency](https://stardewmodding.wiki.gg/wiki/Tutorial:_How_to_Add_a_False_Dependency_for_Load_Orders).
 
-| UI Recolor | |
+| UI recolor | |
 | --- | --- |
 | ![](Documentation/UIRecolor_OvergrownFloweryInterface.png) <br> [Overgrown Flowery Interface](https://www.nexusmods.com/stardewvalley/mods/6166) | ![](Documentation/UIRecolor_VintageInterfaceV2.png) <br> [Vintage Interface v2](https://www.nexusmods.com/stardewvalley/mods/4697) |
 | ![](Documentation/UIRecolor_DaisyNikosEarthyInterface.png) <br> [DaisyNiko's Earthy Interface](https://www.nexusmods.com/stardewvalley/mods/13658) | ![](Documentation/UIRecolor_StarrySkyInterfaceReworked.png) <br> [Starry Sky Interface Reworked](https://www.nexusmods.com/stardewvalley/mods/15124) |
-| ![](Documentation/UIRecolor_LavenderDreamsUIRecolor.png) <br> [Lavender Dreams UI Recolor](https://www.nexusmods.com/stardewvalley/mods/17323) | ![](Documentation/UIRecolor_VanillaAccentInterface.png) <br> [Vanilla Accent Interface](https://www.nexusmods.com/stardewvalley/mods/16970) |
+| ![](Documentation/UIRecolor_LavenderDreamsUIRecolor.png) <br> [Lavender Dreams UI recolor](https://www.nexusmods.com/stardewvalley/mods/17323) | ![](Documentation/UIRecolor_VanillaAccentInterface.png) <br> [Vanilla Accent Interface](https://www.nexusmods.com/stardewvalley/mods/16970) |
 
 ## Notes
 - The few first assets for this mod is made as part of Winter 2023 event in Stardew Valley Discord. Go Igloo!
