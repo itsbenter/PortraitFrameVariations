@@ -47,7 +47,8 @@ Set 'Hide Heart Indicator' to true, indicated by having X marks.
 
 ## Portrait Frames
 
-In version 1.0.2, there are 21 seasonal frames, 10 festival frames, 9 map specific frames, and 1 event specific frames. The assets are overlayed on top of existing UI, allowing minimal compatibility for UI recolor mod. Below is the default portrait frames configuration. Edited assets made for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is available [here](Documentation/ChangingSkies.md).
+In version 1.0.2, there are 21 seasonal frames, 10 festival frames, 9 map specific frames, and 1 event specific frames. The assets are meant to be overlayed on top of existing UI, allowing minimal compatibility for UI recolor mod. Below is the default portrait frames configuration. 
+- Edited assets made for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is available [here](Documentation/PortraitFrames_ChangingSkies.md).
 
 ### Seasonal
 
