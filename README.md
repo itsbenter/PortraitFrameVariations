@@ -114,6 +114,106 @@ In version 1.0.2, there are 21 seasonal frames, 10 festival frames, 9 map specif
 | --- |
 | ![LevelZero](Documentation/PortraitFrames/LevelZero.png) <br> LevelZero |
 
+| Summit |
+| --- |
+| ![TheView](Documentation/PortraitFrames/TheView.png) <br> TheView |
+
+| Abandoned Community Center |
+| --- |
+| ![Abandoned](Documentation/PortraitFrames/Abandoned.png) <br> Abandoned |
+
+| Refurbished Community Center |
+| --- |
+| ![Refurbished](Documentation/PortraitFrames/Refurbished.png) <br> Refurbished |
+
+| Joja Warehouse |
+| --- |
+| ![ThatWarehouse](Documentation/PortraitFrames/ThatWarehouse.png) <br> ThatWarehouse |
+
+| JojaMart |
+| --- |
+| ![ItsJoja](Documentation/PortraitFrames/ItsJoja.png) <br> ItsJoja |
+
+| Witch Swamp | --- |
+| --- | --- |
+| ![SwampBrambles](Documentation/PortraitFrames/SwampBrambles.png) <br> SwampBrambles | ![SwampFoliages](Documentation/PortraitFrames/SwampFoliages.png) <br> SwampFoliages |
+
+| Pirate Cove |
+| --- |
+| ![YarrCave](Documentation/PortraitFrames/YarrCave.png) <br> YarrCave |
+
+| Mushrooms Farm Cave |
+| --- |
+| ![MushroomCave](Documentation/PortraitFrames/MushroomCave.png) <br> MushroomCave |
+
+| Bats Farm Cave |
+| --- |
+| ![BatCave](Documentation/PortraitFrames/BatCave.png) <br> BatCave |
+
+| Bath House Entrance |
+| --- |
+| ![BathEntrance](Documentation/PortraitFrames/BathEntrance.png) <br> BathEntrance |
+
+| Bath House Pool |
+| --- |
+| ![MistyBath](Documentation/PortraitFrames/MistyBath.png) <br> MistyBath |
+
+| Clinic |
+| --- |
+| ![TownClinic](Documentation/PortraitFrames/TownClinic.png) <br> TownClinic |
+
+| Casino |
+| --- |
+| ![FancyCasino](Documentation/PortraitFrames/FancyCasino.png) <br> FancyCasino |
+
+| Blacksmith |
+| --- |
+| ![Blacksmith](Documentation/PortraitFrames/Blacksmith.png) <br> Blacksmith |
+
+| Desert |
+| --- |
+| ![CactusAndSand](Documentation/PortraitFrames/CactusAndSand.png) <br> CactusAndSand |
+
+| Fish Shop |
+| --- |
+| ![FishingSupplies](Documentation/PortraitFrames/FishingSupplies.png) <br> FishingSupplies |
+
+| Library |
+| --- |
+| ![Bookshelves](Documentation/PortraitFrames/Bookshelves.png) <br> Bookshelves |
+
+| Qi Room |
+| --- |
+| ![MysteryRoom](Documentation/PortraitFrames/MysteryRoom.png) <br> MysteryRoom |
+
+| Community Center Theater |
+| --- |
+| ![ClassicTheater](Documentation/PortraitFrames/ClassicTheater.png) <br> ClassicTheater |
+
+| Joja Theater |
+| --- |
+| ![JojaTheater](Documentation/PortraitFrames/JojaTheater.png) <br> JojaTheater |
+
+| Theater Screening Room |
+| --- |
+| ![TheaterRoom](Documentation/PortraitFrames/TheaterRoom.png) <br> TheaterRoom |
+
+| Volcano Dungeon |
+| --- |
+| ![LavaCave](Documentation/PortraitFrames/LavaCave.png) <br> LavaCave |
+
+| Bug Land |
+| --- |
+| ![FunkyCave](Documentation/PortraitFrames/FunkyCave.png) <br> FunkyCave |
+
+| Adventure Guild |
+| --- |
+| ![QuestAndAdventure](Documentation/PortraitFrames/QuestAndAdventure.png) <br> QuestAndAdventure |
+
+| Linus Tent |
+| --- |
+| ![Tent](Documentation/PortraitFrames/Tent.png) <br> Tent |
+
 ### Festival
 
 | Egg Festival |
