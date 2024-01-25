@@ -149,6 +149,267 @@
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
     },
+    "EnableSummit": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "SummitOption": {
+      "Default": "TheView",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableJojamart": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "JojaMartOption": {
+      "Default": "ItsJoja",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableCommunityCenter": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "AbandonedCommunityCenterOption": {
+      "Default": "Abandoned",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "RefurbishedCommunityCenterOption": {
+      "Default": "Refurbished",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "JojaWarehouseOption": {
+      "Default": "ThatWarehouse",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableWitchSwamp": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "WitchSwampOption": {
+      "Default": "SwampBrambles, SwampFoliages",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnablePirateCove": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "PirateCoveOption": {
+      "Default": "YarrCave",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableFarmCave": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "FarmCaveBatsOption": {
+      "Default": "BatCave",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "FarmCaveMushroomsOption": {
+      "Default": "MushroomCave",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableBathHouse": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "BathHouseOption": {
+      "Default": "BathEntrance",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableBathHousePool": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "BathHousePoolOption": {
+      "Default": "MistyPool",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableClinic": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "ClinicOption": {
+      "Default": "TownClinic",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableCasino": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "CasinoOption": {
+      "Default": "FancyCasino",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableBlacksmith": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "BlacksmithOption": {
+      "Default": "Blacksmith",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableDesert": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "DesertOption": {
+      "Default": "CactusAndSand",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableFishShop": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "FishShopOption": {
+      "Default": "FishingSupplies",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableLibrary": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "LibraryOption": {
+      "Default": "Bookshelves",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableQiRoom": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "QiRoomOption": {
+      "Default": "MysteryRoom",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableTheater": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "JojaTheaterOption": {
+      "Default": "JojaTheater",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "CommunityCenterTheaterOption": {
+      "Default": "ClassicTheater",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "TheaterScreenRoomOption": {
+      "Default": "TheaterRoom",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableVolcanoDungeon": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "VolcanoDungeonOption": {
+      "Default": "VolcanoCave",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableVolcanoCaldera": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "VolcanoCalderaOption": {
+      "Default": "LavaCave",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableBugLand": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "BugLandOption": {
+      "Default": "FunkyCave",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableAdventureGuild": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "AdventureGuildOption": {
+      "Default": "QuestAndAdventure",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableLinusTent": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "LinusTentOption": {
+      "Default": "Tent",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
     //Visual Option: Festival
     "EnableEggFestival": {
       "Default": "true",
@@ -394,6 +655,219 @@
     },
     {
       "Name": "DisplayFrame",
+      "Value": "{{Random:{{SummitOption}}}}",
+      "When": {
+        "EnableSummit": true,
+        "LocationName": "Summit"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{JojaMartOption}}}}",
+      "When": {
+        "EnableJojamart": true,
+        "LocationName": "JojaMart"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{AbandonedCommunityCenterOption}}}}",
+      "When": {
+        "EnableCommunityCenter": true,
+        "LocationName": "CommunityCenter",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{RefurbishedCommunityCenterOption}}}}",
+      "When": {
+        "EnableCommunityCenter": true,
+        "LocationName": "CommunityCenter",
+        "IsCommunityCenterComplete": true
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{JojaWarehouseOption}}}}",
+      "When": {
+        "EnableCommunityCenter": true,
+        "LocationName": "CommunityCenter",
+        "IsJojaMartComplete": true
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{WitchSwampOption}}}}",
+      "When": {
+        "EnableWitchSwamp": true,
+        "LocationName": "WitchSwamp",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{PirateCoveOption}}}}",
+      "When": {
+        "EnablePirateCove": true,
+        "LocationName": "PirateCove",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{FarmCaveBatsOption}}}}",
+      "When": {
+        "EnableFarmCave": true,
+        "LocationName": "FarmCave",
+        "FarmCave": "Bats"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{FarmCaveMushroomsOption}}}}",
+      "When": {
+        "EnableFarmCave": true,
+        "LocationName": "FarmCave",
+        "FarmCave": "Mushrooms"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{BathHouseOption}}}}",
+      "When": {
+        "EnableBathHouse": true,
+        "LocationName |contains= BathHouse_Entry, BathHouse_MensLocker, BathHouse_WomensLocker": true,
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{BathHousePoolOption}}}}",
+      "When": {
+        "EnableBathHousePool": true,
+        "LocationName": "BathHouse_Pool",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{ClinicOption}}}}",
+      "When": {
+        "EnableClinic": true,
+        "LocationName": "Hospital",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{CasinoOption}}}}",
+      "When": {
+        "EnableCasino": true,
+        "LocationName": "Club",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{BlacksmithOption}}}}",
+      "When": {
+        "EnableBlacksmith": true,
+        "LocationName": "Blacksmith",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{DesertOption}}}}",
+      "When": {
+        "EnableDesert": true,
+        "LocationName": "Desert",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{FishShopOption}}}}",
+      "When": {
+        "EnableFishShop": true,
+        "LocationName": "FishShop",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{LibraryOption}}}}",
+      "When": {
+        "EnableLibrary": true,
+        "LocationName": "ArcheologyHouse",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{QiRoomOption}}}}",
+      "When": {
+        "QiRoomOption": true,
+        "LocationName": "QiNutRoom",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{CommunityCenterTheaterOption}}}}",
+      "When": {
+        "EnableTheater": true,
+        "LocationName": "MovieTheater",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{JojaTheaterOption}}}}",
+      "When": {
+        "EnableTheater": true,
+        "IsJojaMartComplete": true,
+        "LocationName": "MovieTheater",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{TheaterScreenRoomOption}}}}",
+      "When": {
+        "EnableTheater": true,
+        "LocationName": "MovieTheaterScreen",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{VolcanoDungeonOption}}}}",
+      "When": {
+        "EnableVolcanoDungeon": true,
+        "Query: '{{LocationName}}' LIKE 'VolcanoDungeon%'": true,
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{VolcanoCalderaOption}}}}",
+      "When": {
+        "EnableVolcanoCaldera": true,
+        "LocationName": "VolcanoDungeon5",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{BugLandOption}}}}",
+      "When": {
+        "EnableBugLand": true,
+        "LocationName": "BugLand",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{AdventureGuildOption}}}}",
+      "When": {
+        "EnableAdventureGuild": true,
+        "LocationName": "AdventureGuild",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{LinusTentOption}}}}",
+      "When": {
+        "EnableLinusTent": true,
+        "LocationName": "Tent",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
       "Value": "{{Random:{{EggFestivalOption}}}}",
       "When": {
         "EnableEggFestival": true,
@@ -545,6 +1019,21 @@
         "Y": 532,
         "Width": 44,
         "Height": 55
+      },
+      "When": {
+        "HideHeartIndicator": true
+      },
+    },
+    {
+      "LogName": "Hide heart indicator",
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "BlankHeartIndicator1.png",
+      "ToArea": {
+        "X": 269,
+        "Y": 495,
+        "Width": 11,
+        "Height": 11
       },
       "When": {
         "HideHeartIndicator": true
