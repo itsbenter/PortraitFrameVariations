@@ -38,7 +38,7 @@ For example, let's say you want to have only Flower Festival portrait frame in r
 Be careful when typing as it requires the exact name. Don't worry too much because you can always set everything back to default.
 
 ### Hide NPC Heart Level Indicator
-Set 'Hide Heart Indicator' to true, indicated by having X marks.
+Set 'Hide Heart Indicator' to true, indicated by having X marks. <br>
 ![Config_HideHeartIndicator](Documentation/Config_HideHeartIndicator.png)
 
 | False ( ) | True (X) |
@@ -162,7 +162,7 @@ In version 1.0.2, there are 21 seasonal frames, 10 festival frames, 9 map specif
 
 | Unused | |
 | --- | --- |
-| ![StarryNight](Documentation/PortraitFrames/StarryNight.png) <br> StarryNight | This frame is meant to show on Sebastian and Maru events that shows night time sky. However, it's not possible to specifically patch when player is in temporary map during an event. |
+| ![StarryNight](Documentation/PortraitFrames/StarryNight.png) <br> StarryNight | This frame is meant to show on Sebastian and Maru events that shows night time sky. However, it's not possible to specifically patch when player is in temporary map during an event. The frame is included in the mod, but not used. |
 
 ## Compatibility
 - [Farmer Portraits](https://www.nexusmods.com/stardewvalley/mods/11398). To use same dialogue's portrait frame for farmer and character, set 'Use Custom Background' to false in that mod.
@@ -179,8 +179,8 @@ Yes, you can! Even if it's only you that installed this mod, it would still work
 3. Is this mod compatible with that mod? <br>
 Most definitely compatible if the other mod doesn't touch dialogue's portrait frame.
 4. Is this mod compatible with UI recolor? <br>
-On most case, this mod will overlay (draw on top) the UI mods. This mean you can use this mod and UI recolor mod. However, how the two visual will blend in is a different subject and should be judged by yourself.
-Below is some portrait frames from UI recolor mods that I manually overlay. In general, UI recolor that keep the base shape of the portrait frame fits better. I also added false dependency for those mods, just in case they used 'EditImage'. In case a this mod doesn't appear at all when used UI recolor mod, you can [add false dependency](https://stardewmodding.wiki.gg/wiki/Tutorial:_How_to_Add_a_False_Dependency_for_Load_Orders).
+On most case, this mod will overlay (draw on top) the UI mods. This mean you can use this mod and UI recolor mod. However, how the two mod visual will look is a different subject and should be judged by yourself.
+Below are some portrait frames from UI recolor mods that I manually overlay. In general, UI recolor that maintain the base shape of the portrait frame fits better. I also added false dependency for those mods, in case they used 'EditImage'. If this mod doesn't appear at all when used alongside UI recolor mod, you can [add false dependency](https://stardewmodding.wiki.gg/wiki/Tutorial:_How_to_Add_a_False_Dependency_for_Load_Orders).
 
 | UI recolor | |
 | --- | --- |
