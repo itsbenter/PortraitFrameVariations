@@ -250,7 +250,7 @@
       "Section": "VisualOptionMap",
     },
     "BathHousePoolOption": {
-      "Default": "MistyPool",
+      "Default": "MistyBath",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
@@ -384,6 +384,17 @@
     },
     "BugLandOption": {
       "Default": "FunkyCave",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableSkullCavern": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "SkullCavernOption": {
+      "Default": "SkullCavern",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
@@ -839,7 +850,7 @@
       "Value": "{{Random:{{VolcanoCalderaOption}}}}",
       "When": {
         "EnableVolcanoCaldera": true,
-        "LocationName": "VolcanoDungeon5",
+        "LocationName": "Caldera",
       }
     },
     {
@@ -848,6 +859,23 @@
       "When": {
         "EnableBugLand": true,
         "LocationName": "BugLand",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SkullCavernOption}}}}",
+      "When": {
+        "EnableSkullCavern": true,
+        "LocationName": "SkullCave",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SkullCavernOption}}}}",
+      "When": {
+        "EnableSkullCavern": true,
+        "Query: '{{LocationName}}' LIKE 'UndergroundMine%'": true,
+        "LocationName |contains= UndergroundMine1, UndergroundMine2, UndergroundMine3, UndergroundMine4, UndergroundMine5, UndergroundMine6, UndergroundMine7, UndergroundMine8, UndergroundMine9, UndergroundMine10, UndergroundMine11, UndergroundMine12, UndergroundMine13, UndergroundMine14, UndergroundMine15, UndergroundMine16, UndergroundMine17, UndergroundMine18, UndergroundMine19, UndergroundMine20, UndergroundMine21, UndergroundMine22, UndergroundMine23, UndergroundMine24, UndergroundMine25, UndergroundMine26, UndergroundMine27, UndergroundMine28, UndergroundMine29, UndergroundMine30, UndergroundMine31, UndergroundMine32, UndergroundMine33, UndergroundMine34, UndergroundMine35, UndergroundMine36, UndergroundMine37, UndergroundMine38, UndergroundMine39, UndergroundMine40, UndergroundMine41, UndergroundMine42, UndergroundMine43, UndergroundMine44, UndergroundMine45, UndergroundMine46, UndergroundMine47, UndergroundMine48, UndergroundMine49, UndergroundMine50, UndergroundMine51, UndergroundMine52, UndergroundMine53, UndergroundMine54, UndergroundMine55, UndergroundMine56, UndergroundMine57, UndergroundMine58, UndergroundMine59, UndergroundMine60, UndergroundMine61, UndergroundMine62, UndergroundMine63, UndergroundMine64, UndergroundMine65, UndergroundMine66, UndergroundMine67, UndergroundMine68, UndergroundMine69, UndergroundMine70, UndergroundMine71, UndergroundMine72, UndergroundMine73, UndergroundMine74, UndergroundMine75, UndergroundMine76, UndergroundMine77, UndergroundMine78, UndergroundMine79, UndergroundMine80, UndergroundMine81, UndergroundMine82, UndergroundMine83, UndergroundMine84, UndergroundMine85, UndergroundMine86, UndergroundMine87, UndergroundMine88, UndergroundMine89, UndergroundMine90, UndergroundMine91, UndergroundMine92, UndergroundMine93, UndergroundMine94, UndergroundMine95, UndergroundMine96, UndergroundMine97, UndergroundMine98, UndergroundMine99, UndergroundMine100, UndergroundMine101, UndergroundMine102, UndergroundMine103, UndergroundMine104, UndergroundMine105, UndergroundMine106, UndergroundMine107, UndergroundMine108, UndergroundMine109, UndergroundMine110, UndergroundMine111, UndergroundMine112, UndergroundMine113, UndergroundMine114, UndergroundMine115, UndergroundMine116, UndergroundMine117, UndergroundMine118, UndergroundMine119, UndergroundMine120": false,
       }
     },
     {

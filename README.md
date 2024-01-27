@@ -47,7 +47,7 @@ Set 'Hide Heart Indicator' to true, indicated by having X marks. <br>
 
 ## Portrait Frames
 
-In version 1.0.2, there are 21 seasonal frames, 10 festival frames, 9 map specific frames, and 1 event specific frames. The assets are meant to be overlayed on top of existing UI, allowing minimal compatibility for UI recolor mod. Below is the default portrait frames configuration. 
+In version 1.1.0, there are 21 seasonal frames, 10 festival frames, 37 map specific frames, and 1 event specific frames. The assets are meant to be overlayed on top of existing UI, allowing minimal compatibility for UI recolor mod. Below is the default portrait frames configuration. 
 - Edited assets made for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is available [here](Documentation/PortraitFrames_ChangingSkies.md).
 
 ### Seasonal
@@ -134,7 +134,7 @@ In version 1.0.2, there are 21 seasonal frames, 10 festival frames, 9 map specif
 | --- |
 | ![ItsJoja](Documentation/PortraitFrames/ItsJoja.png) <br> ItsJoja |
 
-| Witch Swamp | --- |
+| Witch Swamp | |
 | --- | --- |
 | ![SwampBrambles](Documentation/PortraitFrames/SwampBrambles.png) <br> SwampBrambles | ![SwampFoliages](Documentation/PortraitFrames/SwampFoliages.png) <br> SwampFoliages |
 
@@ -198,13 +198,21 @@ In version 1.0.2, there are 21 seasonal frames, 10 festival frames, 9 map specif
 | --- |
 | ![TheaterRoom](Documentation/PortraitFrames/TheaterRoom.png) <br> TheaterRoom |
 
-| Volcano Dungeon |
+| Volcano Caldera |
 | --- |
 | ![LavaCave](Documentation/PortraitFrames/LavaCave.png) <br> LavaCave |
+
+| Volcano Dungeon |
+| --- |
+| ![VolcanoCave](Documentation/PortraitFrames/VolcanoCave.png) <br> VolcanoCave |
 
 | Bug Land |
 | --- |
 | ![FunkyCave](Documentation/PortraitFrames/FunkyCave.png) <br> FunkyCave |
+
+| Skull Cavern |
+| --- |
+| ![SkullCavern](Documentation/PortraitFrames/SkullCavern.png) <br> SkullCavern |
 
 | Adventure Guild |
 | --- |
