@@ -94,6 +94,97 @@
   "config.EnableMineEntrance.name": "Mine Entrance",
   "config.EnableMineEntrance.description": "Show selected 'Mine Entrance Options' portrait frames when on Mine Entrance.",
   "config.MineEntranceOption.name": "Mine Entrance Options",
+
+  "config.EnableSummit.name": "Summit",
+  "config.EnableSummit.description": "Show selected 'Summit Options' portrait frames when on Summit.",
+  "config.SummitOption.name": "Summit Options",
+
+  "config.EnableJojaMart.name": "JojaMart",
+  "config.EnableJojaMart.description": "Show selected 'JojaMart Options' portrait frames when on JojaMart.",
+  "config.JojaMartOption.name": "JojaMart Options",
+
+  "config.EnableCommunityCenter.name": "Community Center",
+  "config.EnableCommunityCenter.description": "Show selected 'Community Center Options' portrait frames when on Community Center.",
+  "config.AbandonedCommunityCenterOption.name": "Abandoned Community Center Options",
+  "config.RefurbishedCommunityCenterOption.name": "Refurbished Community Center Options",
+  "config.JojaWarehouseOption.name": "Joja Warehouse Options",
+
+  "config.EnableWitchSwamp.name": "Witch Swamp",
+  "config.EnableWitchSwamp.description": "Show selected 'Witch Swamp Options' portrait frames when on Witch Swamp.",
+  "config.WitchSwampOption.name": "Witch Swamp Options",
+
+  "config.EnablePirateCove.name": "Pirate Cove",
+  "config.EnablePirateCove.description": "Show selected 'Pirate Cove Options' portrait frames when on Pirate Cove.",
+  "config.PirateCoveOption.name": "Pirate Cove Options",
+
+  "config.EnableFarmCave.name": "Farm Cave",
+  "config.EnableFarmCave.description": "Show selected 'Farm Cave Options' portrait frames when on Farm Cave.",
+  "config.FarmCaveBatsOption.name": "Farm Cave Options",
+  "config.FarmCaveMushroomsOption.name": "Farm Cave Options",
+
+  "config.EnableBathHouse.name": "Bath House",
+  "config.EnableBathHouse.description": "Show selected 'Bath House Options' portrait frames when on Bath House.",
+  "config.BathHouseOption.name": "Bath House Options",
+  "config.BathHousePoolOption.name": "Bath House Pool Options",
+
+  "config.EnableClinic.name": "Harvey's Clinic",
+  "config.EnableClinic.description": "Show selected 'Harvey's Clinic Options' portrait frames when on Clinic.",
+  "config.ClinicOption.name": "Harvey's Clinic Options",
+
+  "config.EnableCasino.name": "Casino",
+  "config.EnableCasino.description": "Show selected 'Casino Options' portrait frames when on Casino.",
+  "config.CasinoOption.name": "Casino Options",
+
+  "config.EnableBlacksmith.name": "Blacksmith",
+  "config.EnableBlacksmith.description": "Show selected 'Blacksmith Options' portrait frames when on Blacksmith.",
+  "config.BlacksmithOption.name": "Blacksmith Options",
+
+  "config.EnableDesert.name": "Desert",
+  "config.EnableDesert.description": "Show selected 'Desert Options' portrait frames when on Desert.",
+  "config.DesertOption.name": "Desert Options",
+
+  "config.EnableFishShop.name": "Willy's Fish Shop",
+  "config.EnableFishShop.description": "Show selected 'Willy's Fish Shop Options' portrait frames when on Willy's Fish Shop.",
+  "config.FishShopOption.name": "Willy's Fish Shop Options",
+
+  "config.EnableLibrary.name": "Library",
+  "config.EnableLibrary.description": "Show selected 'Library Options' portrait frames when on Library.",
+  "config.LibraryOption.name": "Library Options",
+
+  "config.EnableQiRoom.name": "Qi's Room",
+  "config.EnableQiRoom.description": "Show selected 'Qi's Room Options' portrait frames when on Qi's Room.",
+  "config.QiRoomOption.name": "Qi's Room Options",
+
+  "config.EnableTheater.name": "Theater",
+  "config.EnableTheater.description": "Show selected 'Theater Options' portrait frames when on Theater.",
+  "config.JojaTheaterOption.name": "Joja Theater Options",
+  "config.CommunityCenterTheaterOption.name": "Community Center Theater Options",
+  "config.TheaterScreenRoomOption.name": "Thater Screen Room Options",
+
+  "config.EnableVolcanoDungeon.name": "Volcano Dungeon",
+  "config.EnableVolcanoDungeon.description": "Show selected 'Volcano Dungeon' portrait frames when on Volcano Dungeon.",
+  "config.VolcanoDungeonOption.name": "Volcano Dungeon Options",
+
+  "config.EnableVolcanoCaldera.name": "Volcano Caldera",
+  "config.EnableVolcanoCaldera.description": "Show selected 'Volcano Caldera Options' portrait frames when on Volcano Caldera.",
+  "config.VolcanoCalderaOption.name": "Volcano Caldera Options",
+
+  "config.EnableBugLand.name": "Bug Land",
+  "config.EnableBugLand.description": "Show selected 'Bug Land Options' portrait frames when on Bug Land.",
+  "config.BugLandOption.name": "Bug Land Options",
+
+  "config.EnableSkullCavern.name": "Skull Cavern",
+  "config.EnableSkullCavern.description": "Show selected 'Skull Cavern Options' portrait frames when on Skull Cavern.",
+  "config.SkullCavernOption.name": "Skull Cavern Options",
+
+  "config.EnableAdventureGuild.name": "Adventure Guild",
+  "config.EnableAdventureGuild.description": "Show selected 'Adventure Guild Options' portrait frames when on Adventure Guild.",
+  "config.AdventureGuildOption.name": "Adventure Guild Options",
+
+  "config.EnableLinusTent.name": "Linus' Tent",
+  "config.EnableLinusTent.description": "Show selected 'Linus' Tent Options' portrait frames when on Linus' Tent.",
+  "config.LinusTentOption.name": "Linus' Tent Options",
+
   ////Event
   "config.section.VisualOptionEvent.name": "Visual Option: Event",
   "config.EnableWedding.name": "Wedding",

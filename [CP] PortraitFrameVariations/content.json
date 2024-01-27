@@ -160,7 +160,7 @@
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
     },
-    "EnableJojamart": {
+    "EnableJojaMart": {
       "Default": "true",
       "AllowValues": "true, false",
       "Section": "VisualOptionMap",
@@ -242,11 +242,6 @@
       "Default": "BathEntrance",
       "AllowBlank": false,
       "AllowMultiple": true,
-      "Section": "VisualOptionMap",
-    },
-    "EnableBathHousePool": {
-      "Default": "true",
-      "AllowValues": "true, false",
       "Section": "VisualOptionMap",
     },
     "BathHousePoolOption": {
@@ -676,7 +671,7 @@
       "Name": "DisplayFrame",
       "Value": "{{Random:{{JojaMartOption}}}}",
       "When": {
-        "EnableJojamart": true,
+        "EnableJojaMart": true,
         "LocationName": "JojaMart"
       }
     },
@@ -752,7 +747,7 @@
       "Name": "DisplayFrame",
       "Value": "{{Random:{{BathHousePoolOption}}}}",
       "When": {
-        "EnableBathHousePool": true,
+        "EnableBathHouse": true,
         "LocationName": "BathHouse_Pool",
       }
     },
