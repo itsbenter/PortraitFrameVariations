@@ -14,10 +14,6 @@
    },
    "Dependencies": [
       {
-         "UniqueID": "spacechase0.GenericModConfigMenu",
-         "IsRequired": true
-      },
-      {
          "UniqueID": "Maraluna.OvergrownFloweryInterface",
          "IsRequired": false
       },
