@@ -7,7 +7,7 @@
   * [Event](#event)
 
 ## Portrait Frames
-In version 1.1.0, there are 21 seasonal frames, 10 festival frames, 32 map specific frames, and 1 event specific frames. These are edits made by [Airyn](https://www.nexusmods.com/stardewvalley/users/70148453) for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) version 1.2.0 and further extended and maintained by myself on [Portrait Frame Variations](https://www.nexusmods.com/stardewvalley/mods/6899) 1.1.0 update. The aim is to have the two mods visual blend well together. Variation of frames from [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is used as background to depict the most likely combination. Four frames are not included as the visual will not match.
+In version 1.1.0, there are 21 seasonal frames, 10 festival frames, 32 map specific frames, and 1 event specific frames. These are edits made by [Airyn](https://www.nexusmods.com/stardewvalley/users/70148453) for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) version 1.2.0 and further extended and maintained by myself on [Portrait Frame Variations](https://www.nexusmods.com/stardewvalley/mods/6899) 1.1.0 update. The aim is to have the two mods visual blend well together. Variation of frames from [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is used as background to depict the most likely combination. Five frames are not included as the visual will not match.
 
 ### Seasonal
 

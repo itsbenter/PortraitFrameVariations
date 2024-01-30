@@ -3,7 +3,7 @@
 ## Contents
 
 * [Configuration](#configuration)
-* [Portrait Frames](#portrait_frames)
+* [Portrait Frames](#portrait-frames)
   * [Seasonal](#seasonal)
   * [Map](#map)
   * [Festival](#festival)
@@ -14,28 +14,28 @@
 
 ## Configuration
 > [!IMPORTANT]
-> Requires [Generic Mod Config Menu](https://www.nexusmods.com/stardewvalley/mods/5098).
+> [Generic Mod Config Menu](https://www.nexusmods.com/stardewvalley/mods/5098) is highly recommended.
 
 The mod config supports:
 
-- Setting default portrait frame.
+- Setting default portrait frame that will be used when no condition match.
 - Disable conditional edit. This is used for user that just want to use a single portrait frame. Default frame will be used.
 - Enable or disable condition when a frame is applied.
-- Setting frames that should be used in specific condition. In case more multiple frames specified, random one would be chosen.
+- Setting frames that would be used in specific condition. In case more than one frame specified, random one would be chosen.
 
-Details of the config options is available when hovered over in [Generic Mod Config Menu](https://www.nexusmods.com/stardewvalley/mods/5098) menu.
+Details of the config options is shown when hovered over in [Generic Mod Config Menu](https://www.nexusmods.com/stardewvalley/mods/5098) in-game mod options.
 
 ### Adding or Removing Frame
-You can disable or enable certain frame by editing the Options field. 
+You can disable or enable certain frame by editing the "Options" field. 
 
 For example, let's say you want to have only Flower Festival portrait frame in regular Spring day without all the other usual portrait frame roster.
-1. Locate and clear out config option. Because it's Spring we're clearing up SpringOption.<br>
+1. Locate and clear out config option. Because it's Spring we're clearing up "Spring Options".<br>
 ![Config_EditVisualOption_ClearField](Documentation/Config_EditVisualOption_ClearField.png)
 2. Type the name of the frame you want to use. You can check [Portrait Frames](#portrait_frames) for that. The default frame name used in Flower Festival is 'MerryFlowers'.<br>
 ![Config_EditVisualOption_InputFrameName](Documentation/Config_EditVisualOption_InputFrameName.png)
 3. Save & Close, on regular Spring day it will only show 'MerryFlowers'.
 
-Be careful when typing as it requires the exact name. Don't worry too much because you can always set everything back to default.
+Keep in mind that the field requires exact name. However, don't worry too much because you can always set everything back to default if anything goes wrong. There's default button on [Generic Mod Config Menu](https://www.nexusmods.com/stardewvalley/mods/5098) or you can manually delete config.json inside the mod folder.
 
 ### Hide NPC Heart Level Indicator
 Set 'Hide Heart Indicator' to true, indicated by having X marks. <br>
@@ -47,7 +47,7 @@ Set 'Hide Heart Indicator' to true, indicated by having X marks. <br>
 
 ## Portrait Frames
 
-In version 1.1.0, there are 21 seasonal frames, 10 festival frames, 37 map specific frames, and 1 event specific frames. The assets are meant to be overlayed on top of existing UI, allowing minimal compatibility for UI recolor mod. Below is the default portrait frames configuration. 
+In version 1.1.0, there are 21 seasonal frames, 10 festival frames, 37 map specific frames, and 1 event specific frames. The assets are meant to be overlayed on top of existing UI, in some case this led to minimal compatibility with UI recolor mod. Presented is how portrait frames configured. 
 - Edited assets made for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is available [here](Documentation/PortraitFrames_ChangingSkies.md).
 
 ### Seasonal
@@ -276,7 +276,14 @@ In version 1.1.0, there are 21 seasonal frames, 10 festival frames, 37 map speci
 - [Farmer Portraits](https://www.nexusmods.com/stardewvalley/mods/11398). To use same dialogue's portrait frame for farmer and character, set 'Use Custom Background' to false in that mod.
 - [Stardew Valley Expanded](https://www.nexusmods.com/stardewvalley/mods/3753). Option to not overlay 'Galdoran Theme' is set to true by default.
 - [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513). Built-in edit will be used automatically, thanks to [Airyn](https://www.nexusmods.com/stardewvalley/users/70148453).
-- UI recolor mod. If overlay from this mod do not appear when used with UI recolor you can try making a personal edit to [add false dependency](https://stardewmodding.wiki.gg/wiki/Tutorial:_How_to_Add_a_False_Dependency_for_Load_Orders).
+- UI recolor mods. On most case, this mod will overlay (draw on top) the UI mods. This mean you can use this mod and UI recolor mod. However, how the two mod visual will look is a different subject and should be judged by yourself.
+Below are some portrait frames from UI recolor mods that I manually overlay. In general, UI recolor that maintain the base shape of the portrait frame fits better. I also added false dependency for those mods, in case they used 'EditImage'. If this mod doesn't appear at all when used alongside UI recolor mod, you can [add false dependency](https://stardewmodding.wiki.gg/wiki/Tutorial:_How_to_Add_a_False_Dependency_for_Load_Orders).
+
+| UI recolor | |
+| --- | --- |
+| ![](Documentation/UIRecolor_OvergrownFloweryInterface.png) <br> [Overgrown Flowery Interface](https://www.nexusmods.com/stardewvalley/mods/6166) | ![](Documentation/UIRecolor_VintageInterfaceV2.png) <br> [Vintage Interface v2](https://www.nexusmods.com/stardewvalley/mods/4697) |
+| ![](Documentation/UIRecolor_DaisyNikosEarthyInterface.png) <br> [DaisyNiko's Earthy Interface](https://www.nexusmods.com/stardewvalley/mods/13658) | ![](Documentation/UIRecolor_StarrySkyInterfaceReworked.png) <br> [Starry Sky Interface Reworked](https://www.nexusmods.com/stardewvalley/mods/15124) |
+| ![](Documentation/UIRecolor_LavenderDreamsUIRecolor.png) <br> [Lavender Dreams UI recolor](https://www.nexusmods.com/stardewvalley/mods/17323) | ![](Documentation/UIRecolor_VanillaAccentInterface.png) <br> [Vanilla Accent Interface](https://www.nexusmods.com/stardewvalley/mods/16970) |
 
 ## FAQ
 
@@ -286,15 +293,6 @@ This is a retexture mod. It should be pretty safe to add and or remove from any 
 Yes, you can! Even if it's only you that installed this mod, it would still work (Only you would see the mod in action though)
 3. Is this mod compatible with that mod? <br>
 Most definitely compatible if the other mod doesn't touch dialogue's portrait frame.
-4. Is this mod compatible with UI recolor? <br>
-On most case, this mod will overlay (draw on top) the UI mods. This mean you can use this mod and UI recolor mod. However, how the two mod visual will look is a different subject and should be judged by yourself.
-Below are some portrait frames from UI recolor mods that I manually overlay. In general, UI recolor that maintain the base shape of the portrait frame fits better. I also added false dependency for those mods, in case they used 'EditImage'. If this mod doesn't appear at all when used alongside UI recolor mod, you can [add false dependency](https://stardewmodding.wiki.gg/wiki/Tutorial:_How_to_Add_a_False_Dependency_for_Load_Orders).
-
-| UI recolor | |
-| --- | --- |
-| ![](Documentation/UIRecolor_OvergrownFloweryInterface.png) <br> [Overgrown Flowery Interface](https://www.nexusmods.com/stardewvalley/mods/6166) | ![](Documentation/UIRecolor_VintageInterfaceV2.png) <br> [Vintage Interface v2](https://www.nexusmods.com/stardewvalley/mods/4697) |
-| ![](Documentation/UIRecolor_DaisyNikosEarthyInterface.png) <br> [DaisyNiko's Earthy Interface](https://www.nexusmods.com/stardewvalley/mods/13658) | ![](Documentation/UIRecolor_StarrySkyInterfaceReworked.png) <br> [Starry Sky Interface Reworked](https://www.nexusmods.com/stardewvalley/mods/15124) |
-| ![](Documentation/UIRecolor_LavenderDreamsUIRecolor.png) <br> [Lavender Dreams UI recolor](https://www.nexusmods.com/stardewvalley/mods/17323) | ![](Documentation/UIRecolor_VanillaAccentInterface.png) <br> [Vanilla Accent Interface](https://www.nexusmods.com/stardewvalley/mods/16970) |
 
 ## Notes
 - The few first assets for this mod is made as part of Winter 2023 event in Stardew Valley Discord. Go Igloo!
