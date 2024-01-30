@@ -67,7 +67,7 @@ In version 1.1.0, there are 21 seasonal frames, 10 festival frames, 37 map speci
 | --- | --- |
 | ![ScatteredLeaves](Documentation/PortraitFrames/ScatteredLeaves.png) <br> ScatteredLeaves | ![WildMushrooms](Documentation/PortraitFrames/WildMushrooms.png) <br> WildMushrooms |
 | ![FallFoliages](Documentation/PortraitFrames/FallFoliages.png) <br> FallFoliages | ![Eggplants](Documentation/PortraitFrames/Eggplants.png) <br> Eggplants |
-| ![CornCobs](Documentation/PortraitFrames/CornCobs.png) <br> CornCobs | |
+| ![Corns](Documentation/PortraitFrames/Corns.png) <br> Corns | |
 
 | Winter | |
 | --- | --- |
