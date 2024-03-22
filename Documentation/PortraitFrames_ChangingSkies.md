@@ -7,7 +7,7 @@
   * [Event](#event)
 
 ## Portrait Frames
-In version 1.1.0, there are 21 seasonal frames, 10 festival frames, 32 map specific frames, and 1 event specific frames. These are edits made by [Airyn](https://www.nexusmods.com/stardewvalley/users/70148453) for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) version 1.2.0 and further extended and maintained by myself on [Portrait Frame Variations](https://www.nexusmods.com/stardewvalley/mods/6899) 1.1.0 update. The aim is to have the two mods visual blend well together. Variation of frames from [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is used as background to depict the most likely combination. Five frames are not included as the visual will not match.
+In version 1.2.0, there are 31 seasonal frames, 11 festival frames, 32 map specific frames, and 1 event specific frames. These are edits made by [Airyn](https://www.nexusmods.com/stardewvalley/users/70148453) for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) version 1.2.0 and further extended and maintained by myself on [Portrait Frame Variations](https://www.nexusmods.com/stardewvalley/mods/6899) 1.1.0 update onwards. The aim is to have the two mods visual blend well together. Variation of frames from [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is used as background to depict the most likely combination. Seven frames are not included as the visual will not match.
 
 ### Seasonal
 
@@ -15,12 +15,14 @@ In version 1.1.0, there are 21 seasonal frames, 10 festival frames, 32 map speci
 | --- | --- |
 | ![PinkPetals](PortraitFrames_ChangingSkies/PinkPetals.png) <br> PinkPetals | ![Tulips](PortraitFrames_ChangingSkies/Tulips.png) <br> Tulips |
 | ![SimpleDandelions](PortraitFrames_ChangingSkies/SimpleDandelions.png) <br> SimpleDandelions | ![Daffodils](PortraitFrames_ChangingSkies/Daffodils.png) <br> Daffodils |
+| ![SpringBlossoms](PortraitFrames_ChangingSkies/SpringBlossoms.png) <br> SpringBlossoms | |
 
 | Summer | |
 | --- | --- |
 | ![Sunflowers](PortraitFrames_ChangingSkies/Sunflowers.png) <br> SunFlowers | ![VinesAndFerns](PortraitFrames_ChangingSkies/VinesAndFerns.png) <br> VinesAndFerns |
 | ![Blueberries](PortraitFrames_ChangingSkies/Blueberries.png) <br> Blueberries | ![RowOfHops](PortraitFrames_ChangingSkies/RowOfHops.png) <br> RowOfHops |
-| ![Starfruits](PortraitFrames_ChangingSkies/Starfruits.png) <br> Starfruits | |
+| ![Starfruits](PortraitFrames_ChangingSkies/Starfruits.png) <br> Starfruits | ![FloweryVines](PortraitFrames_ChangingSkies/FloweryVines.png) <br> FloweryVines |
+| ![TowerFlower](PortraitFrames_ChangingSkies/TowerFlower.png) <br> TowerFlower | |
 
 | Fall | |
 | --- | --- |
@@ -32,7 +34,8 @@ In version 1.1.0, there are 21 seasonal frames, 10 festival frames, 32 map speci
 | --- | --- |
 | ![SnowPiles](PortraitFrames_ChangingSkies/SnowPiles.png) <br> SnowPiles | ![FrostedPines](PortraitFrames_ChangingSkies/FrostedPines.png) <br> FrostedPines |
 | ![Crocuses](PortraitFrames_ChangingSkies/Crocuses.png) <br> Crocuses | ![WinterFoliages](PortraitFrames_ChangingSkies/WinterFoliages.png) <br> WinterFoliages |
-| ![WinterWallOrnaments](PortraitFrames_ChangingSkies/WinterWallOrnaments.png) <br> WinterWallOrnaments | |
+| ![WinterWallOrnaments](PortraitFrames_ChangingSkies/WinterWallOrnaments.png) <br> WinterWallOrnaments | ![Snowmen](PortraitFrames_ChangingSkies/Snowmen.png) <br> Snowmen |
+| ![IcyLeaves](PortraitFrames_ChangingSkies/IcyLeaves.png) <br> IcyLeaves | ![CandyCanes](PortraitFrames_ChangingSkies/CandyCanes.png) <br> CandyCanes |
 
 | Salmonberry Season |
 | --- |
@@ -198,6 +201,10 @@ In version 1.1.0, there are 21 seasonal frames, 10 festival frames, 32 map speci
 | Feast of the Winter Star |
 | --- |
 | ![HolidayPresents](PortraitFrames_ChangingSkies/HolidayPresents.png) <br> HolidayPresents |
+
+| Calico Desert Festival | |
+| --- | --- |
+| ![NiceStall](PortraitFrames_ChangingSkies/NiceStall.png) <br> NiceStall | ![Bazaar](PortraitFrames_ChangingSkies/Bazaar.png) <br> Bazaar |
 
 ### Event
 
