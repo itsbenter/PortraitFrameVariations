@@ -74,6 +74,19 @@
   "config.EnableFeastOfWinterStar.name": "Feast of Winter Star",
   "config.EnableFeastOfWinterStar.description": "Show selected 'Feast of Winter Star Options' portrait frames when on Feast of Winter Star.",
   "config.FeastOfWinterStarOption.name": "Feast of Winter Star Options",
+
+  "config.EnableDesertFestival.name": "Calico Desert Festival",
+  "config.EnableDesertFestival.description": "Show selected 'Calico Desert Festival Options' portrait frames when on Calico Desert Festival Options.",
+  "config.DesertFestivalOption.name": "Calico Desert Festival Options",
+
+  "config.EnableTroutDerby.name": "Trout Derby",
+  "config.EnableTroutDerby.description": "Show selected 'Trout Derby Options' portrait frames when on Cindersap Forest during Trout Derby.",
+  "config.TroutDerbyOption.name": "Trout Derby Options",
+
+  "config.EnableSquidFest.name": "SquidFest",
+  "config.EnableSquidFest.description": "Show selected 'SquidFest Options' portrait frames when on Beach during SquidFest.",
+  "config.SquidFestOption.name": "SquidFest Options",
+  
   ////Map
   "config.section.VisualOptionMap.name": "Visual Option: Map",
   "config.EnableGingerIsland.name": "Ginger Island",
@@ -119,8 +132,8 @@
 
   "config.EnableFarmCave.name": "Farm Cave",
   "config.EnableFarmCave.description": "Show selected 'Farm Cave Options' portrait frames when on Farm Cave.",
-  "config.FarmCaveBatsOption.name": "Farm Cave Options",
-  "config.FarmCaveMushroomsOption.name": "Farm Cave Options",
+  "config.FarmCaveBatsOption.name": "Farm Cave Bat Options",
+  "config.FarmCaveMushroomsOption.name": "Farm Cave Mushroom Options",
 
   "config.EnableBathHouse.name": "Bath House",
   "config.EnableBathHouse.description": "Show selected 'Bath House Options' portrait frames when on Bath House.",
