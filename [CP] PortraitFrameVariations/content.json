@@ -42,7 +42,7 @@
       "Section": "VisualOptionSeasonal",
     },
     "SummerOption": {
-      "Default": "Sunflowers, VinesAndFerns, Blueberries, RowOfHops, Starfruits, FloweryVines",
+      "Default": "Sunflowers, VinesAndFerns, Blueberries, RowOfHops, Starfruits, FloweryVines, TowerFlower",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
@@ -1090,7 +1090,7 @@
       },
       "PatchMode": "Overlay",
       "Update": "OnLocationChange",
-      "Priority": "Late + 100"
+      "Priority": "Late + 500"
     },
     {
       "LogName": "Hide heart indicator",
