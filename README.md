@@ -47,7 +47,7 @@ Set 'Hide Heart Indicator' to true, indicated by having X marks. <br>
 
 ## Portrait Frames
 
-In version 1.1.0, there are 21 seasonal frames, 10 festival frames, 37 map specific frames, and 1 event specific frames. The assets are meant to be overlayed on top of existing UI, in some case this led to minimal compatibility with UI recolor mod. Presented is how portrait frames configured. 
+In version 1.2.0, there are 31 seasonal frames, 13 festival frames, 37 map specific frames, and 1 event specific frames. The assets are meant to be overlayed on top of existing UI, in some case this led to minimal compatibility with UI recolor mod. Presented is how portrait frames configured. 
 - Edited assets made for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is available [here](Documentation/PortraitFrames_ChangingSkies.md).
 
 ### Seasonal
@@ -56,12 +56,14 @@ In version 1.1.0, there are 21 seasonal frames, 10 festival frames, 37 map speci
 | --- | --- |
 | ![PinkPetals](Documentation/PortraitFrames/PinkPetals.png) <br> PinkPetals | ![Tulips](Documentation/PortraitFrames/Tulips.png) <br> Tulips |
 | ![SimpleDandelions](Documentation/PortraitFrames/SimpleDandelions.png) <br> SimpleDandelions | ![Daffodils](Documentation/PortraitFrames/Daffodils.png) <br> Daffodils |
+| ![SpringBlossoms](Documentation/PortraitFrames/SpringBlossoms.png) <br> SpringBlossoms | |
 
 | Summer | |
 | --- | --- |
 | ![Sunflowers](Documentation/PortraitFrames/Sunflowers.png) <br> SunFlowers | ![VinesAndFerns](Documentation/PortraitFrames/VinesAndFerns.png) <br> VinesAndFerns |
 | ![Blueberries](Documentation/PortraitFrames/Blueberries.png) <br> Blueberries | ![RowOfHops](Documentation/PortraitFrames/RowOfHops.png) <br> RowOfHops |
-| ![Starfruits](Documentation/PortraitFrames/Starfruits.png) <br> Starfruits | |
+| ![Starfruits](Documentation/PortraitFrames/Starfruits.png) <br> Starfruits | ![FloweryVines](Documentation/PortraitFrames/FloweryVines.png) <br> FloweryVines |
+| ![TowerFlower](Documentation/PortraitFrames/TowerFlower.png) <br> TowerFlower | |
 
 | Fall | |
 | --- | --- |
@@ -73,7 +75,8 @@ In version 1.1.0, there are 21 seasonal frames, 10 festival frames, 37 map speci
 | --- | --- |
 | ![SnowPiles](Documentation/PortraitFrames/SnowPiles.png) <br> SnowPiles | ![FrostedPines](Documentation/PortraitFrames/FrostedPines.png) <br> FrostedPines |
 | ![Crocuses](Documentation/PortraitFrames/Crocuses.png) <br> Crocuses | ![WinterFoliages](Documentation/PortraitFrames/WinterFoliages.png) <br> WinterFoliages |
-| ![WinterWallOrnaments](Documentation/PortraitFrames/WinterWallOrnaments.png) <br> WinterWallOrnaments | |
+| ![WinterWallOrnaments](Documentation/PortraitFrames/WinterWallOrnaments.png) <br> WinterWallOrnaments | ![Snowmen](Documentation/PortraitFrames/Snowmen.png) <br> Snowmen |
+| ![IcyLeaves](Documentation/PortraitFrames/IcyLeaves.png) <br> IcyLeaves | ![CandyCanes](Documentation/PortraitFrames/CandyCanes.png) <br> CandyCanes |
 
 | Salmonberry Season |
 | --- |
@@ -259,6 +262,18 @@ In version 1.1.0, there are 21 seasonal frames, 10 festival frames, 37 map speci
 | Feast of the Winter Star |
 | --- |
 | ![HolidayPresents](Documentation/PortraitFrames/HolidayPresents.png) <br> HolidayPresents |
+
+| Calico Desert Festival | |
+| --- | --- |
+| ![NiceStall](Documentation/PortraitFrames/NiceStall.png) <br> NiceStall | ![Bazaar](Documentation/PortraitFrames/Bazaar.png) <br> Bazaar |
+
+| Trout Derby |
+| --- |
+| ![TroutFest](Documentation/PortraitFrames/TroutFest.png) <br> TroutFest |
+
+| SquidFest |
+| --- |
+| ![SquidFest](Documentation/PortraitFrames/SquidFest.png) <br> SquidFest |
 
 ### Event
 
