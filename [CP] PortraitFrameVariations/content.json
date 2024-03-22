@@ -1,6 +1,6 @@
 {
   "$schema": "https://smapi.io/schemas/content-patcher.json",
-  "Format": "1.30.0",
+  "Format": "2.0.0",
   "ConfigSchema": {
     //Basic Config
     "DefaultFrame": {
@@ -31,7 +31,7 @@
       "Section": "VisualOptionSeasonal"
     },
     "SpringOption": {
-      "Default": "PinkPetals, Tulips, SimpleDandelions, Daffodils",
+      "Default": "PinkPetals, Tulips, SimpleDandelions, Daffodils, SpringBlossoms",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
@@ -42,7 +42,7 @@
       "Section": "VisualOptionSeasonal",
     },
     "SummerOption": {
-      "Default": "Sunflowers, VinesAndFerns, Blueberries, RowOfHops, Starfruits",
+      "Default": "Sunflowers, VinesAndFerns, Blueberries, RowOfHops, Starfruits, FloweryVines",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
@@ -64,7 +64,7 @@
       "Section": "VisualOptionSeasonal",
     },
     "WinterOption": {
-      "Default": "SnowPiles, FrostedPines, Crocuses, WinterFoliages, WinterWallOrnaments",
+      "Default": "SnowPiles, FrostedPines, Crocuses, WinterFoliages, WinterWallOrnaments, Snowmen, IcyLeaves, CandyCanes",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
@@ -115,19 +115,19 @@
       "Section": "VisualOptionMap",
     },
     "SpringBeachOption": {
-      "Default": "LonelyClam",
+      "Default": "LonelyClam, BeachDebris",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
     },
     "SummerBeachOption": {
-      "Default": "ChildhoodMemories",
+      "Default": "ChildhoodMemories, ByTheSea",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
     },
     "FallBeachOption": {
-      "Default": "SimpleFallBeach",
+      "Default": "SimpleFallBeach, FallBeachDebris",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
@@ -512,6 +512,39 @@
     },
     "FeastOfWinterStarOption": {
       "Default": "HolidayPresents",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionFestival",
+    },
+    "EnableDesertFestival": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionFestival",
+    },
+    "DesertFestivalOption": {
+      "Default": "NiceStall, Bazaar",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionFestival",
+    },
+    "EnableTroutDerby": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionFestival",
+    },
+    "TroutDerbyOption": {
+      "Default": "TroutFest",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionFestival",
+    },
+    "EnableSquidFest": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionFestival",
+    },
+    "SquidFestOption": {
+      "Default": "SquidFest",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionFestival",
@@ -957,8 +990,7 @@
       "Value": "{{Random:{{NightMarketOption}}}}",
       "When": {
         "EnableNightMarket": true,
-        "Season": "winter",
-        "Day": "15, 16, 17",
+        "DayEvent": "NightMarket",
         "LocationName": "BeachNightMarket"
       }
     },
@@ -969,6 +1001,33 @@
         "EnableFeastOfWinterStar": true,
         "DayEvent": "feast of the winter star",
         "LocationName": "Temp"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{DesertFestivalOption}}}}",
+      "When": {
+        "EnableDesertFestival": true,
+        "DayEvent": "DesertFestival",
+        "LocationName": "DesertFestival"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SquidFestOption}}}}",
+      "When": {
+        "EnableSquidFest": true,
+        "DayEvent": "SquidFest",
+        "LocationName": "Beach"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{TroutDerbyOption}}}}",
+      "When": {
+        "EnableTroutDerby": true,
+        "DayEvent": "TroutDerby",
+        "LocationName": "Forest"
       }
     },
     {
@@ -1030,7 +1089,8 @@
         "Height": 97
       },
       "PatchMode": "Overlay",
-      "Update": "OnLocationChange"
+      "Update": "OnLocationChange",
+      "Priority": "Late + 100"
     },
     {
       "LogName": "Hide heart indicator",
