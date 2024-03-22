@@ -829,7 +829,7 @@
       "Value": "{{Random:{{LibraryOption}}}}",
       "When": {
         "EnableLibrary": true,
-        "LocationName": "ArcheologyHouse",
+        "LocationName": "ArchaeologyHouse",
       }
     },
     {
@@ -990,7 +990,6 @@
       "Value": "{{Random:{{NightMarketOption}}}}",
       "When": {
         "EnableNightMarket": true,
-        "DayEvent": "NightMarket",
         "LocationName": "BeachNightMarket"
       }
     },
@@ -1008,7 +1007,6 @@
       "Value": "{{Random:{{DesertFestivalOption}}}}",
       "When": {
         "EnableDesertFestival": true,
-        "DayEvent": "DesertFestival",
         "LocationName": "DesertFestival"
       }
     },
@@ -1017,7 +1015,8 @@
       "Value": "{{Random:{{SquidFestOption}}}}",
       "When": {
         "EnableSquidFest": true,
-        "DayEvent": "SquidFest",
+        "Season": "winter",
+        "Day": "12, 13",
         "LocationName": "Beach"
       }
     },
@@ -1026,7 +1025,8 @@
       "Value": "{{Random:{{TroutDerbyOption}}}}",
       "When": {
         "EnableTroutDerby": true,
-        "DayEvent": "TroutDerby",
+        "Season": "summer",
+        "Day": "20, 21",
         "LocationName": "Forest"
       }
     },
