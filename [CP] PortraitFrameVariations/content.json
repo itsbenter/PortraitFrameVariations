@@ -115,7 +115,7 @@
       "Section": "VisualOptionMap",
     },
     "SpringBeachOption": {
-      "Default": "LonelyClam, BeachDebris",
+      "Default": "LonelyClam, SeaDebris",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
