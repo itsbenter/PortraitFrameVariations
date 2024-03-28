@@ -765,10 +765,19 @@
     },
     {
       "Name": "DisplayFrame",
-      "Value": "{{Random:{{SummitOption}}}}",
+      "Value": "{{Random:{{SummitDayOption}}}}",
       "When": {
         "EnableSummit": true,
         "LocationName": "Summit"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SummitNightOption}}}}",
+      "When": {
+        "EnableSummit": true,
+        "LocationName": "Summit",
+        "Time": "{{Range: 0600, 2600}}"
       }
     },
     {
