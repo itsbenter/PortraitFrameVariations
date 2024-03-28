@@ -46,6 +46,20 @@ The aim is to have the two mods visual blend well together. Variation of frames 
 | --- |
 | ![BlackberryBush](PortraitFrames_ChangingSkies/BlackberryBush.png) <br> BlackberryBush | |
 
+| Green Rain Spring and Summer | |
+| --- | --- |
+| ![GreenTree](PortraitFrames_ChangingSkies/GreenTree.png) <br> GreenTree | ![TwirlyTree](PortraitFrames_ChangingSkies/TwirlyTree.png) <br> TwirlyTree |
+| ![FreshFerns](PortraitFrames_ChangingSkies/FreshFerns.png) <br> FreshFerns | |
+
+| Green Rain Fall | |
+| --- | --- |
+| ![MossyBranches](PortraitFrames_ChangingSkies/MossyBranches.png) <br> MossyBranches | ![MossyTwigs](PortraitFrames_ChangingSkies/MossyTwigs.png) <br> MossyTwigs |
+
+| Green Rain Winter | |
+| --- | --- |
+| ![SnowyBranches](PortraitFrames_ChangingSkies/SnowyBranches.png) <br> SnowyBranches | ![SnowyTwigs](PortraitFrames_ChangingSkies/SnowyTwigs.png) <br> SnowyTwigs |
+| ![FrozenFerns](PortraitFrames_ChangingSkies/FrozenFerns.png) <br> FrozenFerns | |
+
 ### Map
 
 | Ginger Island | |
@@ -77,9 +91,13 @@ The aim is to have the two mods visual blend well together. Variation of frames 
 | --- |
 | ![LevelZero](PortraitFrames_ChangingSkies/LevelZero.png) <br> LevelZero |
 
-| Summit |
+| Summit Day |
 | --- |
 | ![TheView](PortraitFrames_ChangingSkies/TheView.png) <br> TheView |
+
+| Summit Night |
+| --- |
+| ![StarryNight](PortraitFrames_ChangingSkies/StarryNight.png) <br> StarryNight |
 
 | Abandoned Community Center |
 | --- |
@@ -212,9 +230,3 @@ The aim is to have the two mods visual blend well together. Variation of frames 
 | Wedding |
 | --- |
 | ![WhiteWedding](PortraitFrames_ChangingSkies/WhiteWedding.png) <br> WhiteWedding |
-
-### Unused
-
-| Unused | |
-| --- | --- |
-| ![StarryNight](PortraitFrames_ChangingSkies/StarryNight.png) <br> StarryNight | This frame is meant to show on Sebastian and Maru events that shows night time sky. However, it's not possible to specifically patch when player is in temporary map during an event. |
