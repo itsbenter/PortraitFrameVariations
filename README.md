@@ -80,11 +80,25 @@ In version 1.2.2, there are 31 seasonal frames, 13 festival frames, 37 map speci
 
 | Salmonberry Season |
 | --- |
-| ![SalmonberryBush](Documentation/PortraitFrames/SalmonberryBush.png) <br> SalmonberryBush | |
+| ![SalmonberryBush](Documentation/PortraitFrames/SalmonberryBush.png) <br> SalmonberryBush |
 
 | Blackberry Season |
 | --- |
-| ![BlackberryBush](Documentation/PortraitFrames/BlackberryBush.png) <br> BlackberryBush | |
+| ![BlackberryBush](Documentation/PortraitFrames/BlackberryBush.png) <br> BlackberryBush |
+
+| Green Rain Spring and Summer | |
+| --- | --- |
+| ![GreenTree](Documentation/PortraitFrames/GreenTree.png) <br> GreenTree | ![TwirlyTree](Documentation/PortraitFrames/TwirlyTree.png) <br> TwirlyTree |
+| ![FreshFerns](Documentation/PortraitFrames/FreshFerns.png) <br> FreshFerns | |
+
+| Green Rain Fall | |
+| --- | --- |
+| ![MossyBranches](Documentation/PortraitFrames/MossyBranches.png) <br> MossyBranches | ![MossyTwigs](Documentation/PortraitFrames/MossyTwigs.png) <br> MossyTwigs |
+
+| Green Rain Winter | |
+| --- | --- |
+| ![SnowyBranches](Documentation/PortraitFrames/SnowyBranches.png) <br> SnowyBranches | ![SnowyTwigs](Documentation/PortraitFrames/SnowyTwigs.png) <br> SnowyTwigs |
+| ![FrozenFerns](Documentation/PortraitFrames/FrozenFerns.png) <br> FrozenFerns | |
 
 ### Map
 
@@ -117,9 +131,13 @@ In version 1.2.2, there are 31 seasonal frames, 13 festival frames, 37 map speci
 | --- |
 | ![LevelZero](Documentation/PortraitFrames/LevelZero.png) <br> LevelZero |
 
-| Summit |
+| Summit Day |
 | --- |
 | ![TheView](Documentation/PortraitFrames/TheView.png) <br> TheView |
+
+| Summit Night |
+| --- |
+| ![StarryNight](Documentation/PortraitFrames/StarryNight.png) <br> StarryNight |
 
 | Abandoned Community Center |
 | --- |
@@ -280,12 +298,6 @@ In version 1.2.2, there are 31 seasonal frames, 13 festival frames, 37 map speci
 | Wedding |
 | --- |
 | ![WhiteWedding](Documentation/PortraitFrames/WhiteWedding.png) <br> WhiteWedding |
-
-### Unused
-
-| Unused | |
-| --- | --- |
-| ![StarryNight](Documentation/PortraitFrames/StarryNight.png) <br> StarryNight | This frame is meant to show on Sebastian and Maru events that shows night time sky. However, it's not possible to specifically patch when player is in temporary map during an event. The frame is included in the mod, but not used. |
 
 ## Compatibility
 - [Farmer Portraits](https://www.nexusmods.com/stardewvalley/mods/11398). To use same dialogue's portrait frame for farmer and character, set 'Use Custom Background' to false in that mod.

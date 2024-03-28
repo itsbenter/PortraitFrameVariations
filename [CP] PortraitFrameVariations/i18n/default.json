@@ -37,6 +37,14 @@
   "config.EnableBerrySeason.description": "Show selected 'Berry Season Options' portrait frames when berry bearing season is on.",
   "config.SalmonberrySeasonOption.name": "Salmonberry Season Options",
   "config.BlackberrySeasonOption.name": "Blackberry Season Options",
+
+  "config.EnableGreenRain.name": "Green Rain",
+  "config.EnableGreenRain.description": "Show selected 'Green Rain Options' portrait frames when green rain is on.",
+  "config.GreenRainSpringOption.name": "Spring Green Rain Options",
+  "config.GreenRainSummerOption.name": "Summer Green Rain Options",
+  "config.GreenRainFallOption.name": "Fall Green Rain Options",
+  "config.GreenRainWinterOption.name": "Winter Green Rain Options",
+
   ////Festival
   "config.section.VisualOptionFestival.name": "Visual Option: Festival",
   "config.EnableEggFestival.name": "Egg Festival",
@@ -110,7 +118,8 @@
 
   "config.EnableSummit.name": "Summit",
   "config.EnableSummit.description": "Show selected 'Summit Options' portrait frames when on Summit.",
-  "config.SummitOption.name": "Summit Options",
+  "config.SummitDayOption.name": "Summit Day Options",
+  "config.SummitNightOption.name": "Summit Night Options",
 
   "config.EnableJojaMart.name": "JojaMart",
   "config.EnableJojaMart.description": "Show selected 'JojaMart Options' portrait frames when on JojaMart.",

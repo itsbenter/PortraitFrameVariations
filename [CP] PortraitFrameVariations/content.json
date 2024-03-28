@@ -86,6 +86,35 @@
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
     },
+    "EnableGreenRain": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionSeasonal",
+    },
+    "GreenRainSpringOption": {
+      "Default": "TwirlyTree, GreenTree, FreshFerns",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionSeasonal",
+    },
+    "GreenRainSummerOption": {
+      "Default": "TwirlyTree, GreenTree, FreshFerns",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionSeasonal",
+    },
+    "GreenRainFallOption": {
+      "Default": "MossyBranches, MossyTwigs",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionSeasonal",
+    },
+    "GreenRainWinterOption": {
+      "Default": "FrozenFerns, SnowyBranches, SnowyTwigs",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionSeasonal",
+    },
     //Visual Option: Map
     "EnableGingerIsland": {
       "Default": "true",
@@ -154,8 +183,14 @@
       "AllowValues": "true, false",
       "Section": "VisualOptionMap",
     },
-    "SummitOption": {
+    "SummitDayOption": {
       "Default": "TheView",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "SummitNightOption": {
+      "Default": "StarryNight",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
@@ -629,6 +664,42 @@
         "EnableBerrySeason": true,
         "Season": "fall",
         "Day": "8, 9, 10, 11"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{GreenRainSpringOption}}}}",
+      "When": {
+        "EnableGreenRain": true,
+        "Weather": "GreenRain",
+        "Season": "spring"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{GreenRainSummerOption}}}}",
+      "When": {
+        "EnableGreenRain": true,
+        "Weather": "GreenRain",
+        "Season": "summer"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{GreenRainFallOption}}}}",
+      "When": {
+        "EnableGreenRain": true,
+        "Weather": "GreenRain",
+        "Season": "fall"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{GreenRainWinterOption}}}}",
+      "When": {
+        "EnableGreenRain": true,
+        "Weather": "GreenRain",
+        "Season": "winter"
       }
     },
     ////Map based
