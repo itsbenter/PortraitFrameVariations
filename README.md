@@ -69,7 +69,8 @@ In version 1.3.0, there are 39 seasonal frames, 13 festival frames, 38 map speci
 | --- | --- |
 | ![ScatteredLeaves](Documentation/PortraitFrames/ScatteredLeaves.png) <br> ScatteredLeaves | ![WildMushrooms](Documentation/PortraitFrames/WildMushrooms.png) <br> WildMushrooms |
 | ![FallFoliages](Documentation/PortraitFrames/FallFoliages.png) <br> FallFoliages | ![Eggplants](Documentation/PortraitFrames/Eggplants.png) <br> Eggplants |
-| ![Corns](Documentation/PortraitFrames/Corns.png) <br> Corns | |
+| ![Corns](Documentation/PortraitFrames/Corns.png) <br> Corns | ![MossyTwigs](Documentation/PortraitFrames/MossyTwigs.png) <br> MossyTwigs |
+| ![MossyBranches](Documentation/PortraitFrames/MossyBranches.png) <br> MossyBranches | |
 
 | Winter | |
 | --- | --- |
@@ -77,6 +78,8 @@ In version 1.3.0, there are 39 seasonal frames, 13 festival frames, 38 map speci
 | ![Crocuses](Documentation/PortraitFrames/Crocuses.png) <br> Crocuses | ![WinterFoliages](Documentation/PortraitFrames/WinterFoliages.png) <br> WinterFoliages |
 | ![WinterWallOrnaments](Documentation/PortraitFrames/WinterWallOrnaments.png) <br> WinterWallOrnaments | ![Snowmen](Documentation/PortraitFrames/Snowmen.png) <br> Snowmen |
 | ![IcyLeaves](Documentation/PortraitFrames/IcyLeaves.png) <br> IcyLeaves | ![CandyCanes](Documentation/PortraitFrames/CandyCanes.png) <br> CandyCanes |
+| ![SnowyBranches](Documentation/PortraitFrames/SnowyBranches.png) <br> SnowyBranches | ![SnowyTwigs](Documentation/PortraitFrames/SnowyTwigs.png) <br> SnowyTwigs |
+| ![FrozenFerns](Documentation/PortraitFrames/FrozenFerns.png) <br> FrozenFerns | |
 
 | Salmonberry Season |
 | --- |
@@ -86,19 +89,10 @@ In version 1.3.0, there are 39 seasonal frames, 13 festival frames, 38 map speci
 | --- |
 | ![BlackberryBush](Documentation/PortraitFrames/BlackberryBush.png) <br> BlackberryBush |
 
-| Green Rain Spring and Summer | |
+| Green Rain | |
 | --- | --- |
 | ![GreenTree](Documentation/PortraitFrames/GreenTree.png) <br> GreenTree | ![TwirlyTree](Documentation/PortraitFrames/TwirlyTree.png) <br> TwirlyTree |
 | ![FreshFerns](Documentation/PortraitFrames/FreshFerns.png) <br> FreshFerns | |
-
-| Green Rain Fall | |
-| --- | --- |
-| ![MossyBranches](Documentation/PortraitFrames/MossyBranches.png) <br> MossyBranches | ![MossyTwigs](Documentation/PortraitFrames/MossyTwigs.png) <br> MossyTwigs |
-
-| Green Rain Winter | |
-| --- | --- |
-| ![SnowyBranches](Documentation/PortraitFrames/SnowyBranches.png) <br> SnowyBranches | ![SnowyTwigs](Documentation/PortraitFrames/SnowyTwigs.png) <br> SnowyTwigs |
-| ![FrozenFerns](Documentation/PortraitFrames/FrozenFerns.png) <br> FrozenFerns | |
 
 ### Map
 

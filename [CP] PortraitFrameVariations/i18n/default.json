@@ -40,10 +40,7 @@
 
   "config.EnableGreenRain.name": "Green Rain",
   "config.EnableGreenRain.description": "Show selected 'Green Rain Options' portrait frames when green rain is on.",
-  "config.GreenRainSpringOption.name": "Spring Green Rain Options",
-  "config.GreenRainSummerOption.name": "Summer Green Rain Options",
-  "config.GreenRainFallOption.name": "Fall Green Rain Options",
-  "config.GreenRainWinterOption.name": "Winter Green Rain Options",
+  "config.GreenRainOption.name": "Green Rain Options",
 
   ////Festival
   "config.section.VisualOptionFestival.name": "Visual Option: Festival",

@@ -29,7 +29,8 @@ The aim is to have the two mods visual blend well together. Variation of frames 
 | --- | --- |
 | ![ScatteredLeaves](PortraitFrames_ChangingSkies/ScatteredLeaves.png) <br> ScatteredLeaves | ![WildMushrooms](PortraitFrames_ChangingSkies/WildMushrooms.png) <br> WildMushrooms |
 | ![FallFoliages](PortraitFrames_ChangingSkies/FallFoliages.png) <br> FallFoliages | ![Eggplants](PortraitFrames_ChangingSkies/Eggplants.png) <br> Eggplants |
-| ![Corns](PortraitFrames_ChangingSkies/Corns.png) <br> Corns | |
+| ![Corns](PortraitFrames_ChangingSkies/Corns.png) <br> Corns | ![MossyTwigs](PortraitFrames_ChangingSkies/MossyTwigs.png) <br> MossyTwigs |
+| ![MossyBranches](PortraitFrames_ChangingSkies/MossyBranches.png) <br> MossyBranches | |
 
 | Winter | |
 | --- | --- |
@@ -37,6 +38,8 @@ The aim is to have the two mods visual blend well together. Variation of frames 
 | ![Crocuses](PortraitFrames_ChangingSkies/Crocuses.png) <br> Crocuses | ![WinterFoliages](PortraitFrames_ChangingSkies/WinterFoliages.png) <br> WinterFoliages |
 | ![WinterWallOrnaments](PortraitFrames_ChangingSkies/WinterWallOrnaments.png) <br> WinterWallOrnaments | ![Snowmen](PortraitFrames_ChangingSkies/Snowmen.png) <br> Snowmen |
 | ![IcyLeaves](PortraitFrames_ChangingSkies/IcyLeaves.png) <br> IcyLeaves | ![CandyCanes](PortraitFrames_ChangingSkies/CandyCanes.png) <br> CandyCanes |
+| ![SnowyBranches](PortraitFrames_ChangingSkies/SnowyBranches.png) <br> SnowyBranches | ![SnowyTwigs](PortraitFrames_ChangingSkies/SnowyTwigs.png) <br> SnowyTwigs |
+| ![FrozenFerns](PortraitFrames_ChangingSkies/FrozenFerns.png) <br> FrozenFerns | |
 
 | Salmonberry Season |
 | --- |
@@ -46,19 +49,10 @@ The aim is to have the two mods visual blend well together. Variation of frames 
 | --- |
 | ![BlackberryBush](PortraitFrames_ChangingSkies/BlackberryBush.png) <br> BlackberryBush | |
 
-| Green Rain Spring and Summer | |
+| Green Rain | |
 | --- | --- |
 | ![GreenTree](PortraitFrames_ChangingSkies/GreenTree.png) <br> GreenTree | ![TwirlyTree](PortraitFrames_ChangingSkies/TwirlyTree.png) <br> TwirlyTree |
 | ![FreshFerns](PortraitFrames_ChangingSkies/FreshFerns.png) <br> FreshFerns | |
-
-| Green Rain Fall | |
-| --- | --- |
-| ![MossyBranches](PortraitFrames_ChangingSkies/MossyBranches.png) <br> MossyBranches | ![MossyTwigs](PortraitFrames_ChangingSkies/MossyTwigs.png) <br> MossyTwigs |
-
-| Green Rain Winter | |
-| --- | --- |
-| ![SnowyBranches](PortraitFrames_ChangingSkies/SnowyBranches.png) <br> SnowyBranches | ![SnowyTwigs](PortraitFrames_ChangingSkies/SnowyTwigs.png) <br> SnowyTwigs |
-| ![FrozenFerns](PortraitFrames_ChangingSkies/FrozenFerns.png) <br> FrozenFerns | |
 
 ### Map
 

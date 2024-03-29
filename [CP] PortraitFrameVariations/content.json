@@ -42,7 +42,7 @@
       "Section": "VisualOptionSeasonal",
     },
     "SummerOption": {
-      "Default": "Sunflowers, VinesAndFerns, Blueberries, RowOfHops, Starfruits, FloweryVines, TowerFlower",
+      "Default": "Sunflowers, VinesAndFerns, Blueberries, RowOfHops, Starfruits, FloweryVines, TowerFlower, FrozenFerns, SnowyBranches, SnowyTwigs",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
@@ -53,7 +53,7 @@
       "Section": "VisualOptionSeasonal",
     },
     "FallOption": {
-      "Default": "ScatteredLeaves, WildMushrooms, FallFoliages, Eggplants, Corns",
+      "Default": "ScatteredLeaves, WildMushrooms, FallFoliages, Eggplants, Corns, MossyBranches, MossyTwigs",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
@@ -91,26 +91,8 @@
       "AllowValues": "true, false",
       "Section": "VisualOptionSeasonal",
     },
-    "GreenRainSpringOption": {
+    "GreenRainOption": {
       "Default": "TwirlyTree, GreenTree, FreshFerns",
-      "AllowBlank": false,
-      "AllowMultiple": true,
-      "Section": "VisualOptionSeasonal",
-    },
-    "GreenRainSummerOption": {
-      "Default": "TwirlyTree, GreenTree, FreshFerns",
-      "AllowBlank": false,
-      "AllowMultiple": true,
-      "Section": "VisualOptionSeasonal",
-    },
-    "GreenRainFallOption": {
-      "Default": "MossyBranches, MossyTwigs",
-      "AllowBlank": false,
-      "AllowMultiple": true,
-      "Section": "VisualOptionSeasonal",
-    },
-    "GreenRainWinterOption": {
-      "Default": "FrozenFerns, SnowyBranches, SnowyTwigs",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
