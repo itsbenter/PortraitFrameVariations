@@ -56,7 +56,7 @@ In version 1.3.0, there are 39 seasonal frames, 13 festival frames, 38 map speci
 | --- | --- |
 | ![PinkPetals](Documentation/PortraitFrames/PinkPetals.png) <br> PinkPetals | ![Tulips](Documentation/PortraitFrames/Tulips.png) <br> Tulips |
 | ![SimpleDandelions](Documentation/PortraitFrames/SimpleDandelions.png) <br> SimpleDandelions | ![Daffodils](Documentation/PortraitFrames/Daffodils.png) <br> Daffodils |
-| ![SpringBlossoms](Documentation/PortraitFrames/SpringBlossoms.png) <br> SpringBlossoms | |
+| ![SpringBlossoms](Documentation/PortraitFrames/SpringBlossoms.png) <br> SpringBlossoms | ![GreenBeans](Documentation/PortraitFrames/GreenBeans.png) <br> GreenBeans |
 
 | Summer | |
 | --- | --- |
@@ -99,23 +99,23 @@ In version 1.3.0, there are 39 seasonal frames, 13 festival frames, 38 map speci
 | Ginger Island | |
 | --- | --- |
 | ![IslandPalms](Documentation/PortraitFrames/IslandPalms.png) <br> IslandPalms | ![TropicalVines](Documentation/PortraitFrames/TropicalVines.png) <br> TropicalVines |
-| ![IslandHut](Documentation/PortraitFrames/IslandHut.png) <br> IslandHut | |
+| ![IslandHut](Documentation/PortraitFrames/IslandHut.png) <br> IslandHut | ![BananaTree](Documentation/PortraitFrames/BananaTree.png) <br> BananaTree |
 
 | Sewer |
 | --- |
 | ![GoodOldSewer](Documentation/PortraitFrames/GoodOldSewer.png) <br> GoodOldSewer |
 
 | Spring Beach |
-| --- |
-| ![LonelyClam](Documentation/PortraitFrames/LonelyClam.png) <br> LonelyClam |
+| --- | --- |
+| ![LonelyClam](Documentation/PortraitFrames/LonelyClam.png) <br> LonelyClam | ![SeaDebris](Documentation/PortraitFrames/SeaDebris.png) <br> SeaDebris |
 
 | Summer Beach |
-| --- |
-| ![ChildhoodMemories](Documentation/PortraitFrames/ChildhoodMemories.png) <br> ChildhoodMemories |
+| --- | --- |
+| ![ChildhoodMemories](Documentation/PortraitFrames/ChildhoodMemories.png) <br> ChildhoodMemories | ![ByTheSea](Documentation/PortraitFrames/ByTheSea.png) <br> ByTheSea |
 
 | Fall Beach |
-| --- |
-| ![SimpleFallBeach](Documentation/PortraitFrames/SimpleFallBeach.png) <br> SimpleFallBeach |
+| --- | --- |
+| ![SimpleFallBeach](Documentation/PortraitFrames/SimpleFallBeach.png) <br> SimpleFallBeach | ![FallBeachDebris](Documentation/PortraitFrames/FallBeachDebris.png) <br> FallBeachDebris |
 
 | Winter Beach |
 | --- |
@@ -185,9 +185,13 @@ In version 1.3.0, there are 39 seasonal frames, 13 festival frames, 38 map speci
 | --- |
 | ![Blacksmith](Documentation/PortraitFrames/Blacksmith.png) <br> Blacksmith |
 
-| Desert |
+| Stardrop's Saloon |
 | --- |
-| ![CactusAndSand](Documentation/PortraitFrames/CactusAndSand.png) <br> CactusAndSand |
+| ![FridayNight](Documentation/PortraitFrames/FridayNight.png) <br> FridayNight |
+
+| Desert |
+| --- | --- |
+| ![CactusAndSand](Documentation/PortraitFrames/CactusAndSand.png) <br> CactusAndSand | ![Fossils](Documentation/PortraitFrames/Fossils.png) <br> Fossils |
 
 | Fish Shop |
 | --- |
@@ -240,8 +244,8 @@ In version 1.3.0, there are 39 seasonal frames, 13 festival frames, 38 map speci
 ### Festival
 
 | Egg Festival |
-| --- |
-| ![FestiveEggs](Documentation/PortraitFrames/FestiveEggs.png) <br> FestiveEggs |
+| --- | --- |
+| ![FestiveEggs](Documentation/PortraitFrames/FestiveEggs.png) <br> FestiveEggs | ![EggStand](Documentation/PortraitFrames/EggStand.png) <br> EggStand |
 
 | Flower Dance |
 | --- |
