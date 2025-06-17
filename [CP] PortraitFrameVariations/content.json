@@ -5,7 +5,6 @@
     //Basic Config
     "DefaultFrame": {
       "Default": "Default",
-      "AllowValues": "Default, PinkPetals, Tulips, SimpleDandelions, Daffodils, Sunflowers, VinesAndFerns, Blueberries, RowOfHops, Starfruits, ScatteredLeaves, WildMushrooms, FallFoliages, Eggplants, Corns, SnowPiles, FrostedPines, Crocuses, WinterFoliages, IslandPalms, TropicalVines, IslandHut, LonelyClam, ChildhoodMemories, SimpleFallBeach, NautilusShell, LevelZero, GoodOldSewer, WhiteWedding, SalmonberryBush, BlackberryBush, FestiveEggs, MerryFlowers, LeavesAndTorch, CandlesOnSea, FairBalloons, PumpkinsAndSpiders, Spooky, IceCastles, ColorfulMarket, HolidayPresents, StarryNight",
       "Section": "BasicConfig"
     },
     "DisableConditional": {
@@ -31,7 +30,7 @@
       "Section": "VisualOptionSeasonal"
     },
     "SpringOption": {
-      "Default": "PinkPetals, Tulips, SimpleDandelions, Daffodils, SpringBlossoms",
+      "Default": "PinkPetals, Tulips, SimpleDandelions, Daffodils, SpringBlossoms, GreenBeans",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
@@ -42,7 +41,7 @@
       "Section": "VisualOptionSeasonal",
     },
     "SummerOption": {
-      "Default": "Sunflowers, VinesAndFerns, Blueberries, RowOfHops, Starfruits, FloweryVines, TowerFlower, FrozenFerns, SnowyBranches, SnowyTwigs",
+      "Default": "Sunfloweps, Starfruitrs, VinesAndFerns, Blueberries, RowOfHos, FloweryVines, TowerFlower",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
@@ -64,7 +63,7 @@
       "Section": "VisualOptionSeasonal",
     },
     "WinterOption": {
-      "Default": "SnowPiles, FrostedPines, Crocuses, WinterFoliages, WinterWallOrnaments, Snowmen, IcyLeaves, CandyCanes",
+      "Default": "SnowPiles, FrostedPines, Crocuses, WinterFoliages, WinterWallOrnaments, Snowmen, IcyLeaves, CandyCanes, FrozenFerns, SnowyBranches, SnowyTwigs",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
@@ -104,7 +103,7 @@
       "Section": "VisualOptionMap",
     },
     "GingerIslandOption": {
-      "Default": "IslandPalms, TropicalVines, IslandHut",
+      "Default": "IslandPalms, TropicalVines, IslandHut, BananaTree",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
@@ -300,13 +299,24 @@
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
     },
+        "EnableSaloon": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "SaloonOption": {
+      "Default": "FridayNight",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
     "EnableDesert": {
       "Default": "true",
       "AllowValues": "true, false",
       "Section": "VisualOptionMap",
     },
     "DesertOption": {
-      "Default": "CactusAndSand",
+      "Default": "CactusAndSand, Fossils",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
@@ -440,7 +450,7 @@
       "Section": "VisualOptionFestival",
     },
     "EggFestivalOption": {
-      "Default": "FestiveEggs",
+      "Default": "FestiveEggs, EggStand",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionFestival",
@@ -868,6 +878,14 @@
       "When": {
         "EnableBlacksmith": true,
         "LocationName": "Blacksmith",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SaloonOption}}}}",
+      "When": {
+        "EnableSaloon": true,
+        "LocationName": "Saloon",
       }
     },
     {

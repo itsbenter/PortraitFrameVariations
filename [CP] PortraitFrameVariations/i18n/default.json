@@ -158,6 +158,10 @@
   "config.EnableBlacksmith.description": "Show selected 'Blacksmith Options' portrait frames when on Blacksmith.",
   "config.BlacksmithOption.name": "Blacksmith Options",
 
+  "config.EnableSaloon.name": "Stardrop Saloon",
+  "config.EnableSaloon.description": "Show selected 'Saloon Saloon Options' portrait frames when on Stardrop Saloon.",
+  "config.SaloonOption.name": "Stardrop Saloon Options",
+
   "config.EnableDesert.name": "Desert",
   "config.EnableDesert.description": "Show selected 'Desert Options' portrait frames when on Desert.",
   "config.DesertOption.name": "Desert Options",
