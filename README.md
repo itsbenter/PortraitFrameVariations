@@ -69,8 +69,7 @@ In version 1.3.0, there are 39 seasonal frames, 13 festival frames, 38 map speci
 | --- | --- |
 | ![ScatteredLeaves](Documentation/PortraitFrames/ScatteredLeaves.png) <br> ScatteredLeaves | ![WildMushrooms](Documentation/PortraitFrames/WildMushrooms.png) <br> WildMushrooms |
 | ![FallFoliages](Documentation/PortraitFrames/FallFoliages.png) <br> FallFoliages | ![Eggplants](Documentation/PortraitFrames/Eggplants.png) <br> Eggplants |
-| ![Corns](Documentation/PortraitFrames/Corns.png) <br> Corns | ![MossyTwigs](Documentation/PortraitFrames/MossyTwigs.png) <br> MossyTwigs |
-| ![MossyBranches](Documentation/PortraitFrames/MossyBranches.png) <br> MossyBranches | |
+| ![Corns](Documentation/PortraitFrames/Corns.png) <br> Corns | |
 
 | Winter | |
 | --- | --- |
@@ -78,16 +77,14 @@ In version 1.3.0, there are 39 seasonal frames, 13 festival frames, 38 map speci
 | ![Crocuses](Documentation/PortraitFrames/Crocuses.png) <br> Crocuses | ![WinterFoliages](Documentation/PortraitFrames/WinterFoliages.png) <br> WinterFoliages |
 | ![WinterWallOrnaments](Documentation/PortraitFrames/WinterWallOrnaments.png) <br> WinterWallOrnaments | ![Snowmen](Documentation/PortraitFrames/Snowmen.png) <br> Snowmen |
 | ![IcyLeaves](Documentation/PortraitFrames/IcyLeaves.png) <br> IcyLeaves | ![CandyCanes](Documentation/PortraitFrames/CandyCanes.png) <br> CandyCanes |
-| ![SnowyBranches](Documentation/PortraitFrames/SnowyBranches.png) <br> SnowyBranches | ![SnowyTwigs](Documentation/PortraitFrames/SnowyTwigs.png) <br> SnowyTwigs |
-| ![FrozenFerns](Documentation/PortraitFrames/FrozenFerns.png) <br> FrozenFerns | |
 
-| Salmonberry Season |
-| --- |
-| ![SalmonberryBush](Documentation/PortraitFrames/SalmonberryBush.png) <br> SalmonberryBush |
+| Salmonberry Season | |
+| --- | --- |
+| ![SalmonberryBush](Documentation/PortraitFrames/SalmonberryBush.png) <br> SalmonberryBush | ![ClimbingSalmonberry](Documentation/PortraitFrames/ClimbingSalmonberry.png) <br> ClimbingSalmonberry |
 
-| Blackberry Season |
-| --- |
-| ![BlackberryBush](Documentation/PortraitFrames/BlackberryBush.png) <br> BlackberryBush |
+| Blackberry Season | |
+| --- | --- |
+| ![BlackberryBush](Documentation/PortraitFrames/BlackberryBush.png) <br> BlackberryBush | ![TallerBlackberryBush](Documentation/PortraitFrames/TallerBlackberryBush.png) <br> TallerBlackberryBush |
 
 | Green Rain | |
 | --- | --- |
@@ -121,6 +118,10 @@ In version 1.3.0, there are 39 seasonal frames, 13 festival frames, 38 map speci
 | --- |
 | ![NautilusShell](Documentation/PortraitFrames/NautilusShell.png) <br> NautilusShell |
 
+| Wizard's Tower |
+| --- |
+| ![MysticalCandles](Documentation/PortraitFrames/MysticalCandles.png) <br> MysticalCandles |
+
 | Mine Entrance |
 | --- |
 | ![LevelZero](Documentation/PortraitFrames/LevelZero.png) <br> LevelZero |
@@ -132,6 +133,14 @@ In version 1.3.0, there are 39 seasonal frames, 13 festival frames, 38 map speci
 | Summit Night |
 | --- |
 | ![StarryNight](Documentation/PortraitFrames/StarryNight.png) <br> StarryNight |
+
+| Sunroom Sunny |
+| --- |
+| ![BrightTeaTime](Documentation/PortraitFrames/BrightTeaTime.png) <br> BrightTeaTime |
+
+| Sunroom Rain and Night |
+| --- |
+| ![GloomyTeaTime](Documentation/PortraitFrames/GloomyTeaTime.png) <br> GloomyTeaTime |
 
 | Abandoned Community Center |
 | --- |
@@ -296,6 +305,14 @@ In version 1.3.0, there are 39 seasonal frames, 13 festival frames, 38 map speci
 | Wedding |
 | --- |
 | ![WhiteWedding](Documentation/PortraitFrames/WhiteWedding.png) <br> WhiteWedding |
+
+### Unused
+
+| Unused | |
+| --- | --- |
+| ![MossyBranches](Documentation/PortraitFrames/MossyBranches.png) <br> MossyBranches | ![MossyTwigs](Documentation/PortraitFrames/MossyTwigs.png) <br> MossyTwigs |
+| ![SnowyBranches](Documentation/PortraitFrames/SnowyBranches.png) <br> SnowyBranches | ![SnowyTwigs](Documentation/PortraitFrames/SnowyTwigs.png) <br> SnowyTwigs |
+| ![FrozenFerns](Documentation/PortraitFrames/FrozenFerns.png) <br> FrozenFerns | |
 
 ## Compatibility
 - [Farmer Portraits](https://www.nexusmods.com/stardewvalley/mods/11398). To use same dialogue's portrait frame for farmer and character, set 'Use Custom Background' to false in that mod.
