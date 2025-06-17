@@ -105,15 +105,15 @@ In version 1.3.0, there are 39 seasonal frames, 13 festival frames, 38 map speci
 | --- |
 | ![GoodOldSewer](Documentation/PortraitFrames/GoodOldSewer.png) <br> GoodOldSewer |
 
-| Spring Beach |
+| Spring Beach | |
 | --- | --- |
 | ![LonelyClam](Documentation/PortraitFrames/LonelyClam.png) <br> LonelyClam | ![SeaDebris](Documentation/PortraitFrames/SeaDebris.png) <br> SeaDebris |
 
-| Summer Beach |
+| Summer Beach | |
 | --- | --- |
 | ![ChildhoodMemories](Documentation/PortraitFrames/ChildhoodMemories.png) <br> ChildhoodMemories | ![ByTheSea](Documentation/PortraitFrames/ByTheSea.png) <br> ByTheSea |
 
-| Fall Beach |
+| Fall Beach | |
 | --- | --- |
 | ![SimpleFallBeach](Documentation/PortraitFrames/SimpleFallBeach.png) <br> SimpleFallBeach | ![FallBeachDebris](Documentation/PortraitFrames/FallBeachDebris.png) <br> FallBeachDebris |
 
@@ -189,7 +189,7 @@ In version 1.3.0, there are 39 seasonal frames, 13 festival frames, 38 map speci
 | --- |
 | ![FridayNight](Documentation/PortraitFrames/FridayNight.png) <br> FridayNight |
 
-| Desert |
+| Desert | |
 | --- | --- |
 | ![CactusAndSand](Documentation/PortraitFrames/CactusAndSand.png) <br> CactusAndSand | ![Fossils](Documentation/PortraitFrames/Fossils.png) <br> Fossils |
 
@@ -243,7 +243,7 @@ In version 1.3.0, there are 39 seasonal frames, 13 festival frames, 38 map speci
 
 ### Festival
 
-| Egg Festival |
+| Egg Festival | |
 | --- | --- |
 | ![FestiveEggs](Documentation/PortraitFrames/FestiveEggs.png) <br> FestiveEggs | ![EggStand](Documentation/PortraitFrames/EggStand.png) <br> EggStand |
 
