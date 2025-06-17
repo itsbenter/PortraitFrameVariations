@@ -109,6 +109,10 @@
   "config.FallBeachOption.name": "Beach Fall Options",
   "config.WinterBeachOption.name": "Beach Winter Options",
 
+  "config.EnableWizardTower.name": "Wizard's Tower",
+  "config.EnableWizardTower.description": "Show selected 'Wizard Tower Options' portrait frames when on Wizard Tower.",
+  "config.WizardTowerOption.name": "Wizard's Tower Options",
+
   "config.EnableMineEntrance.name": "Mine Entrance",
   "config.EnableMineEntrance.description": "Show selected 'Mine Entrance Options' portrait frames when on Mine Entrance.",
   "config.MineEntranceOption.name": "Mine Entrance Options",
@@ -117,6 +121,11 @@
   "config.EnableSummit.description": "Show selected 'Summit Options' portrait frames when on Summit.",
   "config.SummitDayOption.name": "Summit Day Options",
   "config.SummitNightOption.name": "Summit Night Options",
+
+  "config.EnableSunroom.name": "Caroline's Sunroom",
+  "config.EnableSunroom.description": "Show selected 'Caroline's Sunroom Options' portrait frames when on Caroline's Sunroom.",
+  "config.SunroomSunnyOption.name": "Sunroom Sunny Options",
+  "config.SunroomRainyOption.name": "Sunroom Rainy Options",
 
   "config.EnableJojaMart.name": "JojaMart",
   "config.EnableJojaMart.description": "Show selected 'JojaMart Options' portrait frames when on JojaMart.",

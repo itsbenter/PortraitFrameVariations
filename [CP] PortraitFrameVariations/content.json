@@ -52,7 +52,7 @@
       "Section": "VisualOptionSeasonal",
     },
     "FallOption": {
-      "Default": "ScatteredLeaves, WildMushrooms, FallFoliages, Eggplants, Corns, MossyBranches, MossyTwigs",
+      "Default": "ScatteredLeaves, WildMushrooms, FallFoliages, Eggplants, Corns",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
@@ -63,7 +63,7 @@
       "Section": "VisualOptionSeasonal",
     },
     "WinterOption": {
-      "Default": "SnowPiles, FrostedPines, Crocuses, WinterFoliages, WinterWallOrnaments, Snowmen, IcyLeaves, CandyCanes, FrozenFerns, SnowyBranches, SnowyTwigs",
+      "Default": "SnowPiles, FrostedPines, Crocuses, WinterFoliages, WinterWallOrnaments, Snowmen, IcyLeaves, CandyCanes",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
@@ -74,13 +74,13 @@
       "Section": "VisualOptionSeasonal",
     },
     "SalmonberrySeasonOption": {
-      "Default": "SalmonberryBush",
+      "Default": "SalmonberryBush, ClimbingSalmonberry",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
     },
     "BlackberrySeasonOption": {
-      "Default": "BlackberryBush",
+      "Default": "BlackberryBush, TallerBlackberryBush",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
@@ -159,6 +159,17 @@
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
     },
+    "EnableWizardTower": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "WizardTowerOption": {
+      "Default": "MysticalCandles",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
     "EnableSummit": {
       "Default": "true",
       "AllowValues": "true, false",
@@ -172,6 +183,23 @@
     },
     "SummitNightOption": {
       "Default": "StarryNight",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableSunroom": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "SunroomSunnyOption": {
+      "Default": "BrightTeaTime",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "SunroomRainyOption": {
+      "Default": "GloomyTeaTime",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
@@ -749,10 +777,61 @@
     },
     {
       "Name": "DisplayFrame",
+      "Value": "{{Random:{{WizardTowerOption}}}}",
+      "When": {
+        "EnableWizardTower": true,
+        "LocationName": "WizardHouse"
+      }
+    },
+        {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{WizardTowerOption}}}}",
+      "When": {
+        "EnableWizardTower": true,
+        "LocationName": "WizardHouseBasement"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
       "Value": "{{Random:{{SewerOption}}}}",
       "When": {
         "EnableSewer": true,
         "LocationName": "Sewer"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SunroomSunnyOption}}}}",
+      "When": {
+        "EnableSunroom": true,
+        "LocationName": "Sunroom"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SunroomRainyOption}}}}",
+      "When": {
+        "EnableSunroom": true,
+        "LocationName": "Sunroom",
+        "Weather": "Rain"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SunroomRainyOption}}}}",
+      "When": {
+        "EnableSunroom": true,
+        "LocationName": "Sunroom",
+        "Weather": "Storm"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SunroomRainyOption}}}}",
+      "When": {
+        "EnableSunroom": true,
+        "LocationName": "Sunroom",
+        "Time": "{{Range: 0600, 2600}}"
       }
     },
     {
