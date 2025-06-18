@@ -143,7 +143,7 @@
       "Section": "VisualOptionMap",
     },
     "WinterBeachOption": {
-      "Default": "NautilusShell",
+      "Default": "NautilusShell, WintryPier",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
