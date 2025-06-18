@@ -1,0 +1,225 @@
+{
+  "$schema": "https://smapi.io/schemas/i18n.json",
+  //Basic Configuration
+  "config.section.BasicConfig.name": "Configuration de base",
+  "config.DefaultFrame.name": "Cadre par défaut",
+  "config.DefaultFrame.description": "Sélectionnez le cadre de portrait par défaut à afficher.\nLe mod transformera et remplacera le cadre de portrait.",
+  "config.DisableConditional.name": "Désactiver le conditionnel",
+  "config.DisableConditional.description": "Afficher le \"cadre Par Défaut\" sélectionné sans AUCUNE autre variation.",
+  "config.HideHeartIndicator.name": "Masquer l'indicateur de cœur",
+  "config.HideHeartIndicator.description": "Cela masquera l'indicateur de niveau de cœur situé en bas à droite du portrait du personnage. Le niveau de cœur apparaîtra toujours lorsqu'il est survolé.",
+
+  //Mod Compatibility
+  "config.section.ModCompatibility.name": "Compatibilité des mods",
+  "config.DisableWhenGaldoranThemeActive.name": "SVE: désactiver sur Galdora",
+  "config.DisableWhenGaldoranThemeActive.description": "Désactiver cette superposition de mod sur la carte couverte par le thème Galdoran de Stardew Valley Expanded.",
+
+  //Visual Option
+  ////Seasonal
+  "config.section.VisualOptionSeasonal.name": "Options visuelles : saisons",
+  "config.EnableSpring.name": "Printemps",
+  "config.EnableSpring.description": "Afficher les cadres de portrait sélectionnés pour les \"options de printemps\" lorsqu'on est au printemps.",
+  "config.SpringOption.name": "> Options du printemps",
+
+  "config.EnableSummer.name": "Été",
+  "config.EnableSummer.description": "Afficher les cadres de portrait sélectionnés pour les \"options d’été\" lorsqu'on est en été.",
+  "config.SummerOption.name": "> Options d’été",
+
+  "config.EnableFall.name": "Automne",
+  "config.EnableFall.description": "Afficher les cadres de portrait sélectionnés pour les \"options d’automne\" lorsqu'on est en automne.",
+  "config.FallOption.name": "> Options d’automne",
+
+  "config.EnableWinter.name": "Hiver",
+  "config.EnableWinter.description": "Afficher les cadres de portrait sélectionnés pour les \"options d’hiver\" lorsqu'on est en hiver.",
+  "config.WinterOption.name": "> Options d’hiver",
+
+  "config.EnableBerrySeason.name": "Saison des baies",
+  "config.EnableBerrySeason.description": "Afficher les cadres de portrait sélectionnés pour les \"options de la saison des Baies\" lorsque c'est la saison des baies.",
+  "config.SalmonberrySeasonOption.name": "> Option de la saison des baies\nde saumon",
+  "config.BlackberrySeasonOption.name": "> Options de la saison des mûres",
+
+  "config.EnableGreenRain.name": "Pluie verte",
+  "config.EnableGreenRain.description": "Afficher les cadres de portrait sélectionnés pour les \"options de de pluie verte\" quand la pluie verte tombe.",
+  "config.GreenRainOption.name": "> Options de Pluie verte",
+
+  ////Festival
+  "config.section.VisualOptionFestival.name": "Options visuelles : festivals",
+  "config.EnableEggFestival.name": "Festival des œufs",
+  "config.EnableEggFestival.description": "Afficher les cadres de portrait sélectionnés pour les \"options de Festival des œufs\" lorsqu'on est pendant le Festival des œufs.",
+  "config.EggFestivalOption.name": ">  Options de Festival des œufs",
+
+  "config.EnableFlowerDance.name": "Dance des fleurs",
+  "config.EnableFlowerDance.description": "Afficher les cadres de portrait sélectionnés pour les \"options de Dance des fleurs\" lorsqu'on est pendant la Dance des fleurs.",
+  "config.FlowerDanceOption.name": "> Options de Dance des fleurs",
+
+  "config.EnableLuau.name": "Fête Hawaïenne",
+  "config.EnableLuau.description": "Afficher les cadres de portrait sélectionnés pour les \"options de Fête Hawaïenne\" lorsqu'on est pendant la Fête Hawaïenne.",
+  "config.LuauOption.name": "> Options de la Fête Hawaïenne",
+
+  "config.EnableDanceOfMoonlightJellies.name": "Danse des Méduses Clair de Lune",
+  "config.EnableDanceOfMoonlightJellies.description": "Afficher les cadres de portrait sélectionnés pour les \"options de Danse des Méduses Clair de Lune\" lorsqu'on est pendant la Danse des Méduses Clair de Lune.",
+  "config.DanceOfMoonlightJelliesOption.name": "> Options de la danse des \nMéduses Clair de Lune",
+
+  "config.EnableStardewValleyFair.name": "Grand Festival de Stardew Valley",
+  "config.EnableStardewValleyFair.description": "Afficher les cadres de portrait sélectionnés pour les \"options du Grand Festival de Stardew Valley\" lorsqu'on est pendant le Grand Festival de Stardew Valley.",
+  "config.StardewValleyFairOption.name": "> Options de Grand Festival",
+
+  "config.EnableSpiritsEve.name": "Fête des Esprits",
+  "config.EnableSpiritsEve.description": "Afficher les cadres de portrait sélectionnés pour les \"options de la Fête des Esprits\" lorsqu'on est pendant le festival de Fête des Esprits.",
+  "config.SpiritsEveOption.name": "> Options de la Fête des Esprits",
+
+  "config.EnableFestivalOfIce.name": "Festival des Glaces",
+  "config.EnableFestivalOfIce.description": "Afficher les cadres de portrait sélectionnés pour les \"options du Festival des Glaces\" lorsqu'on est pendant le  Festival des Glaces.",
+  "config.FestivalOfIceOption.name": "> Options du Festival des Glaces",
+
+  "config.EnableNightMarket.name": "Marché nocturne",
+  "config.EnableNightMarket.description": "Afficher les cadres de portrait sélectionnés pour les \"options du Marché nocturne\" lorsqu'on est pendant le Marché nocturne.",
+  "config.NightMarketOption.name": "> Options du Marché nocturne",
+
+  "config.EnableFeastOfWinterStar.name": "Fête de l'Étoile Hivernale",
+  "config.EnableFeastOfWinterStar.description": "Afficher les cadres de portrait sélectionnés pour les \"options de la Fête de l'Étoile Hivernale\" lorsqu'on est pendant la Fête de l'Étoile Hivernale.",
+  "config.FeastOfWinterStarOption.name": "> Options de la Fête de \nl'Étoile Hivernale",
+
+  "config.EnableDesertFestival.name": "Festival du désert de Calico",
+  "config.EnableDesertFestival.description": "Afficher les cadres de portrait sélectionnés pour les \"options du désert de Calico\" lorsqu'on est pendant le Festival du désert de Calico.",
+  "config.DesertFestivalOption.name": "> Options du Festival du désert",
+
+  "config.EnableTroutDerby.name": "Derby des truites",
+  "config.EnableTroutDerby.description": "Afficher les cadres de portrait sélectionnés pour les \"options de Derby des truites\" lorsqu'on est pendant le Derby des truites.",
+  "config.TroutDerbyOption.name": "> Options du Derby des truites",
+
+  "config.EnableSquidFest.name": "Fête du calamar",
+  "config.EnableSquidFest.description": "Afficher les cadres de portrait sélectionnés pour les \"options de Fête du calamar\" lorsqu'on est pendant le festival de Fête du calamar.",
+  "config.SquidFestOption.name": "> Options de la Fête du calamar",
+ 
+  ////Map
+  "config.section.VisualOptionMap.name": "Options visuelles : cartes",
+  "config.EnableGingerIsland.name": "Île Gingembre",
+  "config.EnableGingerIsland.description": "Afficher les cadres de portrait sélectionnés pour les \"options de l’île Gingembre\" lorsque vous êtes sur l’île Gingembre.",
+  "config.GingerIslandOption.name": "> Options de l’île Gingembre",
+
+  "config.EnableSewer.name": "Égouts",
+  "config.EnableSewer.description": "Afficher les cadres de portrait sélectionnés pour les \"options des égouts\" lorsque vous êtes dans les égouts.",
+  "config.SewerOption.name": "> Options des égouts",
+
+  "config.EnableBeach.name": "Plage",
+  "config.EnableBeach.description": "Afficher les cadres de portrait sélectionnés pour les \"options de la plage\" lorsque vous êtes à la plage (suivant les saisons).",
+  "config.SpringBeachOption.name": "> Options de la plage (printemps)",
+  "config.SummerBeachOption.name": "> Options de la plage (été)",
+  "config.FallBeachOption.name": "> Options de la plage (automne)",
+  "config.WinterBeachOption.name": "> Options de la plage (hiver)",
+
+  "config.EnableWizardTower.name": "Tour du sorcier",
+  "config.EnableWizardTower.description": "Afficher les cadres de portrait sélectionnés pour les \"options de Tour du sorcier\" lorsque vous êtes Tour du sorcier.",
+  "config.WizardTowerOption.name": "> Options de la tour du sorcier",
+
+  "config.EnableMineEntrance.name": "Entrée des mines",
+  "config.EnableMineEntrance.description": "Afficher les cadres de portrait sélectionnés pour les \"options de l’entrée des mines\" lorsque vous êtes l’entrée des mines.",
+  "config.MineEntranceOption.name": "> Options de l’entrée des mines",
+
+  "config.EnableSummit.name": "Sommet",
+  "config.EnableSummit.description": "Afficher les cadres de portrait sélectionnés pour les \"options de Sommet\" lorsque vous êtes au Sommet.",
+  "config.SummitDayOption.name": "> Options du Sommet (la journée)",
+  "config.SummitNightOption.name": "> Options du Sommet (la nuit)",
+
+  "config.EnableSunroom.name": "La véranda de Caroline",
+  "config.EnableSunroom.description": "Afficher les cadres de portrait sélectionnés pour les \"options de véranda\" lorsque vous êtes La véranda de Caroline.",
+  "config.SunroomSunnyOption.name": "> Options de véranda (ensoleillées)",
+  "config.SunroomRainyOption.name": "> Options de véranda (pluvieuse)",
+
+  "config.EnableJojaMart.name": "JojaMart",
+  "config.EnableJojaMart.description": "Afficher les cadres de portrait sélectionnés pour les \"options de JojaMart\" lorsque vous êtes à JojaMart.",
+  "config.JojaMartOption.name": "> Options de JojaMart",
+
+  "config.EnableCommunityCenter.name": "Centre communautaire",
+  "config.EnableCommunityCenter.description": "Afficher les cadres de portrait sélectionnés pour les \"options de centre communautaire\" lorsque vous êtes dans le centre communautaire.",
+  "config.AbandonedCommunityCenterOption.name": "> Options du centre\ncommunautaire abandonné",
+  "config.RefurbishedCommunityCenterOption.name": "> Options du centre\ncommunautaire réhabilité",
+  "config.JojaWarehouseOption.name": "> Options de l’entrepôt Joja",
+
+  "config.EnableWitchSwamp.name": "Marais de la sorcière",
+  "config.EnableWitchSwamp.description": "Afficher les cadres de portrait sélectionnés pour les \"options de marais de la sorcière\" lorsque vous êtes au marais de la sorcière.",
+  "config.WitchSwampOption.name": "> Options du marais de la sorcière",
+
+  "config.EnablePirateCove.name": "Caverne des pirates",
+  "config.EnablePirateCove.description": "Afficher les cadres de portrait sélectionnés pour les \"options de la caverne des pirates\" lorsque vous êtes dans la caverne des pirates.",
+  "config.PirateCoveOption.name": "> Options de la caverne des pirates",
+
+  "config.EnableFarmCave.name": "Cave de la ferme",
+  "config.EnableFarmCave.description": "Afficher les cadres de portrait sélectionnés pour les \"options de cave de la ferme\" lorsque vous êtes dans la cave de la ferme.",
+  "config.FarmCaveBatsOption.name": "> Options (chauve-souris)",
+  "config.FarmCaveMushroomsOption.name": "> Options (champignons)",
+
+  "config.EnableBathHouse.name": "Salle de bains de la maison",
+  "config.EnableBathHouse.description": "Afficher les cadres de portrait sélectionnés pour les \"options de salle de bains de la maison\" lorsque vous êtes dans la salle de bains de la maison.",
+  "config.BathHouseOption.name": "> Options de la salle de bains",
+  "config.BathHousePoolOption.name": "> Options du jacuzzi",
+
+  "config.EnableClinic.name": "Clinique d’Harvey",
+  "config.EnableClinic.description": "Afficher les cadres de portrait sélectionnés pour les \"options de la clinique d’Harvey\" lorsque vous êtes dans la clinique d’Harvey.",
+  "config.ClinicOption.name": "> Options de la clinique d’Harvey",
+
+  "config.EnableCasino.name": "Casino",
+  "config.EnableCasino.description": "Afficher les cadres de portrait sélectionnés pour les \"options du casino\" lorsque vous êtes au casino.",
+  "config.CasinoOption.name": "> Options du casino",
+
+  "config.EnableBlacksmith.name": "Forge de Clint",
+  "config.EnableBlacksmith.description": "Afficher les cadres de portrait sélectionnés pour les \"options de la forge\" lorsque vous êtes dans la forge de Clint.",
+  "config.BlacksmithOption.name": "> Options de la forge",
+
+  "config.EnableSaloon.name": "Stardrop Saloon",
+  "config.EnableSaloon.description": "Afficher les cadres de portrait sélectionnés pour les \"options de au Stardrop Salon\" lorsque vous êtes dans au Saloon.",
+  "config.SaloonOption.name": "Options de au Stardrop Salon",
+
+  "config.EnableDesert.name": "Désert",
+  "config.EnableDesert.description": "Afficher les cadres de portrait sélectionnés pour les \"options de désert\" lorsque vous êtes dans le désert. Depuis trop longtemps et que tu t'demandes des trucs.",
+  "config.DesertOption.name": "> Options du désert",
+
+  "config.EnableFishShop.name": "Poissonnerie de Willy",
+  "config.EnableFishShop.description": "Afficher les cadres de portrait sélectionnés pour les \"options de la poissonnerie\" lorsque vous êtes dans la poissonnerie de Willy.",
+  "config.FishShopOption.name": "> Options de la poissonnerie",
+
+  "config.EnableLibrary.name": "Bibliothèque/musée",
+  "config.EnableLibrary.description": "Afficher les cadres de portrait sélectionnés pour les \"options de la la bibliothèque/musée\" lorsque vous êtes dans la bibliothèque.",
+  "config.LibraryOption.name": "> Options de la bibliothèque",
+
+  "config.EnableQiRoom.name": "Salle de Qi",
+  "config.EnableQiRoom.description": "Afficher les cadres de portrait sélectionnés pour les \"options de Fête du calamar\" lorsque vous êtes dans la Salle de Qi.",
+  "config.QiRoomOption.name": "> Options de la salle de Qi",
+
+  "config.EnableTheater.name": "Cinéma",
+  "config.EnableTheater.description": "Afficher les cadres de portrait sélectionnés pour les \"options de cinéma\" lorsque vous êtes au cinéma.",
+  "config.JojaTheaterOption.name": "> Options du cinéma Joja",
+  "config.CommunityCenterTheaterOption.name": "> Options du cinéma du centre",
+  "config.TheaterScreenRoomOption.name": "> Options de la salle de projection",
+
+  "config.EnableVolcanoDungeon.name": "Donjon du volcan",
+  "config.EnableVolcanoDungeon.description": "Afficher les cadres de portrait sélectionnés pour les \"options de Donjon du volcan\" lorsque vous êtes dans le Donjon du volcan.",
+  "config.VolcanoDungeonOption.name": "> Options du Donjon du volcan",
+
+  "config.EnableVolcanoCaldera.name": "Volcan Caldéra",
+  "config.EnableVolcanoCaldera.description": "Afficher les cadres de portrait sélectionnés pour les \"options du volcan Caldéra\" lorsque vous êtes au niveau du volcan Caldéra.",
+  "config.VolcanoCalderaOption.name": "> Options du volcan Caldéra",
+
+  "config.EnableBugLand.name": "Antre des insectes",
+  "config.EnableBugLand.description": "Afficher les cadres de portrait sélectionnés pour les \"options de l’antre des insectes\" lorsque vous êtes dans l’antre des insectes.",
+  "config.BugLandOption.name": "> Options de l’antre des insectes",
+
+  "config.EnableSkullCavern.name": "Caverne Crâne",
+  "config.EnableSkullCavern.description": "Afficher les cadres de portrait sélectionnés pour les \"options de la Caverne Crâne\" lorsque vous êtes dans la Caverne Crâne.",
+  "config.SkullCavernOption.name": "> Options de la Caverne Crâne",
+
+  "config.EnableAdventureGuild.name": "Guilde des aventuriers",
+  "config.EnableAdventureGuild.description": "Afficher les cadres de portrait sélectionnés pour les \"options de la Guilde\" lorsque vous êtes dans la Guilde des aventuriers.",
+  "config.AdventureGuildOption.name": "> Options de la Guilde",
+
+  "config.EnableLinusTent.name": "Tente de Linus",
+  "config.EnableLinusTent.description": "Afficher les cadres de portrait sélectionnés pour les \"options de la tente de Linus\" lorsque vous êtes dans la tente de Linus.",
+  "config.LinusTentOption.name": "> Options de la tente de Linus",
+
+  ////Event
+  "config.section.VisualOptionEvent.name": "Option visuelle : événement",
+  "config.EnableWedding.name": "Mariage",
+  "config.EnableWedding.description": "Afficher les cadres de portrait sélectionnés pour les \"options de mariage\" lorsque vous êtes pendant un mariage.",
+  "config.WeddingOption.name": "> Options de mariage",
+}
