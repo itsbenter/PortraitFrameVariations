@@ -41,7 +41,7 @@
       "Section": "VisualOptionSeasonal",
     },
     "SummerOption": {
-      "Default": "Sunflowers, Starfruits, VinesAndFerns, Blueberries, RowOfHos, FloweryVines, TowerFlower",
+      "Default": "Sunflowers, Starfruits, VinesAndFerns, Blueberries, RowOfHops, FloweryVines, TowerFlower",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
