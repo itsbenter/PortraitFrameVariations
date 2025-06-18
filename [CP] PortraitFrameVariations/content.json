@@ -30,7 +30,7 @@
       "Section": "VisualOptionSeasonal"
     },
     "SpringOption": {
-      "Default": "PinkPetals, Tulips, SimpleDandelions, Daffodils, SpringBlossoms, GreenBeans",
+      "Default": "PinkPetals, Tulips, SimpleDandelions, Daffodils, SpringBlossoms, GreenBeans, Carrots, Strawberries",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
