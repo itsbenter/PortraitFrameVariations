@@ -2,10 +2,10 @@
    "$schema": "https://smapi.io/schemas/manifest.json",
    "Name": "Portrait Frame Variations",
    "Author": "ItsBenter",
-   "Version": "1.2.2",
+   "Version": "1.3.0",
    "Description": "Adds context-aware dialogue's portrait frames.",
    "UniqueID": "ItsBenter.PortraitFrameVariations.CP",
-   "MinimumApiVersion": "4.0.0",
+   "MinimumApiVersion": "4.2.0",
    "UpdateKeys": [
       "Nexus:6899"
    ],

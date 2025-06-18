@@ -47,8 +47,8 @@ Set 'Hide Heart Indicator' to true, indicated by having X marks. <br>
 
 ## Portrait Frames
 
-In version 1.2.2, there are 31 seasonal frames, 13 festival frames, 37 map specific frames, and 1 event specific frames. The assets are meant to be overlayed on top of existing UI, in some case this led to minimal compatibility with UI recolor mod. Presented is how portrait frames configured. 
-- Edited assets made for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is available [here](Documentation/PortraitFrames_ChangingSkies.md).
+In version 1.3.0, there are 43 seasonal frames, 15 festival frames, 40 map specific frames, and 1 event specific frames. The assets are meant to be overlayed on top of existing UI, in some case this led to minimal compatibility with UI recolor mod. Presented is how portrait frames configured. 
+- Edited assets made for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is available [here](Documentation/PortraitFrames_ChangingSkies.md). But it's currently not including the 17 frames added in 1.3.0 update.
 
 ### Seasonal
 
@@ -56,7 +56,8 @@ In version 1.2.2, there are 31 seasonal frames, 13 festival frames, 37 map speci
 | --- | --- |
 | ![PinkPetals](Documentation/PortraitFrames/PinkPetals.png) <br> PinkPetals | ![Tulips](Documentation/PortraitFrames/Tulips.png) <br> Tulips |
 | ![SimpleDandelions](Documentation/PortraitFrames/SimpleDandelions.png) <br> SimpleDandelions | ![Daffodils](Documentation/PortraitFrames/Daffodils.png) <br> Daffodils |
-| ![SpringBlossoms](Documentation/PortraitFrames/SpringBlossoms.png) <br> SpringBlossoms | |
+| ![SpringBlossoms](Documentation/PortraitFrames/SpringBlossoms.png) <br> SpringBlossoms | ![GreenBeans](Documentation/PortraitFrames/GreenBeans.png) <br> GreenBeans |
+| ![Carrots](Documentation/PortraitFrames/Carrots.png) <br> Carrots | ![Strawberries](Documentation/PortraitFrames/Strawberries.png) <br> Strawberries |
 
 | Summer | |
 | --- | --- |
@@ -78,48 +79,69 @@ In version 1.2.2, there are 31 seasonal frames, 13 festival frames, 37 map speci
 | ![WinterWallOrnaments](Documentation/PortraitFrames/WinterWallOrnaments.png) <br> WinterWallOrnaments | ![Snowmen](Documentation/PortraitFrames/Snowmen.png) <br> Snowmen |
 | ![IcyLeaves](Documentation/PortraitFrames/IcyLeaves.png) <br> IcyLeaves | ![CandyCanes](Documentation/PortraitFrames/CandyCanes.png) <br> CandyCanes |
 
-| Salmonberry Season |
-| --- |
-| ![SalmonberryBush](Documentation/PortraitFrames/SalmonberryBush.png) <br> SalmonberryBush | |
+| Salmonberry Season | |
+| --- | --- |
+| ![SalmonberryBush](Documentation/PortraitFrames/SalmonberryBush.png) <br> SalmonberryBush | ![ClimbingSalmonberry](Documentation/PortraitFrames/ClimbingSalmonberry.png) <br> ClimbingSalmonberry |
 
-| Blackberry Season |
-| --- |
-| ![BlackberryBush](Documentation/PortraitFrames/BlackberryBush.png) <br> BlackberryBush | |
+| Blackberry Season | |
+| --- | --- |
+| ![BlackberryBush](Documentation/PortraitFrames/BlackberryBush.png) <br> BlackberryBush | ![TallerBlackberryBush](Documentation/PortraitFrames/TallerBlackberryBush.png) <br> TallerBlackberryBush |
+
+| Green Rain | |
+| --- | --- |
+| ![GreenTree](Documentation/PortraitFrames/GreenTree.png) <br> GreenTree | ![TwirlyTree](Documentation/PortraitFrames/TwirlyTree.png) <br> TwirlyTree |
+| ![FreshFerns](Documentation/PortraitFrames/FreshFerns.png) <br> FreshFerns | |
 
 ### Map
 
 | Ginger Island | |
 | --- | --- |
 | ![IslandPalms](Documentation/PortraitFrames/IslandPalms.png) <br> IslandPalms | ![TropicalVines](Documentation/PortraitFrames/TropicalVines.png) <br> TropicalVines |
-| ![IslandHut](Documentation/PortraitFrames/IslandHut.png) <br> IslandHut | |
+| ![IslandHut](Documentation/PortraitFrames/IslandHut.png) <br> IslandHut | ![BananaTree](Documentation/PortraitFrames/BananaTree.png) <br> BananaTree |
 
 | Sewer |
 | --- |
 | ![GoodOldSewer](Documentation/PortraitFrames/GoodOldSewer.png) <br> GoodOldSewer |
 
-| Spring Beach |
-| --- |
-| ![LonelyClam](Documentation/PortraitFrames/LonelyClam.png) <br> LonelyClam |
+| Spring Beach | |
+| --- | --- |
+| ![LonelyClam](Documentation/PortraitFrames/LonelyClam.png) <br> LonelyClam | ![SeaDebris](Documentation/PortraitFrames/SeaDebris.png) <br> SeaDebris |
 
-| Summer Beach |
-| --- |
-| ![ChildhoodMemories](Documentation/PortraitFrames/ChildhoodMemories.png) <br> ChildhoodMemories |
+| Summer Beach | |
+| --- | --- |
+| ![ChildhoodMemories](Documentation/PortraitFrames/ChildhoodMemories.png) <br> ChildhoodMemories | ![ByTheSea](Documentation/PortraitFrames/ByTheSea.png) <br> ByTheSea |
 
-| Fall Beach |
-| --- |
-| ![SimpleFallBeach](Documentation/PortraitFrames/SimpleFallBeach.png) <br> SimpleFallBeach |
+| Fall Beach | |
+| --- | --- |
+| ![SimpleFallBeach](Documentation/PortraitFrames/SimpleFallBeach.png) <br> SimpleFallBeach | ![FallBeachDebris](Documentation/PortraitFrames/FallBeachDebris.png) <br> FallBeachDebris |
 
-| Winter Beach |
+| Winter Beach | |
+| --- | --- |
+| ![NautilusShell](Documentation/PortraitFrames/NautilusShell.png) <br> NautilusShell | ![WintryPier](Documentation/PortraitFrames/WintryPier.png) <br> WintryPier |
+
+| Wizard's Tower |
 | --- |
-| ![NautilusShell](Documentation/PortraitFrames/NautilusShell.png) <br> NautilusShell |
+| ![MysticalCandles](Documentation/PortraitFrames/MysticalCandles.png) <br> MysticalCandles |
 
 | Mine Entrance |
 | --- |
 | ![LevelZero](Documentation/PortraitFrames/LevelZero.png) <br> LevelZero |
 
-| Summit |
+| Summit Day |
 | --- |
 | ![TheView](Documentation/PortraitFrames/TheView.png) <br> TheView |
+
+| Summit Night |
+| --- |
+| ![StarryNight](Documentation/PortraitFrames/StarryNight.png) <br> StarryNight |
+
+| Sunroom Sunny |
+| --- |
+| ![BrightTeaTime](Documentation/PortraitFrames/BrightTeaTime.png) <br> BrightTeaTime |
+
+| Sunroom Rain and Night |
+| --- |
+| ![GloomyTeaTime](Documentation/PortraitFrames/GloomyTeaTime.png) <br> GloomyTeaTime |
 
 | Abandoned Community Center |
 | --- |
@@ -173,9 +195,13 @@ In version 1.2.2, there are 31 seasonal frames, 13 festival frames, 37 map speci
 | --- |
 | ![Blacksmith](Documentation/PortraitFrames/Blacksmith.png) <br> Blacksmith |
 
-| Desert |
+| Stardrop's Saloon |
 | --- |
-| ![CactusAndSand](Documentation/PortraitFrames/CactusAndSand.png) <br> CactusAndSand |
+| ![FridayNight](Documentation/PortraitFrames/FridayNight.png) <br> FridayNight |
+
+| Desert | |
+| --- | --- |
+| ![CactusAndSand](Documentation/PortraitFrames/CactusAndSand.png) <br> CactusAndSand | ![Fossils](Documentation/PortraitFrames/Fossils.png) <br> Fossils |
 
 | Fish Shop |
 | --- |
@@ -227,9 +253,9 @@ In version 1.2.2, there are 31 seasonal frames, 13 festival frames, 37 map speci
 
 ### Festival
 
-| Egg Festival |
-| --- |
-| ![FestiveEggs](Documentation/PortraitFrames/FestiveEggs.png) <br> FestiveEggs |
+| Egg Festival | |
+| --- | --- |
+| ![FestiveEggs](Documentation/PortraitFrames/FestiveEggs.png) <br> FestiveEggs | ![EggStand](Documentation/PortraitFrames/EggStand.png) <br> EggStand |
 
 | Flower Dance |
 | --- |
@@ -285,7 +311,9 @@ In version 1.2.2, there are 31 seasonal frames, 13 festival frames, 37 map speci
 
 | Unused | |
 | --- | --- |
-| ![StarryNight](Documentation/PortraitFrames/StarryNight.png) <br> StarryNight | This frame is meant to show on Sebastian and Maru events that shows night time sky. However, it's not possible to specifically patch when player is in temporary map during an event. The frame is included in the mod, but not used. |
+| ![MossyBranches](Documentation/PortraitFrames/MossyBranches.png) <br> MossyBranches | ![MossyTwigs](Documentation/PortraitFrames/MossyTwigs.png) <br> MossyTwigs |
+| ![SnowyBranches](Documentation/PortraitFrames/SnowyBranches.png) <br> SnowyBranches | ![SnowyTwigs](Documentation/PortraitFrames/SnowyTwigs.png) <br> SnowyTwigs |
+| ![FrozenFerns](Documentation/PortraitFrames/FrozenFerns.png) <br> FrozenFerns | |
 
 ## Compatibility
 - [Farmer Portraits](https://www.nexusmods.com/stardewvalley/mods/11398). To use same dialogue's portrait frame for farmer and character, set 'Use Custom Background' to false in that mod.

@@ -1,11 +1,10 @@
 {
   "$schema": "https://smapi.io/schemas/content-patcher.json",
-  "Format": "2.0.0",
+  "Format": "2.7.0",
   "ConfigSchema": {
     //Basic Config
     "DefaultFrame": {
       "Default": "Default",
-      "AllowValues": "Default, PinkPetals, Tulips, SimpleDandelions, Daffodils, Sunflowers, VinesAndFerns, Blueberries, RowOfHops, Starfruits, ScatteredLeaves, WildMushrooms, FallFoliages, Eggplants, Corns, SnowPiles, FrostedPines, Crocuses, WinterFoliages, IslandPalms, TropicalVines, IslandHut, LonelyClam, ChildhoodMemories, SimpleFallBeach, NautilusShell, LevelZero, GoodOldSewer, WhiteWedding, SalmonberryBush, BlackberryBush, FestiveEggs, MerryFlowers, LeavesAndTorch, CandlesOnSea, FairBalloons, PumpkinsAndSpiders, Spooky, IceCastles, ColorfulMarket, HolidayPresents, StarryNight",
       "Section": "BasicConfig"
     },
     "DisableConditional": {
@@ -31,7 +30,7 @@
       "Section": "VisualOptionSeasonal"
     },
     "SpringOption": {
-      "Default": "PinkPetals, Tulips, SimpleDandelions, Daffodils, SpringBlossoms",
+      "Default": "PinkPetals, Tulips, SimpleDandelions, Daffodils, SpringBlossoms, GreenBeans, Carrots, Strawberries",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
@@ -42,7 +41,7 @@
       "Section": "VisualOptionSeasonal",
     },
     "SummerOption": {
-      "Default": "Sunflowers, VinesAndFerns, Blueberries, RowOfHops, Starfruits, FloweryVines, TowerFlower",
+      "Default": "Sunfloweps, Starfruitrs, VinesAndFerns, Blueberries, RowOfHos, FloweryVines, TowerFlower",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
@@ -75,13 +74,24 @@
       "Section": "VisualOptionSeasonal",
     },
     "SalmonberrySeasonOption": {
-      "Default": "SalmonberryBush",
+      "Default": "SalmonberryBush, ClimbingSalmonberry",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
     },
     "BlackberrySeasonOption": {
-      "Default": "BlackberryBush",
+      "Default": "BlackberryBush, TallerBlackberryBush",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionSeasonal",
+    },
+    "EnableGreenRain": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionSeasonal",
+    },
+    "GreenRainOption": {
+      "Default": "TwirlyTree, GreenTree, FreshFerns",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
@@ -93,7 +103,7 @@
       "Section": "VisualOptionMap",
     },
     "GingerIslandOption": {
-      "Default": "IslandPalms, TropicalVines, IslandHut",
+      "Default": "IslandPalms, TropicalVines, IslandHut, BananaTree",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
@@ -133,7 +143,7 @@
       "Section": "VisualOptionMap",
     },
     "WinterBeachOption": {
-      "Default": "NautilusShell",
+      "Default": "NautilusShell, WintryPier",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
@@ -149,13 +159,47 @@
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
     },
+    "EnableWizardTower": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "WizardTowerOption": {
+      "Default": "MysticalCandles",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
     "EnableSummit": {
       "Default": "true",
       "AllowValues": "true, false",
       "Section": "VisualOptionMap",
     },
-    "SummitOption": {
+    "SummitDayOption": {
       "Default": "TheView",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "SummitNightOption": {
+      "Default": "StarryNight",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "EnableSunroom": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "SunroomSunnyOption": {
+      "Default": "BrightTeaTime",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "SunroomRainyOption": {
+      "Default": "GloomyTeaTime",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
@@ -283,13 +327,24 @@
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
     },
+        "EnableSaloon": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionMap",
+    },
+    "SaloonOption": {
+      "Default": "FridayNight",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
     "EnableDesert": {
       "Default": "true",
       "AllowValues": "true, false",
       "Section": "VisualOptionMap",
     },
     "DesertOption": {
-      "Default": "CactusAndSand",
+      "Default": "CactusAndSand, Fossils",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
@@ -423,7 +478,7 @@
       "Section": "VisualOptionFestival",
     },
     "EggFestivalOption": {
-      "Default": "FestiveEggs",
+      "Default": "FestiveEggs, EggStand",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionFestival",
@@ -631,6 +686,42 @@
         "Day": "8, 9, 10, 11"
       }
     },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{GreenRainSpringOption}}}}",
+      "When": {
+        "EnableGreenRain": true,
+        "Weather": "GreenRain",
+        "Season": "spring"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{GreenRainSummerOption}}}}",
+      "When": {
+        "EnableGreenRain": true,
+        "Weather": "GreenRain",
+        "Season": "summer"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{GreenRainFallOption}}}}",
+      "When": {
+        "EnableGreenRain": true,
+        "Weather": "GreenRain",
+        "Season": "fall"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{GreenRainWinterOption}}}}",
+      "When": {
+        "EnableGreenRain": true,
+        "Weather": "GreenRain",
+        "Season": "winter"
+      }
+    },
     ////Map based
     {
       "Name": "DisplayFrame",
@@ -686,6 +777,22 @@
     },
     {
       "Name": "DisplayFrame",
+      "Value": "{{Random:{{WizardTowerOption}}}}",
+      "When": {
+        "EnableWizardTower": true,
+        "LocationName": "WizardHouse"
+      }
+    },
+        {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{WizardTowerOption}}}}",
+      "When": {
+        "EnableWizardTower": true,
+        "LocationName": "WizardHouseBasement"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
       "Value": "{{Random:{{SewerOption}}}}",
       "When": {
         "EnableSewer": true,
@@ -694,10 +801,54 @@
     },
     {
       "Name": "DisplayFrame",
-      "Value": "{{Random:{{SummitOption}}}}",
+      "Value": "{{Random:{{SunroomSunnyOption}}}}",
+      "When": {
+        "EnableSunroom": true,
+        "LocationName": "Sunroom"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SunroomRainyOption}}}}",
+      "When": {
+        "EnableSunroom": true,
+        "LocationName": "Sunroom",
+        "Weather": "Rain"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SunroomRainyOption}}}}",
+      "When": {
+        "EnableSunroom": true,
+        "LocationName": "Sunroom",
+        "Weather": "Storm"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SunroomRainyOption}}}}",
+      "When": {
+        "EnableSunroom": true,
+        "LocationName": "Sunroom",
+        "Time": "{{Range: 0600, 2600}}"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SummitDayOption}}}}",
       "When": {
         "EnableSummit": true,
         "LocationName": "Summit"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SummitNightOption}}}}",
+      "When": {
+        "EnableSummit": true,
+        "LocationName": "Summit",
+        "Time": "{{Range: 0600, 2600}}"
       }
     },
     {
@@ -806,6 +957,14 @@
       "When": {
         "EnableBlacksmith": true,
         "LocationName": "Blacksmith",
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "{{Random:{{SaloonOption}}}}",
+      "When": {
+        "EnableSaloon": true,
+        "LocationName": "Saloon",
       }
     },
     {

@@ -7,7 +7,7 @@
   * [Event](#event)
 
 ## Portrait Frames
-In version 1.2.2, there are 31 seasonal frames, 11 festival frames, 32 map specific frames, and 1 event specific frames. These are edits made by [Airyn](https://www.nexusmods.com/stardewvalley/users/70148453) for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) version 1.2.0 and further extended and maintained by myself on [Portrait Frame Variations](https://www.nexusmods.com/stardewvalley/mods/6899) 1.1.0 update onwards. 
+In version 1.3.0, there are 39 seasonal frames, 11 festival frames, 33 map specific frames, and 1 event specific frames. These are edits made by [Airyn](https://www.nexusmods.com/stardewvalley/users/70148453) for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) version 1.2.0 and further extended and maintained by myself on [Portrait Frame Variations](https://www.nexusmods.com/stardewvalley/mods/6899) 1.1.0 update onwards. 
 The aim is to have the two mods visual blend well together. Variation of frames from [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is used as background to depict the most likely combination. Seven frames are not included as the visual will really b;end well together.
 
 ### Seasonal
@@ -29,7 +29,8 @@ The aim is to have the two mods visual blend well together. Variation of frames 
 | --- | --- |
 | ![ScatteredLeaves](PortraitFrames_ChangingSkies/ScatteredLeaves.png) <br> ScatteredLeaves | ![WildMushrooms](PortraitFrames_ChangingSkies/WildMushrooms.png) <br> WildMushrooms |
 | ![FallFoliages](PortraitFrames_ChangingSkies/FallFoliages.png) <br> FallFoliages | ![Eggplants](PortraitFrames_ChangingSkies/Eggplants.png) <br> Eggplants |
-| ![Corns](PortraitFrames_ChangingSkies/Corns.png) <br> Corns | |
+| ![Corns](PortraitFrames_ChangingSkies/Corns.png) <br> Corns | ![MossyTwigs](PortraitFrames_ChangingSkies/MossyTwigs.png) <br> MossyTwigs |
+| ![MossyBranches](PortraitFrames_ChangingSkies/MossyBranches.png) <br> MossyBranches | |
 
 | Winter | |
 | --- | --- |
@@ -37,6 +38,8 @@ The aim is to have the two mods visual blend well together. Variation of frames 
 | ![Crocuses](PortraitFrames_ChangingSkies/Crocuses.png) <br> Crocuses | ![WinterFoliages](PortraitFrames_ChangingSkies/WinterFoliages.png) <br> WinterFoliages |
 | ![WinterWallOrnaments](PortraitFrames_ChangingSkies/WinterWallOrnaments.png) <br> WinterWallOrnaments | ![Snowmen](PortraitFrames_ChangingSkies/Snowmen.png) <br> Snowmen |
 | ![IcyLeaves](PortraitFrames_ChangingSkies/IcyLeaves.png) <br> IcyLeaves | ![CandyCanes](PortraitFrames_ChangingSkies/CandyCanes.png) <br> CandyCanes |
+| ![SnowyBranches](PortraitFrames_ChangingSkies/SnowyBranches.png) <br> SnowyBranches | ![SnowyTwigs](PortraitFrames_ChangingSkies/SnowyTwigs.png) <br> SnowyTwigs |
+| ![FrozenFerns](PortraitFrames_ChangingSkies/FrozenFerns.png) <br> FrozenFerns | |
 
 | Salmonberry Season |
 | --- |
@@ -45,6 +48,11 @@ The aim is to have the two mods visual blend well together. Variation of frames 
 | Blackberry Season |
 | --- |
 | ![BlackberryBush](PortraitFrames_ChangingSkies/BlackberryBush.png) <br> BlackberryBush | |
+
+| Green Rain | |
+| --- | --- |
+| ![GreenTree](PortraitFrames_ChangingSkies/GreenTree.png) <br> GreenTree | ![TwirlyTree](PortraitFrames_ChangingSkies/TwirlyTree.png) <br> TwirlyTree |
+| ![FreshFerns](PortraitFrames_ChangingSkies/FreshFerns.png) <br> FreshFerns | |
 
 ### Map
 
@@ -77,9 +85,13 @@ The aim is to have the two mods visual blend well together. Variation of frames 
 | --- |
 | ![LevelZero](PortraitFrames_ChangingSkies/LevelZero.png) <br> LevelZero |
 
-| Summit |
+| Summit Day |
 | --- |
 | ![TheView](PortraitFrames_ChangingSkies/TheView.png) <br> TheView |
+
+| Summit Night |
+| --- |
+| ![StarryNight](PortraitFrames_ChangingSkies/StarryNight.png) <br> StarryNight |
 
 | Abandoned Community Center |
 | --- |
@@ -212,9 +224,3 @@ The aim is to have the two mods visual blend well together. Variation of frames 
 | Wedding |
 | --- |
 | ![WhiteWedding](PortraitFrames_ChangingSkies/WhiteWedding.png) <br> WhiteWedding |
-
-### Unused
-
-| Unused | |
-| --- | --- |
-| ![StarryNight](PortraitFrames_ChangingSkies/StarryNight.png) <br> StarryNight | This frame is meant to show on Sebastian and Maru events that shows night time sky. However, it's not possible to specifically patch when player is in temporary map during an event. |

@@ -37,6 +37,11 @@
   "config.EnableBerrySeason.description": "Show selected 'Berry Season Options' portrait frames when berry bearing season is on.",
   "config.SalmonberrySeasonOption.name": "Salmonberry Season Options",
   "config.BlackberrySeasonOption.name": "Blackberry Season Options",
+
+  "config.EnableGreenRain.name": "Green Rain",
+  "config.EnableGreenRain.description": "Show selected 'Green Rain Options' portrait frames when green rain is on.",
+  "config.GreenRainOption.name": "Green Rain Options",
+
   ////Festival
   "config.section.VisualOptionFestival.name": "Visual Option: Festival",
   "config.EnableEggFestival.name": "Egg Festival",
@@ -104,13 +109,23 @@
   "config.FallBeachOption.name": "Beach Fall Options",
   "config.WinterBeachOption.name": "Beach Winter Options",
 
+  "config.EnableWizardTower.name": "Wizard's Tower",
+  "config.EnableWizardTower.description": "Show selected 'Wizard Tower Options' portrait frames when on Wizard Tower.",
+  "config.WizardTowerOption.name": "Wizard's Tower Options",
+
   "config.EnableMineEntrance.name": "Mine Entrance",
   "config.EnableMineEntrance.description": "Show selected 'Mine Entrance Options' portrait frames when on Mine Entrance.",
   "config.MineEntranceOption.name": "Mine Entrance Options",
 
   "config.EnableSummit.name": "Summit",
   "config.EnableSummit.description": "Show selected 'Summit Options' portrait frames when on Summit.",
-  "config.SummitOption.name": "Summit Options",
+  "config.SummitDayOption.name": "Summit Day Options",
+  "config.SummitNightOption.name": "Summit Night Options",
+
+  "config.EnableSunroom.name": "Caroline's Sunroom",
+  "config.EnableSunroom.description": "Show selected 'Caroline's Sunroom Options' portrait frames when on Caroline's Sunroom.",
+  "config.SunroomSunnyOption.name": "Sunroom Sunny Options",
+  "config.SunroomRainyOption.name": "Sunroom Rainy Options",
 
   "config.EnableJojaMart.name": "JojaMart",
   "config.EnableJojaMart.description": "Show selected 'JojaMart Options' portrait frames when on JojaMart.",
@@ -151,6 +166,10 @@
   "config.EnableBlacksmith.name": "Blacksmith",
   "config.EnableBlacksmith.description": "Show selected 'Blacksmith Options' portrait frames when on Blacksmith.",
   "config.BlacksmithOption.name": "Blacksmith Options",
+
+  "config.EnableSaloon.name": "Stardrop Saloon",
+  "config.EnableSaloon.description": "Show selected 'Saloon Saloon Options' portrait frames when on Stardrop Saloon.",
+  "config.SaloonOption.name": "Stardrop Saloon Options",
 
   "config.EnableDesert.name": "Desert",
   "config.EnableDesert.description": "Show selected 'Desert Options' portrait frames when on Desert.",
