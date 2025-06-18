@@ -47,8 +47,8 @@ Set 'Hide Heart Indicator' to true, indicated by having X marks. <br>
 
 ## Portrait Frames
 
-In version 1.3.0, there are 40 seasonal frames, 15 festival frames, 40 map specific frames, and 1 event specific frames. The assets are meant to be overlayed on top of existing UI, in some case this led to minimal compatibility with UI recolor mod. Presented is how portrait frames configured. 
-- Edited assets made for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is available [here](Documentation/PortraitFrames_ChangingSkies.md). But it's currently not including the 14 frames added in 1.3.0 update.
+In version 1.3.0, there are 43 seasonal frames, 15 festival frames, 40 map specific frames, and 1 event specific frames. The assets are meant to be overlayed on top of existing UI, in some case this led to minimal compatibility with UI recolor mod. Presented is how portrait frames configured. 
+- Edited assets made for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is available [here](Documentation/PortraitFrames_ChangingSkies.md). But it's currently not including the 17 frames added in 1.3.0 update.
 
 ### Seasonal
 
@@ -57,6 +57,7 @@ In version 1.3.0, there are 40 seasonal frames, 15 festival frames, 40 map speci
 | ![PinkPetals](Documentation/PortraitFrames/PinkPetals.png) <br> PinkPetals | ![Tulips](Documentation/PortraitFrames/Tulips.png) <br> Tulips |
 | ![SimpleDandelions](Documentation/PortraitFrames/SimpleDandelions.png) <br> SimpleDandelions | ![Daffodils](Documentation/PortraitFrames/Daffodils.png) <br> Daffodils |
 | ![SpringBlossoms](Documentation/PortraitFrames/SpringBlossoms.png) <br> SpringBlossoms | ![GreenBeans](Documentation/PortraitFrames/GreenBeans.png) <br> GreenBeans |
+| ![Carrots](Documentation/PortraitFrames/Carrots.png) <br> Carrots | ![Strawberries](Documentation/PortraitFrames/Strawberries.png) <br> Strawberries |
 
 | Summer | |
 | --- | --- |
@@ -114,9 +115,9 @@ In version 1.3.0, there are 40 seasonal frames, 15 festival frames, 40 map speci
 | --- | --- |
 | ![SimpleFallBeach](Documentation/PortraitFrames/SimpleFallBeach.png) <br> SimpleFallBeach | ![FallBeachDebris](Documentation/PortraitFrames/FallBeachDebris.png) <br> FallBeachDebris |
 
-| Winter Beach |
-| --- |
-| ![NautilusShell](Documentation/PortraitFrames/NautilusShell.png) <br> NautilusShell |
+| Winter Beach | |
+| --- | --- |
+| ![NautilusShell](Documentation/PortraitFrames/NautilusShell.png) <br> NautilusShell | ![WintryPier](Documentation/PortraitFrames/WintryPier.png) <br> WintryPier |
 
 | Wizard's Tower |
 | --- |
