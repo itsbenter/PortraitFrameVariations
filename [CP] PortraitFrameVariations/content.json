@@ -23,6 +23,12 @@
       "AllowValues": "true, false",
       "Section": "ModCompatibility"
     },
+    //Visual Option: Events
+    "EnableEvents": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionEvents"
+    },
     //Visual Option: Seasonal
     "EnableSpring": {
       "Default": "true",
@@ -616,32 +622,8 @@
       "AllowMultiple": true,
       "Section": "VisualOptionEvent",
     },
-    //"EnableNightSkyEvent": {
-    //  "Default": "true",
-    //  "AllowValues": "true, false",
-    //  "Section": "VisualOptionEvent",
-    //},
-    //"NightSkyEventOption": {
-    //  "Default": "StarryNight",
-    //  "AllowBlank": false,
-    //  "AllowMultiple": true,
-    //  "Section": "VisualOptionEvent",
-    //},
   },
   "DynamicTokens": [
-    //Shorthand for event conditions
-    {
-      "Name": "EventFrameActive",
-      "Value": false,
-    },
-    {
-      "Name": "EventFrameActive",
-      "Value": true,
-      "When": {
-        "HasMod": "spacechase0.SpaceCore",
-        "EnableEvents": true,
-      }
-    },
     //Series of conditional to select frame
     {
       "Name": "DisplayFrame",
@@ -1214,9 +1196,10 @@
     },
     {
       "Name": "DisplayFrame",
-      "Value": "NightSky",
+      "Value": "StarryNight",
       "When": {
-        "EventFrameActive": true,
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
         "spacechase0.SpaceCore/CurrentEventId |contains=8, 5183338, 384882": true, //Maru Telescope and Maru Comet, Sebastian Night Ride
       }
     },
@@ -1224,7 +1207,8 @@
       "Name": "DisplayFrame",
       "Value": "FlutePlay",
       "When": {
-        "EventFrameActive": true,
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
         "spacechase0.SpaceCore/CurrentEventId |contains=2": true, //Abigail's playing flute
       }
     },    
@@ -1232,7 +1216,8 @@
       "Name": "DisplayFrame",
       "Value": "DarkRoom",
       "When": {
-        "EventFrameActive": true,
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
         "spacechase0.SpaceCore/CurrentEventId |contains=15": true, //Haley's dark room
       }
     },
@@ -1240,7 +1225,8 @@
       "Name": "DisplayFrame",
       "Value": "Camping",
       "When": {
-        "EventFrameActive": true,
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
         "spacechase0.SpaceCore/CurrentEventId |contains=2123343": true, //Emily's camping
       }
     },
@@ -1248,7 +1234,8 @@
       "Name": "DisplayFrame",
       "Value": "DreamLand",
       "When": {
-        "EventFrameActive": true,
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
         "spacechase0.SpaceCore/CurrentEventId |contains=471942": true, //Emily's dream
       }
     },
@@ -1256,7 +1243,8 @@
       "Name": "DisplayFrame",
       "Value": "BackAlleyConcert",
       "When": {
-        "EventFrameActive": true,
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
         "spacechase0.SpaceCore/CurrentEventId |contains=4081148": true, //Sam's event
       }
     },
@@ -1264,7 +1252,8 @@
       "Name": "DisplayFrame",
       "Value": "ChickenCoop",
       "When": {
-        "EventFrameActive": true,
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
         "spacechase0.SpaceCore/CurrentEventId |contains=3900074": true, //Shane's Charlie event
       }
     },
@@ -1272,7 +1261,8 @@
       "Name": "DisplayFrame",
       "Value": "Stadium",
       "When": {
-        "EventFrameActive": true,
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
         "spacechase0.SpaceCore/CurrentEventId |contains=9581348": true, //Shane's stadium event
       }
     },
@@ -1280,7 +1270,8 @@
       "Name": "DisplayFrame",
       "Value": "UpInSKy",
       "When": {
-        "EventFrameActive": true,
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
         "spacechase0.SpaceCore/CurrentEventId |contains=528052": true, //Harvey's balloon event
       }
     },
