@@ -176,6 +176,12 @@
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
     },
+    "WizardBasementOption": {
+      "Default": "WizardBasement",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
     "EnableSummit": {
       "Default": "true",
       "AllowValues": "true, false",
@@ -350,7 +356,7 @@
       "Section": "VisualOptionMap",
     },
     "DesertOption": {
-      "Default": "CactusAndSand, Fossils",
+      "Default": "CactusAndSand, Fossils, DesertVibes",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
@@ -778,9 +784,9 @@
         "LocationName": "WizardHouse"
       }
     },
-        {
+    {
       "Name": "DisplayFrame",
-      "Value": "{{Random:{{WizardTowerOption}}}}",
+      "Value": "{{Random:{{WizardBasementOption}}}}",
       "When": {
         "EnableWizardTower": true,
         "LocationName": "WizardHouseBasement"
