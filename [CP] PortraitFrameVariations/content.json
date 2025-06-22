@@ -1244,6 +1244,7 @@
         "HasMod": "spacechase0.SpaceCore",
         "EnableEvents": true,
         "spacechase0.SpaceCore/CurrentEventId |contains=471942": true, //Emily's dream
+        "LocationName": "Temp"
       }
     },
     {
@@ -1253,6 +1254,7 @@
         "HasMod": "spacechase0.SpaceCore",
         "EnableEvents": true,
         "spacechase0.SpaceCore/CurrentEventId |contains=4081148": true, //Sam's event
+        "LocationName": "Temp"
       }
     },
     {
@@ -1262,6 +1264,7 @@
         "HasMod": "spacechase0.SpaceCore",
         "EnableEvents": true,
         "spacechase0.SpaceCore/CurrentEventId |contains=3900074": true, //Shane's Charlie event
+        "LocationName": "Temp"
       }
     },
     {
@@ -1271,6 +1274,7 @@
         "HasMod": "spacechase0.SpaceCore",
         "EnableEvents": true,
         "spacechase0.SpaceCore/CurrentEventId |contains=9581348": true, //Shane's stadium event
+        "LocationName": "Temp"
       }
     },
     {
@@ -1280,6 +1284,7 @@
         "HasMod": "spacechase0.SpaceCore",
         "EnableEvents": true,
         "spacechase0.SpaceCore/CurrentEventId |contains=528052": true, //Harvey's balloon event
+        "LocationName": "Temp"
       }
     },
     ////Config edits

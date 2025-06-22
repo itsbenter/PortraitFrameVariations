@@ -123,6 +123,10 @@ In version 1.3.0, there are 43 seasonal frames, 15 festival frames, 40 map speci
 | --- |
 | ![MysticalCandles](Documentation/PortraitFrames/MysticalCandles.png) <br> MysticalCandles |
 
+| Wizard's Basement |
+| --- |
+| ![WizardBasement](Documentation/PortraitFrames/WizardBasement.png) <br> WizardBasement |
+
 | Mine Entrance |
 | --- |
 | ![LevelZero](Documentation/PortraitFrames/LevelZero.png) <br> LevelZero |
@@ -202,6 +206,7 @@ In version 1.3.0, there are 43 seasonal frames, 15 festival frames, 40 map speci
 | Desert | |
 | --- | --- |
 | ![CactusAndSand](Documentation/PortraitFrames/CactusAndSand.png) <br> CactusAndSand | ![Fossils](Documentation/PortraitFrames/Fossils.png) <br> Fossils |
+| ![DesertVibes](Documentation/PortraitFrames/DesertVibes.png) <br> DesertVibes | |
 
 | Fish Shop |
 | --- |
@@ -306,6 +311,42 @@ In version 1.3.0, there are 43 seasonal frames, 15 festival frames, 40 map speci
 | Wedding |
 | --- |
 | ![WhiteWedding](Documentation/PortraitFrames/WhiteWedding.png) <br> WhiteWedding |
+
+| Harvey's Baloon Ride |
+| --- |
+| ![EveningClouds](Documentation/PortraitFrames/EveningClouds.png) <br> EveningClouds |
+
+| Shane's Charlie and Blue Chicken |
+| --- |
+| ![ChickenCoop](Documentation/PortraitFrames/ChickenCoop.png) <br> ChickenCoop |
+
+| Shane Watching Game on Stadium |
+| --- |
+| ![Stadium](Documentation/PortraitFrames/Stadium.png) <br> Stadium |
+
+| Haley's Dark Room |
+| --- |
+| ![DarkRoom](Documentation/PortraitFrames/Stadium.png) <br> DarkRoom |
+
+| Emily's Dream |
+| --- |
+| ![DreamLand](Documentation/PortraitFrames/DreamLand.png) <br> DreamLand |
+
+| Emily on Campground |
+| --- |
+| ![Camping](Documentation/PortraitFrames/Camping.png) <br> Camping |
+
+| Abigail Playing Flute |
+| --- |
+| ![Camping](Documentation/PortraitFrames/Camping.png) <br> Camping |
+
+| Sam's Concert |
+| --- |
+| ![BackAlleyConcert](Documentation/PortraitFrames/BackAlleyConcert.png) <br> BackAlleyConcert |
+
+| Maru Stargazing, Maru Comet Sighting, and Sebastian's Night Ride |
+| --- |
+| ![StarryNight](Documentation/PortraitFrames/StarryNight.png) <br> StarryNight |
 
 ### Unused
 
