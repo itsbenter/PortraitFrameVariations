@@ -1219,6 +1219,7 @@
         "HasMod": "spacechase0.SpaceCore",
         "EnableEvents": true,
         "spacechase0.SpaceCore/CurrentEventId |contains=15": true, //Haley's dark room
+        "LocationName": "Temp"
       }
     },
     {
@@ -1268,7 +1269,7 @@
     },
     {
       "Name": "DisplayFrame",
-      "Value": "UpInSKy",
+      "Value": "EveningClouds",
       "When": {
         "HasMod": "spacechase0.SpaceCore",
         "EnableEvents": true,
