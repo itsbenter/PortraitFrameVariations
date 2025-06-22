@@ -326,7 +326,7 @@ In version 1.3.0, there are 43 seasonal frames, 15 festival frames, 40 map speci
 
 | Haley's Dark Room |
 | --- |
-| ![DarkRoom](Documentation/PortraitFrames/Stadium.png) <br> DarkRoom |
+| ![DarkRoom](Documentation/PortraitFrames/DarkRoom.png) <br> DarkRoom |
 
 | Emily's Dream |
 | --- |
@@ -338,7 +338,7 @@ In version 1.3.0, there are 43 seasonal frames, 15 festival frames, 40 map speci
 
 | Abigail Playing Flute |
 | --- |
-| ![Camping](Documentation/PortraitFrames/Camping.png) <br> Camping |
+| ![Camping](Documentation/PortraitFrames/FlutePlay.png) <br> Camping |
 
 | Sam's Concert |
 | --- |
