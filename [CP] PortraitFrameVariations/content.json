@@ -1303,6 +1303,7 @@
         "HasMod": "spacechase0.SpaceCore",
         "EnableEvents": true,
         "spacechase0.SpaceCore/CurrentEventId |contains=43": true, //Elliot's boating
+        "LocationName": "Temp"
       }
     },
     ////Config edits
