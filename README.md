@@ -47,7 +47,7 @@ Set 'Hide Heart Indicator' to true, indicated by having X marks. <br>
 
 ## Portrait Frames
 
-In version 1.3.0, there are 43 seasonal frames, 15 festival frames, 40 map specific frames, and 1 event specific frames. The assets are meant to be overlayed on top of existing UI, in some case this led to minimal compatibility with UI recolor mod. Presented is how portrait frames configured. 
+In version 1.4.0, there are 45 seasonal frames, 15 festival frames, 42 map frames, 1 wedding frames, and 10 event frames (will appear if SpaceCore is installed). The assets are meant to be overlayed on top of existing UI, in some case this led to minimal compatibility with UI recolor mod. Presented is how portrait frames configured. 
 - Edited assets made for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is available [here](Documentation/PortraitFrames_ChangingSkies.md). But it's currently not including the 17 frames added in 1.3.0 update.
 
 ### Seasonal
@@ -321,7 +321,7 @@ In version 1.3.0, there are 43 seasonal frames, 15 festival frames, 40 map speci
 | --- |
 | ![ChickenCoop](Documentation/PortraitFrames/ChickenCoop.png) <br> ChickenCoop |
 
-| Shane Watching Game on Stadium |
+| Shane Watching Gridball on Stadium |
 | --- |
 | ![Stadium](Documentation/PortraitFrames/Stadium.png) <br> Stadium |
 
@@ -339,7 +339,7 @@ In version 1.3.0, there are 43 seasonal frames, 15 festival frames, 40 map speci
 
 | Abigail Playing Flute |
 | --- |
-| ![Camping](Documentation/PortraitFrames/FlutePlay.png) <br> Camping |
+| ![FlutePlay](Documentation/PortraitFrames/FlutePlay.png) <br> FlutePlay |
 
 | Sam's Concert |
 | --- |
