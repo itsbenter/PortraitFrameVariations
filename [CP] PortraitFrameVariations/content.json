@@ -23,6 +23,12 @@
       "AllowValues": "true, false",
       "Section": "ModCompatibility"
     },
+    //Visual Option: Events
+    "EnableEvents": {
+      "Default": "true",
+      "AllowValues": "true, false",
+      "Section": "VisualOptionEvents"
+    },
     //Visual Option: Seasonal
     "EnableSpring": {
       "Default": "true",
@@ -52,7 +58,7 @@
       "Section": "VisualOptionSeasonal",
     },
     "FallOption": {
-      "Default": "ScatteredLeaves, WildMushrooms, FallFoliages, Eggplants, Corns",
+      "Default": "ScatteredLeaves, WildMushrooms, FallFoliages, Eggplants, Corns, GrapeTrellis, Amaranth",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
@@ -166,6 +172,12 @@
     },
     "WizardTowerOption": {
       "Default": "MysticalCandles",
+      "AllowBlank": false,
+      "AllowMultiple": true,
+      "Section": "VisualOptionMap",
+    },
+    "WizardBasementOption": {
+      "Default": "WizardBasement",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
@@ -344,7 +356,7 @@
       "Section": "VisualOptionMap",
     },
     "DesertOption": {
-      "Default": "CactusAndSand, Fossils",
+      "Default": "CactusAndSand, Fossils, DesertVibes",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionMap",
@@ -616,17 +628,6 @@
       "AllowMultiple": true,
       "Section": "VisualOptionEvent",
     },
-    //"EnableNightSkyEvent": {
-    //  "Default": "true",
-    //  "AllowValues": "true, false",
-    //  "Section": "VisualOptionEvent",
-    //},
-    //"NightSkyEventOption": {
-    //  "Default": "StarryNight",
-    //  "AllowBlank": false,
-    //  "AllowMultiple": true,
-    //  "Section": "VisualOptionEvent",
-    //},
   },
   "DynamicTokens": [
     //Series of conditional to select frame
@@ -783,9 +784,9 @@
         "LocationName": "WizardHouse"
       }
     },
-        {
+    {
       "Name": "DisplayFrame",
-      "Value": "{{Random:{{WizardTowerOption}}}}",
+      "Value": "{{Random:{{WizardBasementOption}}}}",
       "When": {
         "EnableWizardTower": true,
         "LocationName": "WizardHouseBasement"
@@ -1189,6 +1190,7 @@
         "LocationName": "Forest"
       }
     },
+    ////Events based
     {
       "Name": "DisplayFrame",
       "Value": "{{Random:{{WeddingOption}}}}",
@@ -1198,15 +1200,113 @@
         "LocationName": "Town"
       }
     },
-    //{
-    //  "Name": "DisplayFrame",
-    //  "Value": "{{Random:{{NightSkyEventOption}}}}",
-    //  "When": {
-    //    "EnableNightSkyEvent": true,
-    //    "LocationName": "Temp"
-    //    //SebastianMountain, NightSceneMaruMap, NightSceneMaruMap2
-    //  }
-    //}
+    {
+      "Name": "DisplayFrame",
+      "Value": "StarryNight",
+      "When": {
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
+        "spacechase0.SpaceCore/CurrentEventId |contains=8, 5183338, 384882": true, //Maru Telescope and Maru Comet, Sebastian Night Ride
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "FlutePlay",
+      "When": {
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
+        "spacechase0.SpaceCore/CurrentEventId |contains=2": true, //Abigail's playing flute
+      }
+    },    
+    {
+      "Name": "DisplayFrame",
+      "Value": "DarkRoom",
+      "When": {
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
+        "spacechase0.SpaceCore/CurrentEventId |contains=15": true, //Haley's dark room
+        "LocationName": "Temp"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "Camping",
+      "When": {
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
+        "spacechase0.SpaceCore/CurrentEventId |contains=2123343": true, //Emily's camping
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "DreamLand",
+      "When": {
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
+        "spacechase0.SpaceCore/CurrentEventId |contains=471942": true, //Emily's dream
+        "LocationName": "Temp"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "BackAlleyConcert",
+      "When": {
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
+        "spacechase0.SpaceCore/CurrentEventId |contains=4081148": true, //Sam's event
+        "LocationName": "Temp"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "ChickenCoop",
+      "When": {
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
+        "spacechase0.SpaceCore/CurrentEventId |contains=3900074": true, //Shane's Charlie event
+        "LocationName": "Temp"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "Stadium",
+      "When": {
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
+        "spacechase0.SpaceCore/CurrentEventId |contains=9581348": true, //Shane's stadium event
+        "LocationName": "Temp"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "EveningClouds",
+      "When": {
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
+        "spacechase0.SpaceCore/CurrentEventId |contains=528052": true, //Harvey's balloon event
+        "LocationName": "Temp"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "SpringOnionBugs",
+      "When": {
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
+        "spacechase0.SpaceCore/CurrentEventId |contains=3910979": true, //Spring Onion mastery event
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "SeaView",
+      "When": {
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
+        "spacechase0.SpaceCore/CurrentEventId |contains=43": true, //Elliot's boating
+        "LocationName": "Temp"
+      }
+    },
+    ////Config edits
     {
       "Name": "DisplayFrame",
       "Value": "{{DefaultFrame}}",

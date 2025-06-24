@@ -15,6 +15,10 @@
   "config.DisableWhenGaldoranThemeActive.description": "Disable this mod overlay on map that covered by Stardew Valley Expanded's Galdoran Theme.",
 
   //Visual Option
+  /////Events
+  "config.section.VisualOptionEvents.name": "Visual Option: Events",
+  "config.EnableEvents.name": "Events",
+
   ////Seasonal
   "config.section.VisualOptionSeasonal.name": "Visual Option: Seasonal",
   "config.EnableSpring.name": "Spring",
@@ -112,6 +116,7 @@
   "config.EnableWizardTower.name": "Wizard's Tower",
   "config.EnableWizardTower.description": "Show selected 'Wizard Tower Options' portrait frames when on Wizard Tower.",
   "config.WizardTowerOption.name": "Wizard's Tower Options",
+  "config.WizardBasementOption.name": "Wizard's Basement Options",
 
   "config.EnableMineEntrance.name": "Mine Entrance",
   "config.EnableMineEntrance.description": "Show selected 'Mine Entrance Options' portrait frames when on Mine Entrance.",

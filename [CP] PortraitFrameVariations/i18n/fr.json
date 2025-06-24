@@ -15,6 +15,10 @@
   "config.DisableWhenGaldoranThemeActive.description": "Désactiver cette superposition de mod sur la carte couverte par le thème Galdoran de Stardew Valley Expanded.",
 
   //Visual Option
+  /////Events
+  "config.section.VisualOptionEvents.name": "Options visuelles : scènes",
+  "config.EnableEvents.name": "Scènes",
+
   ////Seasonal
   "config.section.VisualOptionSeasonal.name": "Options visuelles : saisons",
   "config.EnableSpring.name": "Printemps",
@@ -112,6 +116,7 @@
   "config.EnableWizardTower.name": "Tour du sorcier",
   "config.EnableWizardTower.description": "Afficher les cadres de portrait sélectionnés pour les \"options de Tour du sorcier\" lorsque vous êtes Tour du sorcier.",
   "config.WizardTowerOption.name": "> Options de la tour du sorcier",
+  "config.WizardBasementOption.name": "> Options du sous-sol du sorcier",
 
   "config.EnableMineEntrance.name": "Entrée des mines",
   "config.EnableMineEntrance.description": "Afficher les cadres de portrait sélectionnés pour les \"options de l’entrée des mines\" lorsque vous êtes l’entrée des mines.",

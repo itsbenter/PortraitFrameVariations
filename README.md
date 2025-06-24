@@ -47,8 +47,8 @@ Set 'Hide Heart Indicator' to true, indicated by having X marks. <br>
 
 ## Portrait Frames
 
-In version 1.3.0, there are 43 seasonal frames, 15 festival frames, 40 map specific frames, and 1 event specific frames. The assets are meant to be overlayed on top of existing UI, in some case this led to minimal compatibility with UI recolor mod. Presented is how portrait frames configured. 
-- Edited assets made for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is available [here](Documentation/PortraitFrames_ChangingSkies.md). But it's currently not including the 17 frames added in 1.3.0 update.
+In version 1.4.0, there are 45 seasonal frames, 15 festival frames, 42 map frames, 1 wedding frames, and 10 event frames (will appear if SpaceCore is installed). The assets are meant to be overlayed on top of existing UI, in some case this led to minimal compatibility with UI recolor mod. Presented is how portrait frames configured. 
+- Edited assets made for [Changing Skies](https://www.nexusmods.com/stardewvalley/mods/19513) is available [here](Documentation/PortraitFrames_ChangingSkies.md). But it's currently not including the 17 frames added in 1.3.0 update and 14 frames added in 1.4.0 update.
 
 ### Seasonal
 
@@ -70,7 +70,8 @@ In version 1.3.0, there are 43 seasonal frames, 15 festival frames, 40 map speci
 | --- | --- |
 | ![ScatteredLeaves](Documentation/PortraitFrames/ScatteredLeaves.png) <br> ScatteredLeaves | ![WildMushrooms](Documentation/PortraitFrames/WildMushrooms.png) <br> WildMushrooms |
 | ![FallFoliages](Documentation/PortraitFrames/FallFoliages.png) <br> FallFoliages | ![Eggplants](Documentation/PortraitFrames/Eggplants.png) <br> Eggplants |
-| ![Corns](Documentation/PortraitFrames/Corns.png) <br> Corns | |
+| ![Corns](Documentation/PortraitFrames/Corns.png) <br> Corns | ![Amaranth](Documentation/PortraitFrames/Amaranth.png) <br> Amaranth |
+| ![GrapeTrellis](Documentation/PortraitFrames/GrapeTrellis.png) <br> GrapeTrellis | |
 
 | Winter | |
 | --- | --- |
@@ -122,6 +123,10 @@ In version 1.3.0, there are 43 seasonal frames, 15 festival frames, 40 map speci
 | Wizard's Tower |
 | --- |
 | ![MysticalCandles](Documentation/PortraitFrames/MysticalCandles.png) <br> MysticalCandles |
+
+| Wizard's Basement |
+| --- |
+| ![WizardBasement](Documentation/PortraitFrames/WizardBasement.png) <br> WizardBasement |
 
 | Mine Entrance |
 | --- |
@@ -202,6 +207,7 @@ In version 1.3.0, there are 43 seasonal frames, 15 festival frames, 40 map speci
 | Desert | |
 | --- | --- |
 | ![CactusAndSand](Documentation/PortraitFrames/CactusAndSand.png) <br> CactusAndSand | ![Fossils](Documentation/PortraitFrames/Fossils.png) <br> Fossils |
+| ![DesertVibes](Documentation/PortraitFrames/DesertVibes.png) <br> DesertVibes | |
 
 | Fish Shop |
 | --- |
@@ -306,6 +312,50 @@ In version 1.3.0, there are 43 seasonal frames, 15 festival frames, 40 map speci
 | Wedding |
 | --- |
 | ![WhiteWedding](Documentation/PortraitFrames/WhiteWedding.png) <br> WhiteWedding |
+
+| Harvey's Baloon Ride |
+| --- |
+| ![EveningClouds](Documentation/PortraitFrames/EveningClouds.png) <br> EveningClouds |
+
+| Shane's Charlie and Blue Chicken |
+| --- |
+| ![ChickenCoop](Documentation/PortraitFrames/ChickenCoop.png) <br> ChickenCoop |
+
+| Shane Watching Gridball on Stadium |
+| --- |
+| ![Stadium](Documentation/PortraitFrames/Stadium.png) <br> Stadium |
+
+| Haley's Dark Room |
+| --- |
+| ![DarkRoom](Documentation/PortraitFrames/DarkRoom.png) <br> DarkRoom |
+
+| Emily's Dream |
+| --- |
+| ![DreamLand](Documentation/PortraitFrames/DreamLand.png) <br> DreamLand |
+
+| Emily on Campground |
+| --- |
+| ![Camping](Documentation/PortraitFrames/Camping.png) <br> Camping |
+
+| Abigail Playing Flute |
+| --- |
+| ![FlutePlay](Documentation/PortraitFrames/FlutePlay.png) <br> FlutePlay |
+
+| Sam's Concert |
+| --- |
+| ![BackAlleyConcert](Documentation/PortraitFrames/BackAlleyConcert.png) <br> BackAlleyConcert |
+
+| Elliot Boating |
+| --- |
+| ![SeaView](Documentation/PortraitFrames/SeaView.png) <br> SeaView |
+
+| Spring Onion Mastery |
+| --- |
+| ![SpringOnionBugs](Documentation/PortraitFrames/SpringOnionBugs.png) <br> SpringOnionBugs |
+
+| Maru Stargazing, Maru Comet Sighting, and Sebastian's Night Ride |
+| --- |
+| ![StarryNight](Documentation/PortraitFrames/StarryNight.png) <br> StarryNight |
 
 ### Unused
 
