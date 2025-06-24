@@ -70,7 +70,8 @@ In version 1.3.0, there are 43 seasonal frames, 15 festival frames, 40 map speci
 | --- | --- |
 | ![ScatteredLeaves](Documentation/PortraitFrames/ScatteredLeaves.png) <br> ScatteredLeaves | ![WildMushrooms](Documentation/PortraitFrames/WildMushrooms.png) <br> WildMushrooms |
 | ![FallFoliages](Documentation/PortraitFrames/FallFoliages.png) <br> FallFoliages | ![Eggplants](Documentation/PortraitFrames/Eggplants.png) <br> Eggplants |
-| ![Corns](Documentation/PortraitFrames/Corns.png) <br> Corns | |
+| ![Corns](Documentation/PortraitFrames/Corns.png) <br> Corns | ![Amaranth](Documentation/PortraitFrames/Amaranth.png) <br> Amaranth |
+| ![GrapeTrellis](Documentation/PortraitFrames/GrapeTrellis.png) <br> GrapeTrellis | |
 
 | Winter | |
 | --- | --- |
@@ -343,6 +344,14 @@ In version 1.3.0, there are 43 seasonal frames, 15 festival frames, 40 map speci
 | Sam's Concert |
 | --- |
 | ![BackAlleyConcert](Documentation/PortraitFrames/BackAlleyConcert.png) <br> BackAlleyConcert |
+
+| Elliot Boating |
+| --- |
+| ![SeaView](Documentation/PortraitFrames/SeaView.png) <br> SeaView |
+
+| Spring Onion Mastery |
+| --- |
+| ![SpringOnionBugs](Documentation/PortraitFrames/SpringOnionBugs.png) <br> SpringOnionBugs |
 
 | Maru Stargazing, Maru Comet Sighting, and Sebastian's Night Ride |
 | --- |
