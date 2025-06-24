@@ -58,7 +58,7 @@
       "Section": "VisualOptionSeasonal",
     },
     "FallOption": {
-      "Default": "ScatteredLeaves, WildMushrooms, FallFoliages, Eggplants, Corns",
+      "Default": "ScatteredLeaves, WildMushrooms, FallFoliages, Eggplants, Corns, GrapeTrellis, Amaranth",
       "AllowBlank": false,
       "AllowMultiple": true,
       "Section": "VisualOptionSeasonal",
@@ -1285,6 +1285,24 @@
         "EnableEvents": true,
         "spacechase0.SpaceCore/CurrentEventId |contains=528052": true, //Harvey's balloon event
         "LocationName": "Temp"
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "SpringOnionBugs",
+      "When": {
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
+        "spacechase0.SpaceCore/CurrentEventId |contains=3910979": true, //Spring Onion mastery event
+      }
+    },
+    {
+      "Name": "DisplayFrame",
+      "Value": "SeaView",
+      "When": {
+        "HasMod": "spacechase0.SpaceCore",
+        "EnableEvents": true,
+        "spacechase0.SpaceCore/CurrentEventId |contains=43": true, //Elliot's boating
       }
     },
     ////Config edits
