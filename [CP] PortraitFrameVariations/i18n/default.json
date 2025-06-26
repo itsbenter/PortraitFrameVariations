@@ -226,5 +226,5 @@
   "config.section.VisualOptionEvent.name": "Visual Option: Event",
   "config.EnableWedding.name": "Wedding",
   "config.EnableWedding.description": "Show selected 'Wedding Options' portrait frames when on Mine Entrance.",
-  "config.WeddingOption.name": "Mine Entrance Options",
+  "config.WeddingOption.name": "Wedding Options",
 }

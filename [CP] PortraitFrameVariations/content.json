@@ -689,38 +689,10 @@
     },
     {
       "Name": "DisplayFrame",
-      "Value": "{{Random:{{GreenRainSpringOption}}}}",
+      "Value": "{{Random:{{GreenRainOption}}}}",
       "When": {
         "EnableGreenRain": true,
         "Weather": "GreenRain",
-        "Season": "spring"
-      }
-    },
-    {
-      "Name": "DisplayFrame",
-      "Value": "{{Random:{{GreenRainSummerOption}}}}",
-      "When": {
-        "EnableGreenRain": true,
-        "Weather": "GreenRain",
-        "Season": "summer"
-      }
-    },
-    {
-      "Name": "DisplayFrame",
-      "Value": "{{Random:{{GreenRainFallOption}}}}",
-      "When": {
-        "EnableGreenRain": true,
-        "Weather": "GreenRain",
-        "Season": "fall"
-      }
-    },
-    {
-      "Name": "DisplayFrame",
-      "Value": "{{Random:{{GreenRainWinterOption}}}}",
-      "When": {
-        "EnableGreenRain": true,
-        "Weather": "GreenRain",
-        "Season": "winter"
       }
     },
     ////Map based
@@ -832,7 +804,7 @@
       "When": {
         "EnableSunroom": true,
         "LocationName": "Sunroom",
-        "Time": "{{Range: 0600, 2600}}"
+        "Time": "{{Range: 1600, 2600}}"
       }
     },
     {
@@ -849,7 +821,7 @@
       "When": {
         "EnableSummit": true,
         "LocationName": "Summit",
-        "Time": "{{Range: 0600, 2600}}"
+        "Time": "{{Range: 1800, 2600}}"
       }
     },
     {
