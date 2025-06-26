@@ -1,0 +1,230 @@
+{
+  "$schema": "https://smapi.io/schemas/i18n.json",
+  //Basic Configuration
+  "config.section.BasicConfig.name": "基础配置",
+  "config.DefaultFrame.name": "默认肖像边框",
+  "config.DefaultFrame.description": "选择要默认显示的肖像边框，这会将本模组转变为一个固定的肖像边框替换模组。",
+  "config.DisableConditional.name": "禁用条件",
+  "config.DisableConditional.description": "仅显示选定的“默认边框”，不包含其他变体。",
+  "config.HideHeartIndicator.name": "隐藏好感度指示器",
+  "config.HideHeartIndicator.description": "这将隐藏位于角色肖像右下角的好感度指示器，鼠标悬停时仍会显示好感度等级。",
+
+  //Mod Compatibility
+  "config.section.ModCompatibility.name": "模组兼容性",
+  "config.DisableWhenGaldoranThemeActive.name": "SVE：在盖多兰禁用",
+  "config.DisableWhenGaldoranThemeActive.description": "在《星露谷物语扩展》的盖多兰主题启用时禁用此 mod 覆盖。",
+
+  //Visual Option
+  /////Events
+  "config.section.VisualOptionEvents.name": "视觉选项：事件",
+  "config.EnableEvents.name": "事件",
+
+  ////Seasonal
+  "config.section.VisualOptionSeasonal.name": "视觉选项：季节",
+  "config.EnableSpring.name": "春季",
+  "config.EnableSpring.description": "春季时显示选定的“春季选项”肖像边框。",
+  "config.SpringOption.name": "春季选项",
+
+  "config.EnableSummer.name": "夏季",
+  "config.EnableSummer.description": "夏季时显示选定的“夏季选项”肖像边框。",
+  "config.SummerOption.name": "夏季选项",
+
+  "config.EnableFall.name": "秋季",
+  "config.EnableFall.description": "秋季时显示选定的“秋季选项”肖像边框。",
+  "config.FallOption.name": "秋季选项",
+
+  "config.EnableWinter.name": "冬季",
+  "config.EnableWinter.description": "冬季时显示选定的“冬季选项”肖像边框。",
+  "config.WinterOption.name": "冬季选项",
+
+  "config.EnableBerrySeason.name": "浆果季节",
+  "config.EnableBerrySeason.description": "当浆果成熟季节来临时，显示选定的“浆果季节选项”肖像边框。",
+  "config.SalmonberrySeasonOption.name": "美洲大树莓季节选项",
+  "config.BlackberrySeasonOption.name": "黑莓季节选项",
+
+  "config.EnableGreenRain.name": "绿雨",
+  "config.EnableGreenRain.description": "当绿雨来临时，显示选定的“绿雨选项”肖像边框。",
+  "config.GreenRainOption.name": "绿雨选项",
+
+  ////Festival
+  "config.section.VisualOptionFestival.name": "视觉选项：节日",
+  "config.EnableEggFestival.name": "彩蛋节",
+  "config.EnableEggFestival.description": "在彩蛋节期间显示选定的“彩蛋节选项”肖像边框。",
+  "config.EggFestivalOption.name": "彩蛋节选项",
+
+  "config.EnableFlowerDance.name": "花舞节",
+  "config.EnableFlowerDance.description": "在花舞节期间显示选定的“花舞节选项”肖像边框。",
+  "config.FlowerDanceOption.name": "花舞节选项",
+
+  "config.EnableLuau.name": "夏威夷宴会",
+  "config.EnableLuau.description": "在夏威夷宴会期间显示选定的“夏威夷宴会”肖像边框。",
+  "config.LuauOption.name": "夏威夷宴会选项",
+
+  "config.EnableDanceOfMoonlightJellies.name": "月光水母",
+  "config.EnableDanceOfMoonlightJellies.description": "在月光水母之舞期间显示选定的“月光水母节选项”肖像边框。",
+  "config.DanceOfMoonlightJelliesOption.name": "月光水母选项",
+
+  "config.EnableStardewValleyFair.name": "星露谷展览会",
+  "config.EnableStardewValleyFair.description": "在星露谷展览会期间显示已选择的“星露谷展览会选项”肖像边框。",
+  "config.StardewValleyFairOption.name": "星露谷展览会选项",
+
+  "config.EnableSpiritsEve.name": "万灵节",
+  "config.EnableSpiritsEve.description": "在万灵节期间显示选定的“万灵节选项”肖像边框。",
+  "config.SpiritsEveOption.name": "万灵节选项",
+
+  "config.EnableFestivalOfIce.name": "冰雪节",
+  "config.EnableFestivalOfIce.description": "在冰雪节期间显示选定的“冰雪节选项”肖像边框。",
+  "config.FestivalOfIceOption.name": "冰雪节选项",
+
+  "config.EnableNightMarket.name": "夜市",
+  "config.EnableNightMarket.description": "在夜市期间显示选定的“夜市选项”肖像边框。",
+  "config.NightMarketOption.name": "冰雪节选项",
+
+  "config.EnableFeastOfWinterStar.name": "冬日星盛宴",
+  "config.EnableFeastOfWinterStar.description": "在冬日星盛宴期间显示选定的“冬日星盛宴选项”肖像边框。",
+  "config.FeastOfWinterStarOption.name": "冬日星盛宴选项",
+
+  "config.EnableDesertFestival.name": "卡利科沙漠节",
+  "config.EnableDesertFestival.description": "在卡利科沙漠节期间显示选定的“卡利科沙漠节选项”肖像边框。",
+  "config.DesertFestivalOption.name": "卡利科沙漠节选项",
+
+  "config.EnableTroutDerby.name": "鳟鱼大赛",
+  "config.EnableTroutDerby.description": "在灰烬森林参加鳟鱼大赛时显示选定的“鳟鱼大赛选项”肖像边框。",
+  "config.TroutDerbyOption.name": "鳟鱼大赛选项",
+
+  "config.EnableSquidFest.name": "鱿鱼节",
+  "config.EnableSquidFest.description": "在鱿鱼节期间身处海滩时，显示选定的“鱿鱼节选项”肖像边框。",
+  "config.SquidFestOption.name": "鱿鱼节选项",
+  
+  ////Map
+  "config.section.VisualOptionMap.name": "视觉选项：地图",
+  "config.EnableGingerIsland.name": "姜岛",
+  "config.EnableGingerIsland.description": "在姜岛时显示选定的“姜岛选项”肖像边框。",
+  "config.GingerIslandOption.name": "姜岛选项",
+  
+  "config.EnableSewer.name": "下水道",
+  "config.EnableSewer.description": "在下水道时显示选定的“下水道选项”肖像边框。",
+  "config.SewerOption.name": "下水道选项",
+  
+  "config.EnableBeach.name": "海滩",
+  "config.EnableBeach.description": "在鹈鹕镇海滩时显示选定的“海滩季节选项”肖像边框。",
+  "config.SpringBeachOption.name": "海滩春季选项",
+  "config.SummerBeachOption.name": "海滩夏季选项",
+  "config.FallBeachOption.name": "海滩秋季选项",
+  "config.WinterBeachOption.name": "海滩冬季选项",
+
+  "config.EnableWizardTower.name": "法师塔",
+  "config.EnableWizardTower.description": "在法师塔时显示选中的“巫师塔选项”肖像边框。",
+  "config.WizardTowerOption.name": "法师塔选项",
+  "config.WizardBasementOption.name": "法师地下室选项",
+  
+  "config.EnableMineEntrance.name": "矿洞入口",
+  "config.EnableMineEntrance.description": "在矿洞入口时显示选定的“矿洞入口选项”肖像边框。",
+  "config.MineEntranceOption.name": "矿洞入口选项",
+
+  "config.EnableSummit.name": "山顶",
+  "config.EnableSummit.description": "在山顶时显示选定的“山顶选项”肖像边框。",
+  "config.SummitDayOption.name": "山顶白天选项",
+  "config.SummitNightOption.name": "山顶夜晚选项",
+
+  "config.EnableSunroom.name": "卡罗琳的阳光房",
+  "config.EnableSunroom.description": "在卡罗琳的阳光房时显示选定的“阳光房选项”肖像边框。",
+  "config.SunroomSunnyOption.name": "阳光房晴天选项",
+  "config.SunroomRainyOption.name": "阳光房雨天选项",
+
+  "config.EnableJojaMart.name": "Joja 超市",
+  "config.EnableJojaMart.description": "在Joja 时显示选定的“Joja 超市选项”肖像边框。",
+  "config.JojaMartOption.name": "Joja 超市选项",
+
+  "config.EnableCommunityCenter.name": "社区中心",
+  "config.EnableCommunityCenter.description": "在社区中心时显示选定的“社区中心选项”肖像边框。",
+  "config.AbandonedCommunityCenterOption.name": "废弃社区中心选项",
+  "config.RefurbishedCommunityCenterOption.name": "翻新社区中心选项",
+  "config.JojaWarehouseOption.name": "Joja 仓库选项",
+
+  "config.EnableWitchSwamp.name": "女巫沼泽",
+  "config.EnableWitchSwamp.description": "在女巫沼泽区域时显示选定的“女巫沼泽选项”肖像边框。",
+  "config.WitchSwampOption.name": "女巫沼泽选项",
+
+  "config.EnablePirateCove.name": "海盗湾",
+  "config.EnablePirateCove.description": "在海盗湾区域时显示选定的“海盗湾选项”肖像边框。",
+  "config.PirateCoveOption.name": "海盗湾选项",
+
+  "config.EnableFarmCave.name": "农场洞穴",
+  "config.EnableFarmCave.description": "在农场洞穴时显示选定的“农场洞穴选项”肖像边框。",
+  "config.FarmCaveBatsOption.name": "农场洞穴蝙蝠选项",
+  "config.FarmCaveMushroomsOption.name": "农场洞穴蘑菇选项",
+
+  "config.EnableBathHouse.name": "澡堂",
+  "config.EnableBathHouse.description": "在温泉浴场时显示选定的“澡堂选项”肖像边框。",
+  "config.BathHouseOption.name": "澡堂选项",
+  "config.BathHousePoolOption.name": "澡堂浴池选项",
+
+  "config.EnableClinic.name": "哈维的诊所",
+  "config.EnableClinic.description": "在诊所时显示选定的“哈维的诊所选项”肖像边框。",
+  "config.ClinicOption.name": "哈维的诊所选项",
+
+  "config.EnableCasino.name": "赌场",
+  "config.EnableCasino.description": "在赌场时显示选定的“赌场选项”肖像边框。",
+  "config.CasinoOption.name": "赌场选项",
+
+  "config.EnableBlacksmith.name": "铁匠铺",
+  "config.EnableBlacksmith.description": "当位于铁匠铺时，显示选定的“铁匠铺选项”肖像边框。",
+  "config.BlacksmithOption.name": "铁匠铺选项",
+
+  "config.EnableSaloon.name": "星之果实酒吧",
+  "config.EnableSaloon.description": "当位于星之果实酒吧时，显示选定的“酒馆选项”肖像边框。",
+  "config.SaloonOption.name": "星之果实酒吧选项",
+
+  "config.EnableDesert.name": "沙漠",
+  "config.EnableDesert.description": "在沙漠时显示选定的“沙漠选项”肖像边框。",
+  "config.DesertOption.name": "沙漠选项",
+
+  "config.EnableFishShop.name": "威利的鱼店",
+  "config.EnableFishShop.description": "在威利的鱼店时显示选定的“威利的鱼店选项”肖像边框。",
+  "config.FishShopOption.name": "威利的鱼店选项",
+
+  "config.EnableLibrary.name": "图书馆",
+  "config.EnableLibrary.description": "在图书馆时显示选定的“图书馆选项”肖像边框。",
+  "config.LibraryOption.name": "图书馆选项",
+
+  "config.EnableQiRoom.name": "齐先生的房间",
+  "config.EnableQiRoom.description": "在齐先生的房间时显示选定的“齐先生的房间选项”肖像边框。",
+  "config.QiRoomOption.name": "齐先生的房间选项",
+
+  "config.EnableTheater.name": "电影院",
+  "config.EnableTheater.description": "在剧院时显示选定的“电影院选项”肖像边框。",
+  "config.JojaTheaterOption.name": "Joja 电影院选项",
+  "config.CommunityCenterTheaterOption.name": "社区中心电影院选项",
+  "config.TheaterScreenRoomOption.name": "电影院放映厅选项",
+
+  "config.EnableVolcanoDungeon.name": "火山地牢",
+  "config.EnableVolcanoDungeon.description": "当处于火山地牢时显示选定的“火山地牢”肖像边框。",
+  "config.VolcanoDungeonOption.name": "火山地牢选项",
+
+  "config.EnableVolcanoCaldera.name": "火山地牢火山口",
+  "config.EnableVolcanoCaldera.description": "在火山口区域时显示选定的“火山地牢火山口”肖像边框。",
+  "config.VolcanoCalderaOption.name": "火山地牢火山口选项",
+
+  "config.EnableBugLand.name": "突变虫穴",
+  "config.EnableBugLand.description": "在虫虫领地时显示选定的“突变虫穴选项”肖像边框。",
+  "config.BugLandOption.name": "突变虫穴选项",
+
+  "config.EnableSkullCavern.name": "骷髅洞穴",
+  "config.EnableSkullCavern.description": "在骷髅洞穴时显示选定的“骷髅洞穴选项”肖像边框。",
+  "config.SkullCavernOption.name": "骷髅洞穴选项",
+
+  "config.EnableAdventureGuild.name": "冒险者公会",
+  "config.EnableAdventureGuild.description": "在冒险者公会时显示选定的“冒险者公会选项”肖像边框。",
+  "config.AdventureGuildOption.name": "冒险者公会选项",
+
+  "config.EnableLinusTent.name": "莱纳斯的帐篷",
+  "config.EnableLinusTent.description": "在莱纳斯的帐篷时显示选定的“莱纳斯的帐篷选项”肖像边框。",
+  "config.LinusTentOption.name": "莱纳斯的帐篷选项",
+
+  ////Event
+  "config.section.VisualOptionEvent.name": "视觉选项：事件",
+  "config.EnableWedding.name": "婚礼",
+  "config.EnableWedding.description": "显示选定的“婚礼选项”肖像边框。",
+  "config.WeddingOption.name": "婚礼选项",
+}
